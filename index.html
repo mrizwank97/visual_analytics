@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Destination EU Countries</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+	<header>
+		<h1>Potential Destination EU Countries for International Students in EU</h1>
+	</header>
+
+	<div class="container">
+		<div class="split3 left content">
+			<div>
+				<label>Select Sex:</label>
+				<label><input type="radio" name="sex" value="T" checked> Total</label>
+				<label><input type="radio" name="sex" value="M"> Male</label>
+				<label><input type="radio" name="sex" value="F"> Female</label>
+			</div>
+			<div>
+				<label for="educationDropdown">Select Education Level:</label>
+				<select id="educationDropdown">
+					<!-- Add options for each education level -->
+				</select>
+			</div>
+			
+			<div>
+				<label for="occupationDropdown">Select Occupation:</label>
+				<select id="occupationDropdown">
+					<!-- Add options for each occupation -->
+				</select>
+			</div>
+		</div>
+		<div class="split7 right">
+			<div id="chart" ></div>
+			<!-- Container for the legend -->
+			<div id="legend"></div>
+		</div>		
+
+	</div>
+	
+    <div class="container">
+		<div id="parallel" class="split left">
+			<center><b>Hover over other lines to reaveal countries and the percentage of people finding jobs in different time span</b></center>
+		</div>
+        <div class="split right content">
+            <h2>How quick is it to find Job in EU?</h2>
+            <p> For students about to graduate, the important thing is to find job as soon as possible. So they will 
+				be open to move to any country that offers job as soon as possible. The graph on the left shows the 
+				time it take to find the job in EU country. The two highlighted countries are <b>Netherlands</b> and <b>Switzerland</b>. In both countries 
+				about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="split left content">
+            <h2>Gap between Monthly Cost of Living and Median Monthy Salary</h2>
+            <p>The other important things for graduating student is to find jobs which offer them opportunities to save 
+				money. The graph on the righ shows the gap between the average salary and cost of living in different EU countries.
+				The graph can be sorted by different criteria from the drop down menu below. By default it is sorted by the widest gap. In this setting, <b>Luxembourg</b>
+				has the widest gap between average salary and cost of living offering the best opportunity to save money. While <b>Greece</b> has the narrowest gap.
+				This chart shows the facts for year <b>2022</b>.
+			</p>
+			<select id="sort-select">
+				<option value="widest_gap">Sort by Widest Gap</option>
+				<option value="narrowest_gap">Sort by Narrowest Gap</option>
+				<option value="by_country">Sort by Country</option>
+				<option value="avg_salary_A">Sort in Ascending Order by Average Salary </option>
+				<option value="cost_of_living_A">Sort in Ascending Order by Cost of Living</option>
+				<option value="avg_salary_D">Sort in Descending Order by Average Salary</option>
+				<option value="cost_of_living_D">Sort in Descending Order by Cost of Living</option>
+			  </select>
+        </div>
+        <div id="clevland" class="split right">
+			<center><b>Hover over circles to reveal the euro value of corresponding categoy while hovering over the line will reveal the gap value.</b></center>
+		</div>
+    </div>
+
+	<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+	<script src="./script_rizwan.js"></script>
+	<script src="./script_ingrid.js"></script>
+</body>
+</html>
