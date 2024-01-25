@@ -222,6 +222,38 @@ d3.csv("./parallel.csv").then(function(data) {
 
 });
 
+function getSelectedCheckboxes() {
+  var checkboxes = document.getElementsByName("country");
+  var selectedCheckboxes = [];
+
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) {
+      selectedCheckboxes.push(checkboxes[i].value);
+    }
+  }
+  var map = document.getElementById("map");
+  var map = eurostatmap
+    .map("chbi")
+    .title("Unemployment and population density in 2022")
+    .height(600)
+    .width(600)
+    .nutsLvl(2)
+    .nutsYear(2016)
+    .countriesToShow(selectedCheckboxes)
+    .stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
+    .stat("v2", { eurostatDatasetCode: "lfst_r_lfu3rt", filters: { age: "Y_GE15", sex: "T", unit: "PC", time: 2022 }, unitText: "%" })
+    .clnb(4)
+    .scale("60M")
+    .legend({ boxFill: "none", squareSize: 80, label1: "Unemployment", label2: "Population", x: 10, y: 140 })
+    .drawGraticule(false)
+    .seaFillStyle("#d3dee8")
+    .drawCoastalMargin(false)
+    .zoomExtent([1, 3])
+    .build();
+  
+}
+
+
 const createParallelCoordinates = (data) => {
 
   var margin = {top: 50, right: 50, bottom: 50, left: 0},

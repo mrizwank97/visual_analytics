@@ -25,6 +25,13 @@ body {
   flex-wrap: wrap;
 }
 
+.container_c1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
+}
+
 .split3 {
   width: 40%;
   padding: 50px;

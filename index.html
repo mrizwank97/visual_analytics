@@ -45,18 +45,102 @@
 		</div>		
 
 	</div>
-	
-    <div class="container">
-		<div id="parallel" class="split left">
-			<center><b>Hover over other lines to reaveal countries and the percentage of people finding jobs in different time span</b></center>
+
+	<div class="container_c1">
+			<form id="countryForm">
+				<input type="checkbox" id="EU" name="country" value="EU"> <label for="EU">Europe</label>
+				<input type="checkbox" id="AT" name="country" value="AT"> <label for="AT">Austria</label>
+				<input type="checkbox" id="BE" name="country" value="BE"><label for="BE">Belgium</label>
+				<input type="checkbox" id="BG" name="country" value="BG"><label for="BG">Bulgaria</label>
+				<input type="checkbox" id="CY" name="country" value="CY"><label for="CY">Cyprus</label>
+				<input type="checkbox" id="CZ" name="country" value="CZ"><label for="CZ">Czechia</label>
+				<input type="checkbox" id="DE" name="country" value="DE"><label for="DE">Germany</label>
+				<input type="checkbox" id="DK" name="country" value="DK"><label for="DK">Denmark</label>
+				<input type="checkbox" id="EE" name="country" value="EE"><label for="EE">Estonia</label>
+				<input type="checkbox" id="EL" name="country" value="EL"><label for="EL">Greece</label>
+				<input type="checkbox" id="ES" name="country" value="ES"><label for="ES">Spain</label>
+				<input type="checkbox" id="FI" name="country" value="FI"><label for="FI">Finland</label>
+				<input type="checkbox" id="FR" name="country" value="FR"><label for="FR">France</label>
+				<input type="checkbox" id="HR" name="country" value="HR"><label for="HR">Croatia</label>
+				<input type="checkbox" id="HU" name="country" value="HU"><label for="HU">Hungary</label>
+				<input type="checkbox" id="IE" name="country" value="IE"><label for="IE">Ireland</label>
+				<input type="checkbox" id="IT" name="country" value="IT"><label for="IT">Italy</label>
+				<input type="checkbox" id="LT" name="country" value="LT"><label for="LT">Lithuania</label>
+				<input type="checkbox" id="LU" name="country" value="LU"><label for="LU">Luxembourg</label>
+				<input type="checkbox" id="LV" name="country" value="LV"><label for="LV">Latvia</label>
+				<input type="checkbox" id="MT" name="country" value="MT"><label for="MT">Malta</label>
+				<input type="checkbox" id="NL" name="country" value="NL"><label for="NL">Netherlands</label>
+				<input type="checkbox" id="PL" name="country" value="PL"><label for="PL">Poland</label>
+				<input type="checkbox" id="PT" name="country" value="PT"><label for="PT">Portugal</label>
+				<input type="checkbox" id="RO" name="country" value="RO"><label for="RO">Romania</label>
+				<input type="checkbox" id="SE" name="country" value="SE"><label for="SE">Sweden</label>
+				<input type="checkbox" id="SI" name="country" value="SI"><label for="SI">Slovenia</label>
+				<input type="checkbox" id="SK" name="country" value="SK"><label for="SK">Slovakia</label>
+				<input type="checkbox" id="UK" name="country" value="UK"><label for="UK">United Kingdom</label>
+				<button type="button" onclick="getSelectedCheckboxes()">Get Selected Checkboxes</button>
+			</form>
+	</div>
+
+	<div class="container">
+		<div class="split right">
+			<svg id="map"></svg>
+			<script src="https://unpkg.com/eurostat-map"></script>
+			<script>
+				function initializeMap() {
+					var map = eurostatmap
+						.map("chbi")
+						.title("Unemployment and population density in 2022")
+						.height(400)
+						.width(600)
+						.nutsLvl(2)
+						.nutsYear(2016)
+						.stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
+						.stat("v2", { eurostatDatasetCode: "lfst_r_lfu3rt", filters: { age: "Y_GE15", sex: "T", unit: "PC", time: 2022 }, unitText: "%" })
+						.clnb(4)
+						.scale("60M")
+						.legend({ boxFill: "none", squareSize: 80, label1: "Unemployment", label2: "Population", x: 10, y: 140 })
+						.drawGraticule(false)
+						.seaFillStyle("#d3dee8")
+						.drawCoastalMargin(false)
+						.zoomExtent([1, 3])
+						.build();
+				}
+				initializeMap();
+				
+			</script>
 		</div>
-        <div class="split right content">
+        
+		<div class="split left content">
+			<h2>Unemployment and Population Density in EU</h2>
+			<p> The map on the right shows the unemployment and population density in EU countries. The two highlighted countries are <b>Switzerland</b> and <b>Germany</b>.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="split left content">
             <h2>How quick is it to find Job in EU?</h2>
             <p> For students about to graduate, the important thing is to find job as soon as possible. So they will 
 				be open to move to any country that offers job as soon as possible. The graph on the left shows the 
 				time it take to find the job in EU country. The two highlighted countries are <b>Netherlands</b> and <b>Switzerland</b>. In both countries 
 				about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
         </div>
+		<div id="parallel" class="split right">
+			<center><b>Hover over other lines to reaveal countries and the percentage of people finding jobs in different time span</b></center>
+		</div>
+    </div>
+	
+	<div class="container">
+		
+        <div class="split left">
+            <h2>How many people are there in europe from your country></h2>
+            <p> For students about to graduate, the important thing is to find job as soon as possible. So they will 
+				be open to move to any country that offers job as soon as possible. The graph on the left shows the 
+				time it take to find the job in EU country. The two highlighted countries are <b>Netherlands</b> and <b>Switzerland</b>. In both countries 
+				about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
+        </div>
+		<div id="parallel" class="split rigt content">
+			<center><b>Lorem Ipsum</b></center>
+		</div>
     </div>
 
     <div class="container">
