@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async function () {
 
-    var width = 1300,
+    var width = 1200,
         height = 600,
         margin = 50;
 
@@ -155,6 +155,45 @@ document.addEventListener("DOMContentLoaded", async function () {
         .attr("text-anchor", "middle")
         .style("fill", "#fff")
         .text(function (d) { return d3.format(".1f")(parseFloat(d.OBS_VALUE)); });
+
+    function createLegend() {
+        var legend = d3.select("#legend")
+            .append("svg")
+            .attr("width", 300) // Adjust the width as needed
+            .attr("height", 50); // Adjust the height as needed
+
+        var legendData = [
+            { label: "First Generation Immigrant", color: "#58508d" },
+            { label: "Native Born", color: "#ffa600" }
+        ];
+
+        var legendItems = legend.selectAll(".legend-item")
+            .data(legendData)
+            .enter().append("g")
+            .attr("class", "legend-item")
+            .attr("transform", function (d, i) {
+                return "translate(0," + i * 20 + ")";
+            });
+
+        legendItems.append("rect")
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", function (d) {
+                return d.color;
+            });
+
+        legendItems.append("text")
+            .attr("x", 25)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "start")
+            .text(function (d) {
+                return d.label;
+            });
+    }
+
+    // Create color legend
+    createLegend();
 
 
     function updateChart() {
