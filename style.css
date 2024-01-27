@@ -6,18 +6,64 @@
 }
 
 header {
-  font-family: Gill Sans, sans-serif ;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
   text-align: center;
+  font-size: 30px;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #00876c;
   border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
+  color: white; /* Text color */
+}
+
+
+#page-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  background-color: #aecdc2;
+  height: 100px;
+  max-width: 3600px; /* You can adjust the maximum width as needed */
+}
+
+#page-selection label,
+#page-selection select {
+  font-size: 35px; /* You can adjust the size as needed */
+  color: #00876c; /* Text color */
+}
+
+.aspect {
+  background-color: #de425b; /* Change to the desired background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 3600px; /* You can adjust the maximum width as needed */
+  margin-top: 20px; /* You can adjust the top margin as needed */
+}
+
+.aspect h1 {
+  font-size: 40px; /* You can adjust the size as needed */
+  margin-bottom: 10px; /* You can adjust the bottom margin as needed */
+  color: white; /* Text color */
+}
+
+img {
+  max-height: 500px; /* Adjust the height as needed */
+  max-width: 3000px; /* Maintain aspect ratio */
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: white; /* Background color */
+  color: black; /* Default text color */
 }
 
 .container {
@@ -28,8 +74,7 @@ body {
 .container_c1 {
   text-align: center;
   padding: 20px;
-  background-color: #f0f0f0;
-  border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
+  background-color: white; /* Container background color */
 }
 
 .split3 {
@@ -40,17 +85,10 @@ body {
   border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
 }
 
-.split7 {
-  width: 50%;
-  padding: 20px;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
-}
-
+.split7,
 .split {
   width: 50%;
-  padding: 50px;
+  padding: 20px;
   box-sizing: border-box;
   overflow: hidden;
   border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
@@ -65,7 +103,8 @@ body {
 }
 
 .content {
-  background-color: #f1f1f1;
+  background-color: #f0b8b8;
+  font-size: 20px; /* Content background color */
 }
 
 img {
@@ -78,3 +117,5 @@ img {
       width: 100%;
   }
 }
+
+/* Add the rest of your existing styles */

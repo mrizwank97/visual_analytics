@@ -163,8 +163,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             .attr("height", 50); // Adjust the height as needed
 
         var legendData = [
-            { label: "First Generation Immigrant", color: "#58508d" },
-            { label: "Native Born", color: "#ffa600" }
+            { label: "First Generation Immigrant", color: "#73ae80" },
+            { label: "Native Born", color: "#6c83b5" }
         ];
 
         var legendItems = legend.selectAll(".legend-item")
@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         .attr("width", function (d) { return x(d.parent.sum / filteredSum); })
         .style("fill", function (d) {
             // Set color based on mgstatus (immigrant or native)
-            return d.mgstatus === "First Generation Immigrant" ? "#58508d" : "#ffa600";
+            return d.mgstatus === "First Generation Immigrant" ? "#73ae80" : "#6c83b5";
         });
 
         // Add text label for each market in the filtered data with OBS_VALUE

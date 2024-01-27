@@ -14,8 +14,8 @@ d3.csv("clevland.csv", d => {
 
   // set the dimensions and margins of the graph
   const margin = {top: 50, right: 40, bottom: 55, left: 80},
-  width = 650 - margin.left - margin.right,
-  height = 450 - margin.top - margin.bottom;
+  width = 850 - margin.left - margin.right,
+  height = 550 - margin.top - margin.bottom;
 
   // append the svg object to the body of the page
   const svg = d3.select("#clevland")
@@ -257,8 +257,8 @@ function getSelectedCheckboxes() {
 const createParallelCoordinates = (data) => {
 
   var margin = {top: 50, right: 50, bottom: 50, left: 0},
-  width = 650 - margin.left - margin.right,
-  height = 400 - margin.top - margin.bottom;
+  width = 850 - margin.left - margin.right,
+  height = 600 - margin.top - margin.bottom;
 
   var svg = d3.select("#parallel")
   .append("svg")

@@ -12,20 +12,22 @@
         <h1>POTENTIAL DESTINATION COUNTRIES FOR INTERNATIONAL STUDENTS IN EU</h1>
     </header>
 
-    <div class="page-selection">
+    <img src="landscape.png">
+
+    <div id="page-selection" class="page-selection">
         <!-- Add selection box for pages -->
-        <label for="pageSelector">What do you want to explore?</label>
+        <label for="pageSelector">What Do You Want to Explore?</label>
         <select id="pageSelector" onchange="navigateToPage()">
-            <option value="employment">Employment Page</option>
-            <option value="social">Social Page</option>
-            <option value="salary">Salary Page</option>
+            <option value="employment">Employment</option>
+            <option value="social">Social</option>
+            <option value="salary">Salary</option>
         </select>
     </div>
 
     <div id="employmentPage" class="page-content">
         <!-- Employment page content -->
         <div class="aspect">
-            <h1>Employment</h1>
+            <h1>Explore the Employment Landscape</h1>
         </div>
     
         <div class="container">
@@ -33,7 +35,7 @@
             <div class="split3 left content">
     
     
-                <h2>Explore the Employment Landscape:</h2>
+                <h2>Compare the Employment Levels between Immigrants and Natives </h2>
                 <p>This interactive chart displays the employment percentages for native and immigrant populations across EU countries, broken down by occupation, gender, and education level. The bars extending left represent the native workforce, while those to the right show immigrant employment. Colors indicate the relative representation within each category, allowing for an at-a-glance comparison across nations. Select your criteria to uncover insights into Europe's diverse labor market.</p>
     
                 <div>
@@ -111,8 +113,8 @@
                         var map = eurostatmap
                             .map("chbi")
                             .title("Unemployment and population density in 2022")
-                            .height(400)
-                            .width(600)
+                            .height(600)
+                            .width(1400)
                             .nutsLvl(2)
                             .nutsYear(2016)
                             .stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
@@ -146,7 +148,7 @@
                     about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
             </div>
             <div id="parallel" class="split right">
-                <center><b>Hover over other lines to reaveal countries and the percentage of people finding jobs in different time span</b></center>
+                <center><b>Hover over other lines to reveal countries and the percentage of people finding jobs in different time span</b></center>
             </div>
         </div>
     </div>
@@ -154,7 +156,7 @@
     <div id="socialPage" class="page-content" style="display: none;">
         <!-- Social page content -->
         <div class="aspect">
-            <h1>Social</h1>
+            <h1>Explore the Social Landscape</h1>
         </div>
     
         <div class="container">
@@ -175,7 +177,7 @@
     <div id="salaryPage" class="page-content" style="display: none;">
         <!-- Salary page content -->
         <div class="aspect">
-            <h1>Salary</h1>
+            <h1>Explore the Salary Landscape</h1>
         </div>
     
         <div class="container">
