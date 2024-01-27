@@ -1,341 +1,294 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", async function () {
-    // Load your dataset
+
+    var width = 1300,
+        height = 600,
+        margin = 50;
+
+    var x = d3.scaleLinear()
+        .range([0, width - 3 * margin]);
+
+    var y = d3.scaleLinear()
+        .range([0, height - 2 * margin]);
+
+    var z = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var n = d3.format(",d"),
+        p = d3.format(".0%");
+
+    var svg = d3.select("#chart").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+    .append("g")
+        .attr("transform", "translate(" + 2 * margin + "," + margin + ")");
+
+// Load CSV data
     const data = await d3.csv('occupations_migration_preprocessed_v5.csv'); 
 
-    // Extract unique countries and sexes for dropdown and checkboxes
-    const occupations = Array.from(new Set(data.map(d => d.isco08)));
-    const levels = Array.from(new Set(data.map(d => d.isced11)));
-    const sexes = Array.from(new Set(data.map(d => d.sex)));
-
-    // Create dropdown for occupations
-    const occupationDropdown = d3.select('#occupationDropdown');
-    occupations.forEach(occupation => {
-        occupationDropdown.append('option')
-            .attr('value', occupation)
-            .text(occupation);
+    // Add a 'totalValue' property to each record
+    data.forEach(function(d) {
+        d.totalValue = parseFloat(d.OBS_VALUE);
     });
 
-    // Create dropdown for occupations
-    const levelsDropdown = d3.select('#educationDropdown');
-    levels.forEach(level => {
-        levelsDropdown.append('option')
-            .attr('value', level)
-            .text(level);
+    data.sort(function(a, b) {
+        return b.totalValue - a.totalValue;
     });
 
-    // Create checkboxes for sexes
-    const sexRadios = d3.selectAll('input[type="radio"][name="sex"]');
+    // Nest values by segment. We assume each segment+market is unique.
+    var segments = d3.group(data, d => d.geo);
 
+    // Compute the total sum, the per-segment sum, and the per-market offset.
+    var sum = 0;
 
-
-    // Placeholder for the boxplot SVG
-    const svg = d3.select('#chart')
-        .append('svg')
-        .attr('width', 770)
-        .attr('height', 400)
-        .append('g')
-        .attr('transform', 'translate(50, 50)'); // Adjust margins as needed
-
-    // Add event listeners for user interaction
-    sexRadios.on('change', update);
-    d3.select('#educationDropdown').on('change', update);
-    d3.select('#occupationDropdown').on('change', update);    
-
-    // Function to update the visualization based on user input
-    function update() {
-        // Use only the checked radio button
-        const selectedSex = d3.select('input[name="sex"]:checked').node().value;
-
-        const selectedEducation = d3.select('#educationDropdown').property('value');
-        const selectedOccupation = d3.select('#occupationDropdown').property('value');
-
-        // Filter data based on user selections
-        const filteredData = data.filter(d =>
-            d.sex === selectedSex &&
-            (!selectedEducation || d.isced11 === selectedEducation) &&
-            (!selectedOccupation || d.isco08 === selectedOccupation)
-        );
-
-        console.log('Filtered Data:', filteredData);
-
-        // Group data by country, occupation, education level, and immigrant status
-        const nestedData = d3.group(filteredData, d => d.geo, d => d.isco08, d => d.isced11, d => d.mgstatus);
-        console.log('Nested Data:', nestedData);
-
-        // Flatten nested data for stacked bar chart
-        const groupedData = Array.from(nestedData, ([country, occupationMap]) => ({
-            country,
-            facets: Array.from(occupationMap, ([occupation, educationMap]) => ({
-                occupation,
-                facets: Array.from(educationMap, ([education, immigrantMap]) => ({
-                    education,
-                    immigrantStatus: Array.from(immigrantMap, ([immigrant, values]) => ({
-                        immigrant,
-                        values: values.map(d => +d.OBS_VALUE)  // Using OBS_VALUE as employment value
-                    }))
-                }))
-            }))
-        }));
-
-        // Draw stacked bar chart
-        console.log('Grouped Bar Chart Data:', groupedData);
-        drawCenteredDivergingBarChart(groupedData);
-    }
-
-
-
-function drawCenteredDivergingBarChart(data) {
-    // Clear previous plot
-    svg.selectAll('*').remove();
-    d3.select('#legend').selectAll('*').remove();
-
-    // Check if there is data to display
-    if (!data || data.length === 0 || !data[0].facets) {
-        console.error('No data or missing facets property.');
-        return;
-    }
-
-    // Flatten data for easier processing
-    const flattenedData = [];
-    data.forEach(country => {
-        if (!country.facets || country.facets.length === 0) {
-            console.error('No facets or empty facets array for country:', country);
-            return;
-        }
-
-        country.facets.forEach(facet => {
-            if (!facet.facets || facet.facets.length === 0) {
-                console.error('No inner facets or empty inner facets array for facet:', facet);
-                return;
-            }
-
-            facet.facets.forEach(innerFacet => {
-                if (!innerFacet.immigrantStatus || innerFacet.immigrantStatus.length === 0) {
-                    console.error('No immigrantStatus or empty immigrantStatus array for inner facet:', innerFacet);
-                    return;
-                }
-
-                innerFacet.immigrantStatus.forEach(status => {
-                    flattenedData.push({
-                        country: country.country || 'Unknown',
-                        immigrant: status.immigrant,
-                        value: d3.sum(status.values.map(d => +d)) || 0
-                    });
-                });
-            });
+    segments.forEach(function (value, key) {
+        value.forEach(function (d) {
+            d.parent = { key: key };
+            sum += parseFloat(d.OBS_VALUE);
         });
     });
 
-    // Adjust the scales for centered diverging bars
-    //const xScale = d3.scaleLinear()
-       // .domain([0, d3.max(flattenedData, d => d.value)])
-       // .rangeRound([0, 1000]);  // Adjust width as needed
-
-    /////////////////
-    // Calculate the total OBS_VALUE for each immigrant status across all countries
-    const totalValuesByImmigrantStatus = d3.rollup(flattenedData, 
-        v => d3.sum(v, d => d.value), 
-        d => d.immigrant);
-
-    // Calculate percentage for each entry in flattenedData
-    flattenedData.forEach(d => {
-        d.percentage = (d.value / totalValuesByImmigrantStatus.get(d.immigrant)) * 100;
-    });
-
-    // Adjust the scales for centered diverging bars using the percentages
-    const maxPercentage = d3.max(flattenedData, d => Math.abs(d.percentage));
-    const xScale = d3.scaleLinear()
-        .domain([-maxPercentage, maxPercentage])
-        .rangeRound([0, 770]);  // Adjust width as needed
-
-        /////////////////////////////////////////
-
-    const yScale = d3.scaleBand()
-        .domain(flattenedData.map(d => d.country))
-        .rangeRound([400, 0])  // Adjust height as needed
-        .padding(0.2);
-
-    //const colorScale = d3.scaleOrdinal()
-      //  .domain(["NBO", "FBO"])
-        //.range(["#008000", "#FFD700"]);
-
-        // Define a color scale based on the percentage values
-    const colorScale = d3.scaleLinear()
-        .domain([0, 50, 100])
-        .range(["#FF6666", "#FFFF99", "#99FF99"]);  // Adjust the colors as needed
-    
+    // Now sum is accessible throughout the script
+    console.log("sum:", sum);
 
 
-    // Draw centered diverging bars
-    //svg.selectAll('.centered-diverging-bar')
-      //  .data(flattenedData)
-        //.enter()
-        //.append('rect')
-        //.attr('x', d => (d.immigrant === 'NBO') ? xScale(-d.value) : xScale(0))
-        //.attr('y', d => yScale(d.country))
-        //.attr('width', d => Math.abs(xScale(d.value) - xScale(0)))
-        //.attr('height', yScale.bandwidth())
-        //.attr('fill', d => colorScale(d.immigrant));
+    // Add x-axis ticks.
+    var xtick = svg.selectAll(".x")
+        .data(x.ticks(10))
+        .enter().append("g")
+        .attr("class", "x")
+        .attr("transform", function(d) { return "translate(" + x(d) + "," + y(1) + ")"; });
 
-        // Add a color gradient for the legend
-    svg.append("linearGradient")
-    .attr("id", "color-gradient")
-    .attr("gradientUnits", "userSpaceOnUse")
-    .attr("x1", 0)
-    .attr("y1", 0)
-    .attr("x2", 200)
-    .attr("y2", 0)
-    .selectAll("stop")
-    .data([
-        { offset: "0%", color: colorScale(0) },
-        { offset: "50%", color: colorScale(50) },
-        { offset: "100%", color: colorScale(100) }
-    ])
-    .enter().append("stop")
-    .attr("offset", d => d.offset)
-    .attr("stop-color", d => d.color);
+    xtick.append("line")
+        .attr("y2", 6)
+        .style("stroke", "#000");
 
-    // Add a color legend
-    const colorLegend = svg.append("g")
-    .attr("class", "legend")
-    .attr("transform", "translate(0, -50)");  // Adjust the position of the legend
+    xtick.append("text")
+        .attr("y", 8)
+        .attr("text-anchor", "middle")
+        .attr("dy", ".71em")
+        .text(p);
 
-    colorLegend.append("rect")
-    .attr("width", 200)
-    .attr("height", 10)
-    .style("fill", "url(#color-gradient)");  // Use the color gradient
+      // Add y-axis ticks.
+    var ytick = svg.selectAll(".y")
+    .data(y.ticks(10))
+    .enter().append("g")
+    .attr("class", "y")
+    .attr("transform", function(d) { return "translate(0," + y(1 - d) + ")"; });
 
-    colorLegend.append("text")
-    .attr("x", -30)
-    .attr("y", 25)
-    .attr("fill", "noir")
-    .style("text-anchor", "start")
-    .text("0%");
+    ytick.append("line")
+    .attr("x1", -6)
+    .style("stroke", "#000");
 
-    colorLegend.append("text")
-    .attr("x", 200)
-    .attr("y", 25)
-    .attr("fill", "noir")
-    .style("text-anchor", "end")
-    .text("100%");
-
-    // Draw centered diverging bars with the updated color scale
-    svg.selectAll('.centered-diverging-bar')
-    .data(flattenedData)
-    .enter()
-    .append('rect')
-    .attr('class', 'centered-diverging-bar')
-        .attr('x', d => (d.immigrant === 'Native Born') ? xScale(-d.percentage) : xScale(0))
-        .attr('y', d => yScale(d.country))
-        .attr('width', d => Math.abs(xScale(d.percentage) - xScale(0)))
-        .attr('height', yScale.bandwidth())
-        .attr('fill', d => colorScale(d.percentage))
-        .on('mouseover', handleMouseOver)
-        .on('mouseout', handleMouseOut);
-
-    
-        // Draw the x-axis with percentage ticks
-    svg.append('g')
-    .attr('transform', `translate(0, 0)`) // Adjust for the chart's height
-    .call(d3.axisBottom(xScale)
-    .tickFormat(d => `${Math.abs(Math.round(d))}%`)); // Use Math.abs() to ensure the tick value is always positive
-
-
-    // Add custom labels above x-axis ticks
-    svg.append("text")
-    .attr("x", xScale(0) + 40)
-    .attr("y", -50)
-    .attr("fill", "noir")
-    .attr("text-anchor", "start")
-    .text("First Generation Immigrant →");
-
-    svg.append("text")
-    .attr("x", xScale(0) - 40)
-    .attr("y", -50)
-    .attr("fill", "noir")
+    ytick.append("text")
+    .attr("x", -8)
     .attr("text-anchor", "end")
-    .text("← Native Born");
+    .attr("dy", ".35em")
+    .text(p);
+
+    // Populate isco08 dropdown
+    var isco08Dropdown = d3.select("#isco08Dropdown");
+    var isco08Options = Array.from(new Set(data.map(function(d) { return d.isco08; })));
+    isco08Dropdown.selectAll("option")
+        .data(isco08Options)
+        .enter().append("option")
+        .text(function(d) { return d; });
+
+    // Populate isced11 dropdown
+    var isced11Dropdown = d3.select("#isced11Dropdown");
+    var isced11Options = Array.from(new Set(data.map(function(d) { return d.isced11; })));
+    isced11Dropdown.selectAll("option")
+        .data(isced11Options)
+        .enter().append("option")
+        .text(function(d) { return d; });
+
+        // Populate sex dropdown
+        var sexDropdown = d3.select("#sexSelector");
+        sexDropdown.selectAll("option").remove(); // Remove existing options
+
+        var sexOptions = Array.from(new Set(data.map(function(d) { return d.sex; }))).filter(function(d) { return d !== "All"; });
+        sexDropdown.selectAll("option")
+        .data(sexOptions)
+        .enter().append("option")
+        .text(function(d) { return d; });
+    
+
+    // Handle selection change event
+    d3.selectAll("#isco08Dropdown, #isced11Dropdown, #sexSelector").on("change", updateChart);
+
+    // Initial chart rendering
+    updateChart();
 
 
-// Draw centered diverging bars
-//svg.selectAll('.centered-diverging-bar')
-    //  .data(flattenedData)
-        //.enter()
-        //.append('rect')
-        //.attr('x', d => (d.immigrant === 'NBO') ? xScale(0) - xScale(d.value) : xScale(0))
-        //.attr('y', d => yScale(d.country))
-        //.attr('width', d => Math.abs(xScale(d.value) - xScale(0)))
-        //.attr('height', yScale.bandwidth())
-        //.attr('fill', d => colorScale(d.immigrant));
+    // Declare filteredSegmentsArray outside the updateChart function
+    var filteredSegmentsArray;
 
-    // Add x-axis
-    //svg.append('g')
-      //  .attr('transform', 'translate(0, 300)')
-       // .call(d3.axisBottom(xScale))
-        //.selectAll('text')
-        //.attr('transform', 'rotate(-45)')
-        //.style('text-anchor', 'end');
+    var xtickTop = svg.selectAll(".x-top");
 
-    // Add y-axis
-    svg.append('g')
-        .call(d3.axisLeft(yScale));
+        // Add a group for each segment.
+    var segmentsGroup = svg.selectAll(".segment")
+    .data(filteredSegmentsArray) // Use the new data structure
+    .enter().append("g")
+    .attr("class", "segment")
+    .attr("xlink:title", function (d) { return d.key; })
+    .attr("transform", function (d) { return "translate(" + x(d.offset / filteredSum) + ")"; });
 
-    // Add Legend
-    //const legend = svg.selectAll(".legend")
-      //  .data(colorScale.domain())
-      //  .enter().append("g")
-      //  .attr("class", "legend")
-      //  .attr("transform", function (d, i) { return "translate(0," + i * 20+ ")"; });
+     // Add a rect for each market in the top 10 segments.
+    var markets = segmentsGroup.selectAll(".market")
+        .data(function (d) { return d.values; })
+        .enter().append("a")
+        .attr("class", "market")
+        .attr("xlink:title", function (d) {
+            return d.mgstatus + " " + d.parent.key + ": " + d3.format(".1f")(parseFloat(d.OBS_VALUE));
+        })
+        .append("rect")
+        .attr("y", function (d) { return y(d.offset / d.parent.sum); })
+        .attr("height", function (d) { return y(parseFloat(d.OBS_VALUE) / d.parent.sum); })
+        .attr("width", function (d) { return x(d.parent.sum / filteredSum); })
+        .style("fill", function (d) { return z(d.mgstatus); });
 
-    //legend.append("rect")
-    //    .attr("x", 710)
-    //    .attr("y",-70)
-    //    .attr("width", 18)
-    //    .attr("height", 18)
-    //    .style("fill", colorScale);
+    // Add text label for each market with OBS_VALUE in the top 10 segments
+    markets.append("text")
+        .attr("x", function (d) { return x(d.parent.sum / filteredSum) / 2; })
+        .attr("y", function (d) {
+            return y(d.offset / d.parent.sum) + y(parseFloat(d.OBS_VALUE) / d.parent.sum / 2) - 3;
+        })
+        .attr("dy", ".35em")
+        .attr("text-anchor", "middle")
+        .style("fill", "#fff")
+        .text(function (d) { return d3.format(".1f")(parseFloat(d.OBS_VALUE)); });
 
-    //legend.append("text")
-    //    .attr("x", 735)
-    //    .attr("y", -60)
-    //    .attr("dy", ".35em")
-    //    .style("text-anchor", "start")
-    //    .text(function (d) { return d; });
 
-    // Function to handle mouseover event
-    function handleMouseOver(event, d) {
-        // Show a tooltip or update the information as needed
-        //const percentage = Math.round(Math.abs(d.value) / maxTotalValue * 100);
-        const tooltipText = `${d.country}: ${Math.round(d.percentage)}%`;
+    function updateChart() {
+        // Get selected values
+        var selectedIsco08 = isco08Dropdown.node().value;
+        var selectedIsced11 = isced11Dropdown.node().value;
+        var selectedSex = sexDropdown.node().value;
+
+        // Filter data based on selected values
+        var filteredData = data.filter(function(d) {
+        return ((d.isco08 === selectedIsco08) &&
+                (d.isced11 === selectedIsced11) &&
+                (d.sex === selectedSex));
+        });
         
-        // Append or update a tooltip element
-        d3.select('#chart')
-            .append('div')
-            .attr('class', 'tooltip')
-            .style('position', 'absolute')
-            .style('left', event.pageX + 'px')
-            .style('top', event.pageY - 20 + 'px')
-            .style('background-color', 'rgba(255, 255, 255, 0.8)')
-            .style('border', '1px solid #ddd')
-            .style('padding', '5px')
-            .text(tooltipText);
-    }
 
-    // Function to handle mouseout event
-    function handleMouseOut() {
-        // Remove the tooltip element when the mouse leaves the bar
-        d3.select('.tooltip').remove();
-    }
-}
-        
-        
-    // Add event listeners for user interaction
-    levelsDropdown.on('change', update);
-    occupationDropdown.on('change', update);
-    sexRadios.on('change', update);
+        // Update the chart with filtered data
+        // Remove existing chart elements
+        svg.selectAll(".segment").remove();
+        svg.selectAll(".x-top").remove(); // Remove existing x-axis ticks and labels
+
+        // Recompute the segments for filtered data
+        var filteredSegments = d3.group(filteredData, d => d.geo);
+
+        // Declare variables for filteredSum, segment offset, and segment sum
+        var filteredSum = 0;
+
+        // Recompute the segments for filtered data
+        var filteredSegments = d3.group(filteredData, d => d.geo);
+        console.log("filteredSegments:", filteredSegments);
+
+        // Convert InternMap to array of objects
+        filteredSegmentsArray = Array.from(filteredSegments, ([key, values]) => ({ key, values }));
+        console.log("filteredSegmentsArray:", filteredSegmentsArray);
+
+        // Recompute the total sum, the per-segment sum, and the per-market offset for filtered data
+        filteredSum = filteredSegmentsArray.reduce(function (v, p) {
+            return (p.offset = v) + (p.sum = p.values.reduceRight(function (v, d) {
+                d.parent = p;
+                return (d.offset = v) + parseFloat(d.OBS_VALUE);
+            }, 0));
+        }, 0);
+
+                // Sort the filtered segments based on the sum in descending order
+        filteredSegmentsArray.sort(function(a, b) {
+            return b.sum - a.sum;
+        });
 
 
-    // Initial update to render the default visualization
-    update();
-});
+
+        // Add a group for each segment in the filtered data
+        var filteredSegmentsGroup = svg.selectAll(".segment")
+            .data(filteredSegmentsArray)
+            .enter().append("g")
+            .attr("class", "segment")
+            .attr("xlink:title", function (d) { return d.key; })
+            .attr("transform", function (d) { return "translate(" + x(d.offset / filteredSum) + ")"; });
+
+                // Add a rect for each market in the filtered data
+                // Add a rect for each market in the filtered data
+        var filteredMarkets = filteredSegmentsGroup.selectAll(".market")
+        .data(function (d) { return d.values; })
+        .enter().append("a")
+        .attr("class", "market")
+        .attr("xlink:title", function (d) {
+            return d.mgstatus + "\n" + d.parent.key + "\n" + d3.format(".1f")(parseFloat(d.OBS_VALUE));
+        })
+        .append("rect")
+        .attr("y", function (d) { return y(d.offset / d.parent.sum); })
+        .attr("height", function (d) { return y(parseFloat(d.OBS_VALUE) / d.parent.sum); })
+        .attr("width", function (d) { return x(d.parent.sum / filteredSum); })
+        .style("fill", function (d) {
+            // Set color based on mgstatus (immigrant or native)
+            return d.mgstatus === "First Generation Immigrant" ? "#58508d" : "#ffa600";
+        });
+
+        // Add text label for each market in the filtered data with OBS_VALUE
+        filteredMarkets.append("text")
+        .attr("x", function (d) { return x(d.parent.sum / filteredSum) / 2; })
+        .attr("y", function (d) { return y(d.offset / d.parent.sum) + y(parseFloat(d.OBS_VALUE) / d.parent.sum / 2); })
+        .attr("dy", ".35em")
+        .attr("text-anchor", "middle")
+        .style("fill", "#fff")
+        .text(function (d) { return d3.format(".1f")(parseFloat(d.OBS_VALUE)); });
+
+
+
+        // Print countries with values for mgstatus category "first generation immigrants"
+        var firstGenImmigrantsData = filteredData.filter(function (d) {
+            return d.mgstatus === "First Generation Immigrant";
+        });
+
+        // Sort the data in descending order based on OBS_VALUE
+        firstGenImmigrantsData.sort(function (a, b) {
+            return parseFloat(b.totalValue) - parseFloat(a.totalValue);
+        });
+
+        // Print the countries and values
+        console.log("Countries with values for 'first generation immigrants':");
+        firstGenImmigrantsData.forEach(function (d) {
+            console.log(d.geo + ": " + d3.format(".1f")(parseFloat(d.totalValue)));
+        });
+
+
+        // Filter filteredSegmentsArray based on the top 5 countries from firstGenImmigrantsData
+        var filteredSegmentsArrayTop5 = filteredSegmentsArray.filter(function (segment) {
+            return firstGenImmigrantsData.slice(0, 5).some(function (topCountry) {
+                return segment.key === topCountry.geo;
+            });
+        });
+
+        // Update xtickTop to display only the geo text of the top 5 countries
+        var xtickTop = svg.selectAll(".x-top")
+            .data(filteredSegmentsArrayTop5)
+            .enter().append("g")
+            .attr("class", "x-top")
+            .attr("transform", function (d) {
+                // Calculate translateX here
+                var translateX = x((d.offset + d.sum / 2) / filteredSum) + 7;
+                return "translate(" + translateX + "," + (height - 7.3 * margin) + ")";
+            });
+
+        //xtickTop.append("line")
+        //.attr("y2", -6)
+        //.style("stroke", "#000");
+
+        xtickTop.append("text")
+        .attr("y", -8)
+        .attr("text-anchor", "middle")
+        .attr("dy", ".35em")
+        .attr("transform", "rotate(-90)")
+        .style("font-weight", "bold") // Set the text to be bold
+        .style("fill", "#white") // Set the text color to orange
+        .text(function (d) { return d.key; });
+
+        }
+    });

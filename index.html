@@ -19,21 +19,21 @@
 			<p>This interactive chart displays the employment percentages for native and immigrant populations across EU countries, broken down by occupation, gender, and education level. The bars extending left represent the native workforce, while those to the right show immigrant employment. Colors indicate the relative representation within each category, allowing for an at-a-glance comparison across nations. Select your criteria to uncover insights into Europe's diverse labor market.</p>
 
 			<div>
-				<label>Select Sex:</label>
-				<label><input type="radio" name="sex" value="T" checked> Total</label>
-				<label><input type="radio" name="sex" value="M"> Male</label>
-				<label><input type="radio" name="sex" value="F"> Female</label>
+				<label for="sexSelector">What is your sex?</label>
+				<select id="sexSelector">
+					<!-- Add options for each sex -->
+				</select>
 			</div>
 			<div>
-				<label for="educationDropdown">Select Education Level:</label>
-				<select id="educationDropdown">
+				<label for="isced11Dropdown">What is your education level?</label>
+				<select id="isced11Dropdown">
 					<!-- Add options for each education level -->
 				</select>
 			</div>
 			
 			<div>
-				<label for="occupationDropdown">Select Occupation:</label>
-				<select id="occupationDropdown">
+				<label for="isco08Dropdown">What is your occupation?</label>
+				<select id="isco08Dropdown">
 					<!-- Add options for each occupation -->
 				</select>
 			</div>
