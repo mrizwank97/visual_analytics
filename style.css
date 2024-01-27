@@ -8,7 +8,7 @@
 header {
   font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
   padding: 20px;
   background-color: #004c6d;
   border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
@@ -30,7 +30,7 @@ header {
 
 #page-selection label,
 #page-selection select {
-  font-size: 35px; /* You can adjust the size as needed */
+  font-size: 30px; /* You can adjust the size as needed */
   color: #004c6d; /* Text color */
 }
 
