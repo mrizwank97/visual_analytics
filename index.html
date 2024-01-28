@@ -73,8 +73,8 @@
         </div>
     
         <div class="container_c1">
+                
                 <form id="countryForm">
-                    <input type="checkbox" id="EU" name="country" value="EU"> <label for="EU">Europe</label>
                     <input type="checkbox" id="AT" name="country" value="AT"> <label for="AT">Austria</label>
                     <input type="checkbox" id="BE" name="country" value="BE"><label for="BE">Belgium</label>
                     <input type="checkbox" id="BG" name="country" value="BG"><label for="BG">Bulgaria</label>
@@ -92,7 +92,7 @@
                     <input type="checkbox" id="IE" name="country" value="IE"><label for="IE">Ireland</label>
                     <input type="checkbox" id="IT" name="country" value="IT"><label for="IT">Italy</label>
                     <input type="checkbox" id="LT" name="country" value="LT"><label for="LT">Lithuania</label>
-                    <input type="checkbox" id="LU" name="country" value="LU"><label for="LU">Luxembourg</label>
+                    <input type="checkbox" id="LU" name="country" value="LU"><label for="LU">Luxembourg</label> <br>
                     <input type="checkbox" id="LV" name="country" value="LV"><label for="LV">Latvia</label>
                     <input type="checkbox" id="MT" name="country" value="MT"><label for="MT">Malta</label>
                     <input type="checkbox" id="NL" name="country" value="NL"><label for="NL">Netherlands</label>
@@ -103,7 +103,7 @@
                     <input type="checkbox" id="SI" name="country" value="SI"><label for="SI">Slovenia</label>
                     <input type="checkbox" id="SK" name="country" value="SK"><label for="SK">Slovakia</label>
                     <input type="checkbox" id="UK" name="country" value="UK"><label for="UK">United Kingdom</label>
-                    <button type="button" onclick="getSelectedCheckboxes()">Get Selected Checkboxes</button>
+                    <button type="button" class= "button" onclick="getSelectedCheckboxes()">Display Selected Countries</button>
                 </form>
         </div>
     
@@ -117,7 +117,7 @@
                             .map("chbi")
                             .title("Unemployment and population density in 2022")
                             .height(600)
-                            .width(1400)
+                            .width(675)
                             .nutsLvl(2)
                             .nutsYear(2016)
                             .stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
@@ -137,18 +137,30 @@
             </div>
             
             <div class="split left content">
-                <h2>Unemployment and Population Density in EU</h2>
-                <p> The map on the right shows the unemployment and population density in EU countries. The two highlighted countries are <b>Switzerland</b> and <b>Germany</b>.
+                <h2>Unemployment and Population Density in Europe</h2>
+                <p> The map on the right shows the unemployment and population density in EU countries. You can select the countries of intereset by clicking the checkboxes above
+                    and pressing the button. You can also hover over different regions of a country to see which areas have least unemployment rates. This chart shows the unemployment rates for year <b><u>2022</u></b>.</p>
+                    <p>
+                        Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/LFST_R_LFU3RT/default/table?lang=en">Eurostat</a>
+                    </p>
             </div>
         </div>
     
         <div class="container">
             <div class="split left content">
-                <h2>How quick is it to find Job in EU?</h2>
-                <p> For students about to graduate, the important thing is to find job as soon as possible. So they will 
-                    be open to move to any country that offers job as soon as possible. The graph on the left shows the 
-                    time it take to find the job in EU country. The two highlighted countries are <b>Netherlands</b> and <b>Switzerland</b>. In both countries 
+                <h2>What if you move to another country today?</h2>
+                <p> The graph on the left shows the time it take to find the job in EU country. Lets say you move to a new country today,
+                    the graph gives you an idea how quickly you can find the job in that country.The two top countries are <b>Netherlands</b> and <b>Malta</b>. In both countries 
                     about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
+
+                <p>
+                    You can hover over different countries to get the idea. Or click on the button below to show the to reveal the stats for selected countries.                    
+                </p>
+                <button type="button" class= "button" onclick=" updateParallelForSelected()">Display Selected Countries</button>
+                <p id="parallel-text"> . </p>
+                <p>
+                    Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/lfso_21obst04/default/table?lang=en&category=labour.employ.lfso.lfso_21.lfso_21obst">Eurostat</a>
+                </p>
             </div>
             <div id="parallel" class="split right">
                 <center><b>Hover over other lines to reveal countries and the percentage of people finding jobs in different time span</b></center>
@@ -163,16 +175,39 @@
         </div>
     
         <div class="container">
-            
-            <div class="split left">
-                <h2>How many people are there in europe from your country></h2>
-                <p> For students about to graduate, the important thing is to find job as soon as possible. So they will 
-                    be open to move to any country that offers job as soon as possible. The graph on the left shows the 
-                    time it take to find the job in EU country. The two highlighted countries are <b>Netherlands</b> and <b>Switzerland</b>. In both countries 
-                    about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
-            </div>
-            <div id="parallel" class="split rigt content">
-                <center><b>Lorem Ipsum</b></center>
+            <div id="bubble" class="split left">
+            </div>            
+            <div class="split right content">
+                <h2>Which country has most migrants from your country?</h2>
+                <label for="countries">Select a Country or a Region: </label>
+                <select id="country-select" name="countries"></select>
+
+                <script>
+                    // Fetch the content of the file
+                    fetch('countries.txt')
+                        .then(response => response.text())
+                        .then(data => {
+                            // Split the file content into an array of country names
+                            const countries = data.split('\n').filter(country => country.trim() !== '');
+
+                            // Populate the dropdown with countries
+                            const dropdown = document.getElementById("country-select");
+                            countries.forEach(country => {
+                                const option = document.createElement("option");
+                                option.value = country.toLowerCase(); // Use lowercase for simplicity
+                                option.text = country;
+                                dropdown.add(option);
+                            });
+                        })
+                        .catch(error => console.error('Error reading the file:', error));
+                </script>
+
+                <p> The bubble chart on the left shows the number of migrants from your country to different EU countries. You can select your country from the dropdown menu above.
+                    The size of the bubble represents the number of migrants. This chart shows the facts for year <b><u>2021</u></b>.</p>
+                <p>Data for <b><u> France</u></b> and <b><u>Germany</u></b> is not available country wise. <b><u>Fun Fact</u></b>: You can drag the bubbles around in the chart. Hover over bubbles to reveal numbers.</p>
+                <p>
+                    Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/migr_imm3ctb/default/table?lang=en">Eurostat</a>
+                </p>
             </div>
         </div>
     </div>
@@ -201,6 +236,9 @@
                 <option value="avg_salary_D">Sort in Descending Order by Average Salary</option>
                 <option value="cost_of_living_D">Sort in Descending Order by Cost of Living</option>
               </select>
+              <p>
+                Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/tps00155/default/table?lang=en">Eurostat</a>
+            </p>
         </div>
         <div id="clevland" class="split right">
             <center><b>Hover over circles to reveal the euro value of corresponding categoy while hovering over the line will reveal the gap value.</b></center>
@@ -209,6 +247,8 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    
+    <script src="./script_bubble.js"></script>
     <script src="./script_rizwan.js"></script>
     <script src="./script_ingrid.js"></script>
 

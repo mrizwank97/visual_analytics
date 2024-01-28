@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", async function () {
 
-    var width = 1200,
-        height = 600,
-        margin = 50;
+    var width = 700,
+        height = 550,
+        margin = 30;
 
     var x = d3.scaleLinear()
         .range([0, width - 3 * margin]);
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 
     // Now sum is accessible throughout the script
-    console.log("sum:", sum);
+    //console.log("sum:", sum);
 
 
     // Add x-axis ticks.
@@ -223,11 +223,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         // Recompute the segments for filtered data
         var filteredSegments = d3.group(filteredData, d => d.geo);
-        console.log("filteredSegments:", filteredSegments);
+        //console.log("filteredSegments:", filteredSegments);
 
         // Convert InternMap to array of objects
         filteredSegmentsArray = Array.from(filteredSegments, ([key, values]) => ({ key, values }));
-        console.log("filteredSegmentsArray:", filteredSegmentsArray);
+        //console.log("filteredSegmentsArray:", filteredSegmentsArray);
 
         // Recompute the total sum, the per-segment sum, and the per-market offset for filtered data
         filteredSum = filteredSegmentsArray.reduce(function (v, p) {
@@ -292,10 +292,10 @@ document.addEventListener("DOMContentLoaded", async function () {
         });
 
         // Print the countries and values
-        console.log("Countries with values for 'first generation immigrants':");
-        firstGenImmigrantsData.forEach(function (d) {
-            console.log(d.geo + ": " + d3.format(".1f")(parseFloat(d.totalValue)));
-        });
+        // console.log("Countries with values for 'first generation immigrants':");
+        // firstGenImmigrantsData.forEach(function (d) {
+        //     console.log(d.geo + ": " + d3.format(".1f")(parseFloat(d.totalValue)));
+        // });
 
 
         // Filter filteredSegmentsArray based on the top 5 countries from firstGenImmigrantsData

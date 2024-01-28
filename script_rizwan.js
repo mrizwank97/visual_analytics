@@ -14,8 +14,8 @@ d3.csv("clevland.csv", d => {
 
   // set the dimensions and margins of the graph
   const margin = {top: 50, right: 40, bottom: 55, left: 80},
-  width = 850 - margin.left - margin.right,
-  height = 550 - margin.top - margin.bottom;
+  width = 675 - margin.left - margin.right,
+  height = 500 - margin.top - margin.bottom;
 
   // append the svg object to the body of the page
   const svg = d3.select("#clevland")
@@ -231,34 +231,80 @@ function getSelectedCheckboxes() {
       selectedCheckboxes.push(checkboxes[i].value);
     }
   }
-  var map = document.getElementById("map");
-  var map = eurostatmap
-    .map("chbi")
-    .title("Unemployment and population density in 2022")
-    .height(600)
-    .width(600)
-    .nutsLvl(2)
-    .nutsYear(2016)
-    .countriesToShow(selectedCheckboxes)
-    .stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
-    .stat("v2", { eurostatDatasetCode: "lfst_r_lfu3rt", filters: { age: "Y_GE15", sex: "T", unit: "PC", time: 2022 }, unitText: "%" })
-    .clnb(4)
-    .scale("60M")
-    .legend({ boxFill: "none", squareSize: 80, label1: "Unemployment", label2: "Population", x: 10, y: 140 })
-    .drawGraticule(false)
-    .seaFillStyle("#d3dee8")
-    .drawCoastalMargin(false)
-    .zoomExtent([1, 3])
-    .build();
+  if (selectedCheckboxes.length == 0){
+    alert("Please select at least one country.")
+  }
+  else{
+    var map = document.getElementById("map");
+    var map = eurostatmap
+      .map("chbi")
+      .title("Unemployment and population density in 2022")
+      .height(600)
+      .width(670)
+      .nutsLvl(2)
+      .nutsYear(2016)
+      .countriesToShow(selectedCheckboxes)
+      .stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
+      .stat("v2", { eurostatDatasetCode: "lfst_r_lfu3rt", filters: { age: "Y_GE15", sex: "T", unit: "PC", time: 2022 }, unitText: "%" })
+      .clnb(4)
+      .scale("60M")
+      .legend({ boxFill: "none", squareSize: 80, label1: "Unemployment", label2: "Population", x: 10, y: 140 })
+      .drawGraticule(false)
+      .seaFillStyle("#d3dee8")
+      .drawCoastalMargin(false)
+      .zoomExtent([1, 3])
+      .build();
+  }
   
 }
 
+function updateParallelForSelected(){
+  var checkboxes = document.getElementsByName("country");
+  var selectedCheckboxes = [];
+  var dataNotAvailable = [];
+
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) {
+      selectedCheckboxes.push(document.querySelector(`label[for=${checkboxes[i].value}]`).textContent.toLowerCase());
+    }
+  }
+  d3.csv("./parallel.csv").then(function(data) {
+   // filter data for selected countries
+    filteredData = data.filter(d => selectedCheckboxes.includes(d.country.toLowerCase()))
+    // if length of filtered data is 0, show alert
+    if (filteredData.length == 0){
+      alert("Either you have not selected any country or the selected countries do not have data.")
+    }
+    else{
+      createParallelCoordinates(filteredData)
+    }
+    
+    // perform set subtraction to get countries for which data is not available
+    dataNotAvailable = selectedCheckboxes.filter(x => !filteredData.map(d => d.country.toLowerCase()).includes(x))
+    // get paragraph by id and add text
+    var para = document.getElementById("parallel-text");
+    if (dataNotAvailable.length == 0){
+      para.innerHTML = "Data for all selected countries is available."
+    }
+    else{
+      para.innerHTML = "Data for <b><u>" + dataNotAvailable.join(", ") + "</u></b> is not available."
+    }
+  });
+}
 
 const createParallelCoordinates = (data) => {
 
   var margin = {top: 50, right: 50, bottom: 50, left: 0},
-  width = 850 - margin.left - margin.right,
-  height = 600 - margin.top - margin.bottom;
+  width = 750 - margin.left - margin.right,
+  height = 550 - margin.top - margin.bottom;
+  
+  //create data variable will contain d3 csv data later
+  var data1 = [];
+  var data2 = [];
+
+  d3.select("#parallel").selectAll("*").remove();
+
+
 
   var svg = d3.select("#parallel")
   .append("svg")
@@ -303,12 +349,10 @@ const createParallelCoordinates = (data) => {
   // data1 = data.filter(d => d.country == "France" || d.country == "Italy" || d.country == "Germany" || d.country == "Spain")
   // // remove france and italy from data
   // data2 = data.filter(d => d.country != "France" && d.country != "Italy" && d.country != "Germany" && d.country != "Spain")
-
-  
   data.sort(function(a, b) {return b["less than 3 months"] - a["less than 3 months"];});
 
-  data1 = data.slice(0, 2);
-  data2 = data.slice(2);
+  data1 = data.slice(0, 5);
+  data2 = data.slice(5, data.length);
 
   svg
     .selectAll("myPath")

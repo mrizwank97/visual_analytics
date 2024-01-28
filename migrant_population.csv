@@ -1,0 +1,3265 @@
+country_code_src,country_src,country_code_dest,country_dest,number
+AD,Andorra,AT,Austria,1.0
+AD,Andorra,DK,Denmark,3.0
+AD,Andorra,FI,Finland,1.0
+AD,Andorra,IT,Italy,4.0
+AD,Andorra,LU,Luxembourg,10.0
+AD,Andorra,NL,Netherlands,8.0
+AD,Andorra,NO,Norway,1.0
+AD,Andorra,RO,Romania,7.0
+AD,Andorra,SI,Slovenia,1.0
+AE,United Arab Emirates,AT,Austria,101.0
+AE,United Arab Emirates,BG,Bulgaria,44.0
+AE,United Arab Emirates,CZ,Czechia,53.0
+AE,United Arab Emirates,DK,Denmark,59.0
+AE,United Arab Emirates,FI,Finland,42.0
+AE,United Arab Emirates,HR,Croatia,15.0
+AE,United Arab Emirates,IS,Iceland,3.0
+AE,United Arab Emirates,IT,Italy,129.0
+AE,United Arab Emirates,LI,Liechtenstein,2.0
+AE,United Arab Emirates,LT,Lithuania,14.0
+AE,United Arab Emirates,LU,Luxembourg,43.0
+AE,United Arab Emirates,LV,Latvia,4.0
+AE,United Arab Emirates,MK,North Macedonia,1.0
+AE,United Arab Emirates,NL,Netherlands,522.0
+AE,United Arab Emirates,NO,Norway,72.0
+AE,United Arab Emirates,RO,Romania,105.0
+AE,United Arab Emirates,SI,Slovenia,2.0
+AE,United Arab Emirates,SK,Slovakia,9.0
+AF,Afghanistan,AT,Austria,1596.0
+AF,Afghanistan,BG,Bulgaria,59.0
+AF,Afghanistan,CZ,Czechia,127.0
+AF,Afghanistan,DK,Denmark,222.0
+AF,Afghanistan,FI,Finland,740.0
+AF,Afghanistan,HR,Croatia,38.0
+AF,Afghanistan,IS,Iceland,45.0
+AF,Afghanistan,IT,Italy,3017.0
+AF,Afghanistan,LT,Lithuania,191.0
+AF,Afghanistan,LU,Luxembourg,99.0
+AF,Afghanistan,LV,Latvia,21.0
+AF,Afghanistan,NL,Netherlands,2584.0
+AF,Afghanistan,NO,Norway,1084.0
+AF,Afghanistan,RO,Romania,69.0
+AF,Afghanistan,SI,Slovenia,45.0
+AF,Afghanistan,SK,Slovakia,3.0
+AFR,Africa,AT,Austria,3638.0
+AFR,Africa,CZ,Czechia,751.0
+AFR,Africa,DK,Denmark,1714.0
+AFR,Africa,ES,Spain,93316.0
+AFR,Africa,FI,Finland,2571.0
+AFR,Africa,HR,Croatia,254.0
+AFR,Africa,IS,Iceland,232.0
+AFR,Africa,IT,Italy,59592.0
+AFR,Africa,LI,Liechtenstein,10.0
+AFR,Africa,LT,Lithuania,361.0
+AFR,Africa,LU,Luxembourg,3704.0
+AFR,Africa,LV,Latvia,138.0
+AFR,Africa,MK,North Macedonia,20.0
+AFR,Africa,NL,Netherlands,15753.0
+AFR,Africa,NO,Norway,4607.0
+AFR,Africa,SI,Slovenia,142.0
+AFR,Africa,SK,Slovakia,26.0
+AFR_C,Central Africa,AT,Austria,131.0
+AFR_C,Central Africa,CZ,Czechia,30.0
+AFR_C,Central Africa,DK,Denmark,125.0
+AFR_C,Central Africa,FI,Finland,189.0
+AFR_C,Central Africa,HR,Croatia,23.0
+AFR_C,Central Africa,IS,Iceland,16.0
+AFR_C,Central Africa,IT,Italy,1491.0
+AFR_C,Central Africa,LI,Liechtenstein,2.0
+AFR_C,Central Africa,LT,Lithuania,59.0
+AFR_C,Central Africa,LU,Luxembourg,497.0
+AFR_C,Central Africa,LV,Latvia,71.0
+AFR_C,Central Africa,NL,Netherlands,474.0
+AFR_C,Central Africa,NO,Norway,646.0
+AFR_C,Central Africa,SI,Slovenia,5.0
+AFR_E,Eastern Africa,AT,Austria,1353.0
+AFR_E,Eastern Africa,CZ,Czechia,123.0
+AFR_E,Eastern Africa,DK,Denmark,619.0
+AFR_E,Eastern Africa,FI,Finland,1048.0
+AFR_E,Eastern Africa,HR,Croatia,42.0
+AFR_E,Eastern Africa,IS,Iceland,63.0
+AFR_E,Eastern Africa,IT,Italy,3115.0
+AFR_E,Eastern Africa,LI,Liechtenstein,1.0
+AFR_E,Eastern Africa,LT,Lithuania,53.0
+AFR_E,Eastern Africa,LU,Luxembourg,516.0
+AFR_E,Eastern Africa,LV,Latvia,8.0
+AFR_E,Eastern Africa,MK,North Macedonia,5.0
+AFR_E,Eastern Africa,NL,Netherlands,3981.0
+AFR_E,Eastern Africa,NO,Norway,2423.0
+AFR_E,Eastern Africa,SI,Slovenia,27.0
+AFR_E,Eastern Africa,SK,Slovakia,5.0
+AFR_N,Northern Africa,AT,Austria,1185.0
+AFR_N,Northern Africa,CZ,Czechia,304.0
+AFR_N,Northern Africa,DK,Denmark,406.0
+AFR_N,Northern Africa,FI,Finland,535.0
+AFR_N,Northern Africa,HR,Croatia,89.0
+AFR_N,Northern Africa,IS,Iceland,38.0
+AFR_N,Northern Africa,IT,Italy,30977.0
+AFR_N,Northern Africa,LI,Liechtenstein,4.0
+AFR_N,Northern Africa,LT,Lithuania,77.0
+AFR_N,Northern Africa,LU,Luxembourg,827.0
+AFR_N,Northern Africa,LV,Latvia,30.0
+AFR_N,Northern Africa,MK,North Macedonia,6.0
+AFR_N,Northern Africa,NL,Netherlands,4867.0
+AFR_N,Northern Africa,NO,Norway,862.0
+AFR_N,Northern Africa,SI,Slovenia,48.0
+AFR_N,Northern Africa,SK,Slovakia,14.0
+AFR_S,Southern Africa,AT,Austria,309.0
+AFR_S,Southern Africa,CZ,Czechia,65.0
+AFR_S,Southern Africa,DK,Denmark,195.0
+AFR_S,Southern Africa,FI,Finland,95.0
+AFR_S,Southern Africa,HR,Croatia,78.0
+AFR_S,Southern Africa,IS,Iceland,21.0
+AFR_S,Southern Africa,IT,Italy,378.0
+AFR_S,Southern Africa,LI,Liechtenstein,1.0
+AFR_S,Southern Africa,LT,Lithuania,9.0
+AFR_S,Southern Africa,LU,Luxembourg,131.0
+AFR_S,Southern Africa,LV,Latvia,3.0
+AFR_S,Southern Africa,MK,North Macedonia,4.0
+AFR_S,Southern Africa,NL,Netherlands,3457.0
+AFR_S,Southern Africa,NO,Norway,165.0
+AFR_S,Southern Africa,SI,Slovenia,20.0
+AFR_S,Southern Africa,SK,Slovakia,6.0
+AFR_W,Western Africa,AT,Austria,660.0
+AFR_W,Western Africa,CZ,Czechia,229.0
+AFR_W,Western Africa,DK,Denmark,369.0
+AFR_W,Western Africa,FI,Finland,704.0
+AFR_W,Western Africa,HR,Croatia,22.0
+AFR_W,Western Africa,IS,Iceland,94.0
+AFR_W,Western Africa,IT,Italy,23631.0
+AFR_W,Western Africa,LI,Liechtenstein,2.0
+AFR_W,Western Africa,LT,Lithuania,163.0
+AFR_W,Western Africa,LU,Luxembourg,1733.0
+AFR_W,Western Africa,LV,Latvia,26.0
+AFR_W,Western Africa,MK,North Macedonia,5.0
+AFR_W,Western Africa,NL,Netherlands,2974.0
+AFR_W,Western Africa,NO,Norway,511.0
+AFR_W,Western Africa,SI,Slovenia,42.0
+AFR_W,Western Africa,SK,Slovakia,1.0
+AG,Antigua and Barbuda,IS,Iceland,1.0
+AG,Antigua and Barbuda,IT,Italy,4.0
+AG,Antigua and Barbuda,NO,Norway,2.0
+AG,Antigua and Barbuda,SI,Slovenia,1.0
+AI,Anguilla,NL,Netherlands,1.0
+AL,Albania,AT,Austria,477.0
+AL,Albania,BG,Bulgaria,160.0
+AL,Albania,CZ,Czechia,74.0
+AL,Albania,DK,Denmark,87.0
+AL,Albania,FI,Finland,196.0
+AL,Albania,HR,Croatia,1016.0
+AL,Albania,IS,Iceland,38.0
+AL,Albania,IT,Italy,22022.0
+AL,Albania,LT,Lithuania,28.0
+AL,Albania,LU,Luxembourg,195.0
+AL,Albania,LV,Latvia,6.0
+AL,Albania,MK,North Macedonia,155.0
+AL,Albania,NL,Netherlands,415.0
+AL,Albania,NO,Norway,334.0
+AL,Albania,RO,Romania,295.0
+AL,Albania,SI,Slovenia,34.0
+AL,Albania,SK,Slovakia,31.0
+AM,Armenia,AT,Austria,96.0
+AM,Armenia,BG,Bulgaria,84.0
+AM,Armenia,CZ,Czechia,107.0
+AM,Armenia,DK,Denmark,14.0
+AM,Armenia,FI,Finland,12.0
+AM,Armenia,HR,Croatia,6.0
+AM,Armenia,IS,Iceland,2.0
+AM,Armenia,IT,Italy,62.0
+AM,Armenia,LT,Lithuania,61.0
+AM,Armenia,LU,Luxembourg,46.0
+AM,Armenia,LV,Latvia,29.0
+AM,Armenia,MK,North Macedonia,1.0
+AM,Armenia,NL,Netherlands,231.0
+AM,Armenia,NO,Norway,13.0
+AM,Armenia,RO,Romania,111.0
+AM,Armenia,SI,Slovenia,3.0
+AM,Armenia,SK,Slovakia,2.0
+AME,America,AT,Austria,3934.0
+AME,America,CZ,Czechia,1926.0
+AME,America,DK,Denmark,5107.0
+AME,America,ES,Spain,228935.0
+AME,America,FI,Finland,1676.0
+AME,America,HR,Croatia,812.0
+AME,America,IS,Iceland,699.0
+AME,America,IT,Italy,43527.0
+AME,America,LI,Liechtenstein,61.0
+AME,America,LT,Lithuania,332.0
+AME,America,LU,Luxembourg,2127.0
+AME,America,LV,Latvia,132.0
+AME,America,MK,North Macedonia,65.0
+AME,America,NL,Netherlands,22402.0
+AME,America,NO,Norway,3115.0
+AME,America,SI,Slovenia,394.0
+AME,America,SK,Slovakia,164.0
+AME_C,Central America,AT,Austria,389.0
+AME_C,Central America,CZ,Czechia,196.0
+AME_C,Central America,DK,Denmark,289.0
+AME_C,Central America,FI,Finland,187.0
+AME_C,Central America,HR,Croatia,28.0
+AME_C,Central America,IS,Iceland,44.0
+AME_C,Central America,IT,Italy,3603.0
+AME_C,Central America,LI,Liechtenstein,6.0
+AME_C,Central America,LT,Lithuania,32.0
+AME_C,Central America,LU,Luxembourg,148.0
+AME_C,Central America,LV,Latvia,12.0
+AME_C,Central America,MK,North Macedonia,7.0
+AME_C,Central America,NL,Netherlands,1413.0
+AME_C,Central America,NO,Norway,232.0
+AME_C,Central America,SI,Slovenia,26.0
+AME_C,Central America,SK,Slovakia,13.0
+AME_N,Northern America,AT,Austria,1521.0
+AME_N,Northern America,CZ,Czechia,1209.0
+AME_N,Northern America,DK,Denmark,2364.0
+AME_N,Northern America,FI,Finland,804.0
+AME_N,Northern America,HR,Croatia,440.0
+AME_N,Northern America,IS,Iceland,337.0
+AME_N,Northern America,IT,Italy,3149.0
+AME_N,Northern America,LI,Liechtenstein,17.0
+AME_N,Northern America,LT,Lithuania,191.0
+AME_N,Northern America,LU,Luxembourg,545.0
+AME_N,Northern America,LV,Latvia,76.0
+AME_N,Northern America,MK,North Macedonia,42.0
+AME_N,Northern America,NL,Netherlands,5291.0
+AME_N,Northern America,NO,Norway,1576.0
+AME_N,Northern America,SI,Slovenia,151.0
+AME_N,Northern America,SK,Slovakia,123.0
+AME_S,South America,AT,Austria,1824.0
+AME_S,South America,CZ,Czechia,476.0
+AME_S,South America,DK,Denmark,2392.0
+AME_S,South America,FI,Finland,639.0
+AME_S,South America,HR,Croatia,330.0
+AME_S,South America,IS,Iceland,300.0
+AME_S,South America,IT,Italy,32840.0
+AME_S,South America,LI,Liechtenstein,32.0
+AME_S,South America,LT,Lithuania,105.0
+AME_S,South America,LU,Luxembourg,1358.0
+AME_S,South America,LV,Latvia,40.0
+AME_S,South America,MK,North Macedonia,10.0
+AME_S,South America,NL,Netherlands,13063.0
+AME_S,South America,NO,Norway,1211.0
+AME_S,South America,SI,Slovenia,194.0
+AME_S,South America,SK,Slovakia,19.0
+AN,Netherlands Antilles,NO,Norway,1.0
+AN,Netherlands Antilles,SI,Slovenia,1.0
+AO,Angola,AT,Austria,27.0
+AO,Angola,BG,Bulgaria,2.0
+AO,Angola,CZ,Czechia,4.0
+AO,Angola,DK,Denmark,7.0
+AO,Angola,FI,Finland,6.0
+AO,Angola,HR,Croatia,1.0
+AO,Angola,IS,Iceland,5.0
+AO,Angola,IT,Italy,72.0
+AO,Angola,LI,Liechtenstein,1.0
+AO,Angola,LU,Luxembourg,81.0
+AO,Angola,LV,Latvia,1.0
+AO,Angola,NL,Netherlands,151.0
+AO,Angola,NO,Norway,35.0
+AO,Angola,RO,Romania,55.0
+AR,Argentina,AT,Austria,236.0
+AR,Argentina,BG,Bulgaria,21.0
+AR,Argentina,CZ,Czechia,67.0
+AR,Argentina,DK,Denmark,1206.0
+AR,Argentina,ES,Spain,33596.0
+AR,Argentina,FI,Finland,77.0
+AR,Argentina,HR,Croatia,65.0
+AR,Argentina,IS,Iceland,35.0
+AR,Argentina,IT,Italy,8964.0
+AR,Argentina,LI,Liechtenstein,1.0
+AR,Argentina,LT,Lithuania,20.0
+AR,Argentina,LU,Luxembourg,112.0
+AR,Argentina,LV,Latvia,3.0
+AR,Argentina,MK,North Macedonia,2.0
+AR,Argentina,NL,Netherlands,994.0
+AR,Argentina,NO,Norway,171.0
+AR,Argentina,RO,Romania,234.0
+AR,Argentina,SI,Slovenia,81.0
+AR,Argentina,SK,Slovakia,5.0
+ASI,Asia,AT,Austria,20534.0
+ASI,Asia,CZ,Czechia,9066.0
+ASI,Asia,DK,Denmark,9747.0
+ASI,Asia,ES,Spain,36619.0
+ASI,Asia,FI,Finland,9541.0
+ASI,Asia,HR,Croatia,4479.0
+ASI,Asia,IS,Iceland,807.0
+ASI,Asia,IT,Italy,63007.0
+ASI,Asia,LI,Liechtenstein,64.0
+ASI,Asia,LT,Lithuania,3093.0
+ASI,Asia,LU,Luxembourg,3085.0
+ASI,Asia,LV,Latvia,1707.0
+ASI,Asia,MK,North Macedonia,54.0
+ASI,Asia,NL,Netherlands,48749.0
+ASI,Asia,NO,Norway,11160.0
+ASI,Asia,SI,Slovenia,486.0
+ASI,Asia,SK,Slovakia,149.0
+ASI_C,Central Asia,AT,Austria,496.0
+ASI_C,Central Asia,CZ,Czechia,2570.0
+ASI_C,Central Asia,DK,Denmark,80.0
+ASI_C,Central Asia,FI,Finland,215.0
+ASI_C,Central Asia,HR,Croatia,309.0
+ASI_C,Central Asia,IS,Iceland,10.0
+ASI_C,Central Asia,IT,Italy,311.0
+ASI_C,Central Asia,LI,Liechtenstein,2.0
+ASI_C,Central Asia,LT,Lithuania,1478.0
+ASI_C,Central Asia,LU,Luxembourg,63.0
+ASI_C,Central Asia,LV,Latvia,635.0
+ASI_C,Central Asia,MK,North Macedonia,6.0
+ASI_C,Central Asia,NL,Netherlands,617.0
+ASI_C,Central Asia,NO,Norway,126.0
+ASI_C,Central Asia,SI,Slovenia,56.0
+ASI_C,Central Asia,SK,Slovakia,25.0
+ASI_E,Eastern Asia,AT,Austria,1700.0
+ASI_E,Eastern Asia,CZ,Czechia,1808.0
+ASI_E,Eastern Asia,DK,Denmark,1637.0
+ASI_E,Eastern Asia,FI,Finland,1333.0
+ASI_E,Eastern Asia,HR,Croatia,208.0
+ASI_E,Eastern Asia,IS,Iceland,72.0
+ASI_E,Eastern Asia,IT,Italy,6975.0
+ASI_E,Eastern Asia,LI,Liechtenstein,18.0
+ASI_E,Eastern Asia,LT,Lithuania,161.0
+ASI_E,Eastern Asia,LU,Luxembourg,555.0
+ASI_E,Eastern Asia,LV,Latvia,92.0
+ASI_E,Eastern Asia,MK,North Macedonia,9.0
+ASI_E,Eastern Asia,NL,Netherlands,8467.0
+ASI_E,Eastern Asia,NO,Norway,843.0
+ASI_E,Eastern Asia,SI,Slovenia,114.0
+ASI_E,Eastern Asia,SK,Slovakia,18.0
+ASI_S,Southern Asia,AT,Austria,4735.0
+ASI_S,Southern Asia,CZ,Czechia,1871.0
+ASI_S,Southern Asia,DK,Denmark,4752.0
+ASI_S,Southern Asia,FI,Finland,3941.0
+ASI_S,Southern Asia,HR,Croatia,2916.0
+ASI_S,Southern Asia,IS,Iceland,222.0
+ASI_S,Southern Asia,IT,Italy,48945.0
+ASI_S,Southern Asia,LI,Liechtenstein,13.0
+ASI_S,Southern Asia,LT,Lithuania,647.0
+ASI_S,Southern Asia,LU,Luxembourg,1333.0
+ASI_S,Southern Asia,LV,Latvia,683.0
+ASI_S,Southern Asia,MK,North Macedonia,7.0
+ASI_S,Southern Asia,NL,Netherlands,16440.0
+ASI_S,Southern Asia,NO,Norway,5155.0
+ASI_S,Southern Asia,SI,Slovenia,174.0
+ASI_S,Southern Asia,SK,Slovakia,19.0
+ASI_S_E,South-Eastern Asia,AT,Austria,1047.0
+ASI_S_E,South-Eastern Asia,CZ,Czechia,1983.0
+ASI_S_E,South-Eastern Asia,DK,Denmark,1866.0
+ASI_S_E,South-Eastern Asia,FI,Finland,2096.0
+ASI_S_E,South-Eastern Asia,HR,Croatia,863.0
+ASI_S_E,South-Eastern Asia,IS,Iceland,283.0
+ASI_S_E,South-Eastern Asia,IT,Italy,3118.0
+ASI_S_E,South-Eastern Asia,LI,Liechtenstein,20.0
+ASI_S_E,South-Eastern Asia,LT,Lithuania,82.0
+ASI_S_E,South-Eastern Asia,LU,Luxembourg,259.0
+ASI_S_E,South-Eastern Asia,LV,Latvia,49.0
+ASI_S_E,South-Eastern Asia,MK,North Macedonia,12.0
+ASI_S_E,South-Eastern Asia,NL,Netherlands,5379.0
+ASI_S_E,South-Eastern Asia,NO,Norway,1924.0
+ASI_S_E,South-Eastern Asia,SI,Slovenia,79.0
+ASI_S_E,South-Eastern Asia,SK,Slovakia,32.0
+ASI_W,Western Asia,AT,Austria,12556.0
+ASI_W,Western Asia,CZ,Czechia,834.0
+ASI_W,Western Asia,DK,Denmark,1412.0
+ASI_W,Western Asia,FI,Finland,1956.0
+ASI_W,Western Asia,HR,Croatia,183.0
+ASI_W,Western Asia,IS,Iceland,220.0
+ASI_W,Western Asia,IT,Italy,3658.0
+ASI_W,Western Asia,LI,Liechtenstein,11.0
+ASI_W,Western Asia,LT,Lithuania,725.0
+ASI_W,Western Asia,LU,Luxembourg,875.0
+ASI_W,Western Asia,LV,Latvia,248.0
+ASI_W,Western Asia,MK,North Macedonia,20.0
+ASI_W,Western Asia,NL,Netherlands,17846.0
+ASI_W,Western Asia,NO,Norway,3112.0
+ASI_W,Western Asia,SI,Slovenia,63.0
+ASI_W,Western Asia,SK,Slovakia,55.0
+AT,Austria,AT,Austria,7536.0
+AT,Austria,BG,Bulgaria,111.0
+AT,Austria,CZ,Czechia,92.0
+AT,Austria,DK,Denmark,160.0
+AT,Austria,FI,Finland,61.0
+AT,Austria,FR,France,354.0
+AT,Austria,HR,Croatia,348.0
+AT,Austria,IS,Iceland,41.0
+AT,Austria,IT,Italy,446.0
+AT,Austria,LI,Liechtenstein,86.0
+AT,Austria,LT,Lithuania,14.0
+AT,Austria,LU,Luxembourg,75.0
+AT,Austria,LV,Latvia,12.0
+AT,Austria,MK,North Macedonia,3.0
+AT,Austria,NL,Netherlands,561.0
+AT,Austria,NO,Norway,132.0
+AT,Austria,RO,Romania,165.0
+AT,Austria,SI,Slovenia,187.0
+AT,Austria,SK,Slovakia,361.0
+AU,Australia,AT,Austria,174.0
+AU,Australia,BG,Bulgaria,24.0
+AU,Australia,CZ,Czechia,116.0
+AU,Australia,DK,Denmark,185.0
+AU,Australia,FI,Finland,119.0
+AU,Australia,HR,Croatia,97.0
+AU,Australia,IS,Iceland,17.0
+AU,Australia,LT,Lithuania,21.0
+AU,Australia,LU,Luxembourg,41.0
+AU,Australia,LV,Latvia,11.0
+AU,Australia,MK,North Macedonia,8.0
+AU,Australia,NL,Netherlands,617.0
+AU,Australia,NO,Norway,191.0
+AU,Australia,RO,Romania,96.0
+AU,Australia,SI,Slovenia,14.0
+AU,Australia,SK,Slovakia,13.0
+AU_NZ,Australia and New Zealand,AT,Austria,220.0
+AU_NZ,Australia and New Zealand,CZ,Czechia,147.0
+AU_NZ,Australia and New Zealand,DK,Denmark,227.0
+AU_NZ,Australia and New Zealand,FI,Finland,148.0
+AU_NZ,Australia and New Zealand,HR,Croatia,109.0
+AU_NZ,Australia and New Zealand,IS,Iceland,22.0
+AU_NZ,Australia and New Zealand,IT,Italy,56.0
+AU_NZ,Australia and New Zealand,LT,Lithuania,27.0
+AU_NZ,Australia and New Zealand,LU,Luxembourg,53.0
+AU_NZ,Australia and New Zealand,LV,Latvia,12.0
+AU_NZ,Australia and New Zealand,MK,North Macedonia,8.0
+AU_NZ,Australia and New Zealand,NL,Netherlands,820.0
+AU_NZ,Australia and New Zealand,NO,Norway,228.0
+AU_NZ,Australia and New Zealand,SI,Slovenia,18.0
+AU_NZ,Australia and New Zealand,SK,Slovakia,16.0
+AW,Aruba,AT,Austria,1.0
+AW,Aruba,NL,Netherlands,1330.0
+AW,Aruba,SK,Slovakia,1.0
+AZ,Azerbaijan,AT,Austria,76.0
+AZ,Azerbaijan,BG,Bulgaria,33.0
+AZ,Azerbaijan,CZ,Czechia,150.0
+AZ,Azerbaijan,DK,Denmark,17.0
+AZ,Azerbaijan,FI,Finland,34.0
+AZ,Azerbaijan,HR,Croatia,21.0
+AZ,Azerbaijan,IS,Iceland,1.0
+AZ,Azerbaijan,IT,Italy,175.0
+AZ,Azerbaijan,LI,Liechtenstein,1.0
+AZ,Azerbaijan,LT,Lithuania,171.0
+AZ,Azerbaijan,LU,Luxembourg,46.0
+AZ,Azerbaijan,LV,Latvia,90.0
+AZ,Azerbaijan,MK,North Macedonia,1.0
+AZ,Azerbaijan,NL,Netherlands,365.0
+AZ,Azerbaijan,NO,Norway,31.0
+AZ,Azerbaijan,RO,Romania,32.0
+AZ,Azerbaijan,SI,Slovenia,2.0
+AZ,Azerbaijan,SK,Slovakia,5.0
+BA,Bosnia and Herzegovina,AT,Austria,4734.0
+BA,Bosnia and Herzegovina,BG,Bulgaria,28.0
+BA,Bosnia and Herzegovina,CZ,Czechia,198.0
+BA,Bosnia and Herzegovina,DK,Denmark,125.0
+BA,Bosnia and Herzegovina,FI,Finland,20.0
+BA,Bosnia and Herzegovina,HR,Croatia,9263.0
+BA,Bosnia and Herzegovina,IS,Iceland,48.0
+BA,Bosnia and Herzegovina,IT,Italy,176.0
+BA,Bosnia and Herzegovina,LI,Liechtenstein,10.0
+BA,Bosnia and Herzegovina,LT,Lithuania,1.0
+BA,Bosnia and Herzegovina,LU,Luxembourg,130.0
+BA,Bosnia and Herzegovina,LV,Latvia,1.0
+BA,Bosnia and Herzegovina,MK,North Macedonia,14.0
+BA,Bosnia and Herzegovina,NL,Netherlands,324.0
+BA,Bosnia and Herzegovina,NO,Norway,183.0
+BA,Bosnia and Herzegovina,RO,Romania,40.0
+BA,Bosnia and Herzegovina,SI,Slovenia,8497.0
+BA,Bosnia and Herzegovina,SK,Slovakia,5.0
+BB,Barbados,AT,Austria,3.0
+BB,Barbados,CZ,Czechia,1.0
+BB,Barbados,DK,Denmark,2.0
+BB,Barbados,IT,Italy,2.0
+BB,Barbados,NL,Netherlands,12.0
+BD,Bangladesh,AT,Austria,113.0
+BD,Bangladesh,BG,Bulgaria,4.0
+BD,Bangladesh,CZ,Czechia,168.0
+BD,Bangladesh,DK,Denmark,307.0
+BD,Bangladesh,ES,Spain,1191.0
+BD,Bangladesh,FI,Finland,269.0
+BD,Bangladesh,HR,Croatia,249.0
+BD,Bangladesh,IS,Iceland,5.0
+BD,Bangladesh,IT,Italy,15121.0
+BD,Bangladesh,LT,Lithuania,7.0
+BD,Bangladesh,LU,Luxembourg,16.0
+BD,Bangladesh,LV,Latvia,2.0
+BD,Bangladesh,NL,Netherlands,669.0
+BD,Bangladesh,NO,Norway,351.0
+BD,Bangladesh,RO,Romania,913.0
+BD,Bangladesh,SI,Slovenia,19.0
+BE,Belgium,AT,Austria,242.0
+BE,Belgium,BG,Bulgaria,305.0
+BE,Belgium,CZ,Czechia,57.0
+BE,Belgium,DK,Denmark,274.0
+BE,Belgium,ES,Spain,4662.0
+BE,Belgium,FI,Finland,88.0
+BE,Belgium,FR,France,7107.0
+BE,Belgium,HR,Croatia,62.0
+BE,Belgium,IS,Iceland,20.0
+BE,Belgium,IT,Italy,817.0
+BE,Belgium,LI,Liechtenstein,1.0
+BE,Belgium,LT,Lithuania,18.0
+BE,Belgium,LU,Luxembourg,956.0
+BE,Belgium,LV,Latvia,10.0
+BE,Belgium,MK,North Macedonia,5.0
+BE,Belgium,NL,Netherlands,3507.0
+BE,Belgium,NO,Norway,144.0
+BE,Belgium,RO,Romania,250.0
+BE,Belgium,SI,Slovenia,36.0
+BE,Belgium,SK,Slovakia,36.0
+BF,Burkina Faso,AT,Austria,13.0
+BF,Burkina Faso,BG,Bulgaria,2.0
+BF,Burkina Faso,CZ,Czechia,1.0
+BF,Burkina Faso,DK,Denmark,4.0
+BF,Burkina Faso,FI,Finland,3.0
+BF,Burkina Faso,HR,Croatia,1.0
+BF,Burkina Faso,IT,Italy,789.0
+BF,Burkina Faso,LU,Luxembourg,25.0
+BF,Burkina Faso,MK,North Macedonia,1.0
+BF,Burkina Faso,NL,Netherlands,18.0
+BF,Burkina Faso,NO,Norway,2.0
+BF,Burkina Faso,RO,Romania,43.0
+BG,Bulgaria,AT,Austria,2842.0
+BG,Bulgaria,BG,Bulgaria,18979.0
+BG,Bulgaria,CZ,Czechia,884.0
+BG,Bulgaria,DK,Denmark,1499.0
+BG,Bulgaria,ES,Spain,3046.0
+BG,Bulgaria,FI,Finland,148.0
+BG,Bulgaria,FR,France,1203.0
+BG,Bulgaria,HR,Croatia,40.0
+BG,Bulgaria,IS,Iceland,44.0
+BG,Bulgaria,IT,Italy,2087.0
+BG,Bulgaria,LT,Lithuania,19.0
+BG,Bulgaria,LU,Luxembourg,192.0
+BG,Bulgaria,LV,Latvia,7.0
+BG,Bulgaria,MK,North Macedonia,29.0
+BG,Bulgaria,NL,Netherlands,7348.0
+BG,Bulgaria,NO,Norway,481.0
+BG,Bulgaria,RO,Romania,522.0
+BG,Bulgaria,SI,Slovenia,188.0
+BG,Bulgaria,SK,Slovakia,19.0
+BH,Bahrain,AT,Austria,1.0
+BH,Bahrain,BG,Bulgaria,4.0
+BH,Bahrain,CZ,Czechia,2.0
+BH,Bahrain,DK,Denmark,8.0
+BH,Bahrain,FI,Finland,8.0
+BH,Bahrain,HR,Croatia,1.0
+BH,Bahrain,IT,Italy,10.0
+BH,Bahrain,LT,Lithuania,3.0
+BH,Bahrain,LU,Luxembourg,6.0
+BH,Bahrain,LV,Latvia,1.0
+BH,Bahrain,NL,Netherlands,33.0
+BH,Bahrain,NO,Norway,6.0
+BH,Bahrain,RO,Romania,7.0
+BI,Burundi,AT,Austria,1.0
+BI,Burundi,BG,Bulgaria,2.0
+BI,Burundi,DK,Denmark,9.0
+BI,Burundi,FI,Finland,15.0
+BI,Burundi,IT,Italy,67.0
+BI,Burundi,LU,Luxembourg,9.0
+BI,Burundi,NL,Netherlands,35.0
+BI,Burundi,NO,Norway,20.0
+BI,Burundi,RO,Romania,5.0
+BI,Burundi,SI,Slovenia,1.0
+BJ,Benin,AT,Austria,6.0
+BJ,Benin,CZ,Czechia,1.0
+BJ,Benin,FI,Finland,5.0
+BJ,Benin,HR,Croatia,1.0
+BJ,Benin,IT,Italy,156.0
+BJ,Benin,LU,Luxembourg,15.0
+BJ,Benin,LV,Latvia,1.0
+BJ,Benin,NL,Netherlands,18.0
+BJ,Benin,NO,Norway,2.0
+BJ,Benin,RO,Romania,7.0
+BM,Bermuda,LU,Luxembourg,1.0
+BM,Bermuda,NL,Netherlands,9.0
+BM,Bermuda,NO,Norway,1.0
+BM,Bermuda,SK,Slovakia,1.0
+BN,Brunei Darussalam,AT,Austria,4.0
+BN,Brunei Darussalam,DK,Denmark,5.0
+BN,Brunei Darussalam,LU,Luxembourg,1.0
+BN,Brunei Darussalam,NL,Netherlands,17.0
+BN,Brunei Darussalam,NO,Norway,6.0
+BN,Brunei Darussalam,RO,Romania,1.0
+BO,Bolivia,AT,Austria,34.0
+BO,Bolivia,BG,Bulgaria,1.0
+BO,Bolivia,CZ,Czechia,4.0
+BO,Bolivia,DK,Denmark,18.0
+BO,Bolivia,ES,Spain,4659.0
+BO,Bolivia,FI,Finland,8.0
+BO,Bolivia,HR,Croatia,8.0
+BO,Bolivia,IS,Iceland,1.0
+BO,Bolivia,IT,Italy,318.0
+BO,Bolivia,LT,Lithuania,1.0
+BO,Bolivia,LU,Luxembourg,28.0
+BO,Bolivia,NL,Netherlands,88.0
+BO,Bolivia,NO,Norway,25.0
+BO,Bolivia,RO,Romania,140.0
+BO,Bolivia,SI,Slovenia,3.0
+BO,Bolivia,SK,Slovakia,1.0
+BQ,"Bonaire, Saint Eustatius and Saba",NL,Netherlands,151.0
+BR,Brazil,AT,Austria,694.0
+BR,Brazil,BG,Bulgaria,50.0
+BR,Brazil,CZ,Czechia,169.0
+BR,Brazil,DK,Denmark,555.0
+BR,Brazil,ES,Spain,9294.0
+BR,Brazil,FI,Finland,265.0
+BR,Brazil,HR,Croatia,102.0
+BR,Brazil,IS,Iceland,38.0
+BR,Brazil,IT,Italy,10783.0
+BR,Brazil,LI,Liechtenstein,17.0
+BR,Brazil,LT,Lithuania,18.0
+BR,Brazil,LU,Luxembourg,857.0
+BR,Brazil,LV,Latvia,19.0
+BR,Brazil,MK,North Macedonia,5.0
+BR,Brazil,NL,Netherlands,3261.0
+BR,Brazil,NO,Norway,441.0
+BR,Brazil,RO,Romania,193.0
+BR,Brazil,SI,Slovenia,39.0
+BR,Brazil,SK,Slovakia,7.0
+BS,Bahamas,AT,Austria,1.0
+BS,Bahamas,BG,Bulgaria,1.0
+BS,Bahamas,DK,Denmark,2.0
+BS,Bahamas,FI,Finland,1.0
+BS,Bahamas,IS,Iceland,1.0
+BS,Bahamas,IT,Italy,5.0
+BS,Bahamas,NL,Netherlands,5.0
+BT,Bhutan,AT,Austria,5.0
+BT,Bhutan,BG,Bulgaria,1.0
+BT,Bhutan,DK,Denmark,4.0
+BT,Bhutan,FI,Finland,1.0
+BT,Bhutan,IT,Italy,5.0
+BT,Bhutan,LU,Luxembourg,1.0
+BT,Bhutan,NL,Netherlands,10.0
+BW,Botswana,AT,Austria,5.0
+BW,Botswana,BG,Bulgaria,2.0
+BW,Botswana,CZ,Czechia,1.0
+BW,Botswana,DK,Denmark,5.0
+BW,Botswana,FI,Finland,1.0
+BW,Botswana,HR,Croatia,1.0
+BW,Botswana,IT,Italy,5.0
+BW,Botswana,LU,Luxembourg,1.0
+BW,Botswana,NL,Netherlands,28.0
+BW,Botswana,NO,Norway,4.0
+BW,Botswana,RO,Romania,1.0
+BY,Belarus,AT,Austria,215.0
+BY,Belarus,BG,Bulgaria,105.0
+BY,Belarus,CZ,Czechia,1171.0
+BY,Belarus,DK,Denmark,65.0
+BY,Belarus,FI,Finland,84.0
+BY,Belarus,HR,Croatia,26.0
+BY,Belarus,IS,Iceland,3.0
+BY,Belarus,IT,Italy,300.0
+BY,Belarus,LI,Liechtenstein,1.0
+BY,Belarus,LT,Lithuania,7965.0
+BY,Belarus,LU,Luxembourg,34.0
+BY,Belarus,LV,Latvia,654.0
+BY,Belarus,MK,North Macedonia,7.0
+BY,Belarus,NL,Netherlands,407.0
+BY,Belarus,NO,Norway,94.0
+BY,Belarus,RO,Romania,114.0
+BY,Belarus,SI,Slovenia,18.0
+BY,Belarus,SK,Slovakia,4.0
+BZ,Belize,AT,Austria,1.0
+BZ,Belize,BG,Bulgaria,2.0
+BZ,Belize,CZ,Czechia,1.0
+BZ,Belize,IT,Italy,3.0
+BZ,Belize,NL,Netherlands,2.0
+BZ,Belize,RO,Romania,1.0
+BZ,Belize,SK,Slovakia,1.0
+CA,Canada,AT,Austria,224.0
+CA,Canada,BG,Bulgaria,74.0
+CA,Canada,CZ,Czechia,120.0
+CA,Canada,DK,Denmark,265.0
+CA,Canada,FI,Finland,146.0
+CA,Canada,HR,Croatia,152.0
+CA,Canada,IS,Iceland,35.0
+CA,Canada,IT,Italy,439.0
+CA,Canada,LI,Liechtenstein,2.0
+CA,Canada,LT,Lithuania,20.0
+CA,Canada,LU,Luxembourg,93.0
+CA,Canada,LV,Latvia,15.0
+CA,Canada,MK,North Macedonia,9.0
+CA,Canada,NL,Netherlands,743.0
+CA,Canada,NO,Norway,228.0
+CA,Canada,RO,Romania,246.0
+CA,Canada,SI,Slovenia,26.0
+CA,Canada,SK,Slovakia,24.0
+CD,Democratic Republic of the Congo,AT,Austria,23.0
+CD,Democratic Republic of the Congo,BG,Bulgaria,1.0
+CD,Democratic Republic of the Congo,CZ,Czechia,4.0
+CD,Democratic Republic of the Congo,DK,Denmark,45.0
+CD,Democratic Republic of the Congo,FI,Finland,42.0
+CD,Democratic Republic of the Congo,HR,Croatia,16.0
+CD,Democratic Republic of the Congo,IT,Italy,256.0
+CD,Democratic Republic of the Congo,LI,Liechtenstein,1.0
+CD,Democratic Republic of the Congo,LT,Lithuania,6.0
+CD,Democratic Republic of the Congo,LU,Luxembourg,56.0
+CD,Democratic Republic of the Congo,LV,Latvia,2.0
+CD,Democratic Republic of the Congo,NL,Netherlands,122.0
+CD,Democratic Republic of the Congo,NO,Norway,551.0
+CD,Democratic Republic of the Congo,RO,Romania,62.0
+CD,Democratic Republic of the Congo,SI,Slovenia,1.0
+CF,Central African Republic,AT,Austria,5.0
+CF,Central African Republic,FI,Finland,1.0
+CF,Central African Republic,IT,Italy,17.0
+CF,Central African Republic,LU,Luxembourg,3.0
+CF,Central African Republic,NL,Netherlands,4.0
+CF,Central African Republic,NO,Norway,2.0
+CF,Central African Republic,RO,Romania,8.0
+CF,Central African Republic,SI,Slovenia,1.0
+CG,Congo,AT,Austria,25.0
+CG,Congo,BG,Bulgaria,7.0
+CG,Congo,CZ,Czechia,2.0
+CG,Congo,DK,Denmark,5.0
+CG,Congo,FI,Finland,5.0
+CG,Congo,HR,Croatia,1.0
+CG,Congo,IT,Italy,172.0
+CG,Congo,LU,Luxembourg,22.0
+CG,Congo,LV,Latvia,1.0
+CG,Congo,NL,Netherlands,24.0
+CG,Congo,NO,Norway,5.0
+CG,Congo,RO,Romania,73.0
+CH,Switzerland,AT,Austria,695.0
+CH,Switzerland,BG,Bulgaria,34.0
+CH,Switzerland,CZ,Czechia,51.0
+CH,Switzerland,DK,Denmark,238.0
+CH,Switzerland,ES,Spain,2034.0
+CH,Switzerland,FI,Finland,83.0
+CH,Switzerland,HR,Croatia,155.0
+CH,Switzerland,IS,Iceland,34.0
+CH,Switzerland,IT,Italy,1636.0
+CH,Switzerland,LI,Liechtenstein,204.0
+CH,Switzerland,LT,Lithuania,11.0
+CH,Switzerland,LU,Luxembourg,80.0
+CH,Switzerland,LV,Latvia,5.0
+CH,Switzerland,MK,North Macedonia,9.0
+CH,Switzerland,NL,Netherlands,818.0
+CH,Switzerland,NO,Norway,147.0
+CH,Switzerland,RO,Romania,148.0
+CH,Switzerland,SI,Slovenia,86.0
+CH,Switzerland,SK,Slovakia,115.0
+CI,Côte d’Ivoire,AT,Austria,24.0
+CI,Côte d’Ivoire,BG,Bulgaria,3.0
+CI,Côte d’Ivoire,CZ,Czechia,2.0
+CI,Côte d’Ivoire,DK,Denmark,14.0
+CI,Côte d’Ivoire,FI,Finland,11.0
+CI,Côte d’Ivoire,IT,Italy,1974.0
+CI,Côte d’Ivoire,LT,Lithuania,1.0
+CI,Côte d’Ivoire,LU,Luxembourg,105.0
+CI,Côte d’Ivoire,NL,Netherlands,51.0
+CI,Côte d’Ivoire,NO,Norway,9.0
+CI,Côte d’Ivoire,RO,Romania,109.0
+CL,Chile,AT,Austria,87.0
+CL,Chile,BG,Bulgaria,3.0
+CL,Chile,CZ,Czechia,36.0
+CL,Chile,DK,Denmark,143.0
+CL,Chile,ES,Spain,5333.0
+CL,Chile,FI,Finland,63.0
+CL,Chile,HR,Croatia,31.0
+CL,Chile,IS,Iceland,8.0
+CL,Chile,IT,Italy,589.0
+CL,Chile,LI,Liechtenstein,4.0
+CL,Chile,LT,Lithuania,1.0
+CL,Chile,LU,Luxembourg,43.0
+CL,Chile,LV,Latvia,4.0
+CL,Chile,MK,North Macedonia,1.0
+CL,Chile,NL,Netherlands,378.0
+CL,Chile,NO,Norway,106.0
+CL,Chile,RO,Romania,176.0
+CL,Chile,SI,Slovenia,7.0
+CM,Cameroon,AT,Austria,44.0
+CM,Cameroon,BG,Bulgaria,4.0
+CM,Cameroon,CZ,Czechia,19.0
+CM,Cameroon,DK,Denmark,68.0
+CM,Cameroon,FI,Finland,127.0
+CM,Cameroon,HR,Croatia,5.0
+CM,Cameroon,IS,Iceland,3.0
+CM,Cameroon,IT,Italy,837.0
+CM,Cameroon,LT,Lithuania,53.0
+CM,Cameroon,LU,Luxembourg,273.0
+CM,Cameroon,LV,Latvia,65.0
+CM,Cameroon,NL,Netherlands,137.0
+CM,Cameroon,NO,Norway,49.0
+CM,Cameroon,RO,Romania,179.0
+CM,Cameroon,SI,Slovenia,1.0
+CN,China,AT,Austria,1062.0
+CN,China,BG,Bulgaria,153.0
+CN,China,CZ,Czechia,491.0
+CN,China,DK,Denmark,1271.0
+CN,China,ES,Spain,6030.0
+CN,China,FI,Finland,1175.0
+CN,China,HR,Croatia,163.0
+CN,China,IS,Iceland,58.0
+CN,China,IT,Italy,6122.0
+CN,China,LI,Liechtenstein,17.0
+CN,China,LT,Lithuania,125.0
+CN,China,LU,Luxembourg,402.0
+CN,China,LV,Latvia,65.0
+CN,China,MK,North Macedonia,1.0
+CN,China,NL,Netherlands,5794.0
+CN,China,NO,Norway,543.0
+CN,China,RO,Romania,1096.0
+CN,China,SI,Slovenia,93.0
+CN,China,SK,Slovakia,8.0
+CO,Colombia,AT,Austria,353.0
+CO,Colombia,BG,Bulgaria,22.0
+CO,Colombia,CZ,Czechia,86.0
+CO,Colombia,DK,Denmark,209.0
+CO,Colombia,ES,Spain,42809.0
+CO,Colombia,FI,Finland,107.0
+CO,Colombia,HR,Croatia,50.0
+CO,Colombia,IS,Iceland,26.0
+CO,Colombia,IT,Italy,2309.0
+CO,Colombia,LI,Liechtenstein,5.0
+CO,Colombia,LT,Lithuania,13.0
+CO,Colombia,LU,Luxembourg,112.0
+CO,Colombia,LV,Latvia,6.0
+CO,Colombia,NL,Netherlands,1232.0
+CO,Colombia,NO,Norway,218.0
+CO,Colombia,RO,Romania,146.0
+CO,Colombia,SI,Slovenia,13.0
+CO,Colombia,SK,Slovakia,1.0
+CR,Costa Rica,AT,Austria,38.0
+CR,Costa Rica,BG,Bulgaria,4.0
+CR,Costa Rica,CZ,Czechia,17.0
+CR,Costa Rica,DK,Denmark,16.0
+CR,Costa Rica,FI,Finland,5.0
+CR,Costa Rica,HR,Croatia,2.0
+CR,Costa Rica,IS,Iceland,2.0
+CR,Costa Rica,IT,Italy,91.0
+CR,Costa Rica,LT,Lithuania,1.0
+CR,Costa Rica,LU,Luxembourg,7.0
+CR,Costa Rica,LV,Latvia,1.0
+CR,Costa Rica,NL,Netherlands,124.0
+CR,Costa Rica,NO,Norway,11.0
+CR,Costa Rica,RO,Romania,73.0
+CR,Costa Rica,SI,Slovenia,2.0
+CR,Costa Rica,SK,Slovakia,1.0
+CRB,Caribbean,AT,Austria,200.0
+CRB,Caribbean,CZ,Czechia,45.0
+CRB,Caribbean,DK,Denmark,62.0
+CRB,Caribbean,FI,Finland,46.0
+CRB,Caribbean,HR,Croatia,14.0
+CRB,Caribbean,IS,Iceland,18.0
+CRB,Caribbean,IT,Italy,3935.0
+CRB,Caribbean,LI,Liechtenstein,6.0
+CRB,Caribbean,LT,Lithuania,4.0
+CRB,Caribbean,LU,Luxembourg,76.0
+CRB,Caribbean,LV,Latvia,4.0
+CRB,Caribbean,MK,North Macedonia,6.0
+CRB,Caribbean,NL,Netherlands,2635.0
+CRB,Caribbean,NO,Norway,96.0
+CRB,Caribbean,SI,Slovenia,23.0
+CRB,Caribbean,SK,Slovakia,9.0
+CU,Cuba,AT,Austria,66.0
+CU,Cuba,BG,Bulgaria,24.0
+CU,Cuba,CZ,Czechia,32.0
+CU,Cuba,DK,Denmark,31.0
+CU,Cuba,ES,Spain,15280.0
+CU,Cuba,FI,Finland,22.0
+CU,Cuba,HR,Croatia,5.0
+CU,Cuba,IS,Iceland,3.0
+CU,Cuba,IT,Italy,1972.0
+CU,Cuba,LI,Liechtenstein,1.0
+CU,Cuba,LT,Lithuania,3.0
+CU,Cuba,LU,Luxembourg,25.0
+CU,Cuba,LV,Latvia,2.0
+CU,Cuba,MK,North Macedonia,5.0
+CU,Cuba,NL,Netherlands,136.0
+CU,Cuba,NO,Norway,37.0
+CU,Cuba,RO,Romania,162.0
+CU,Cuba,SI,Slovenia,10.0
+CU,Cuba,SK,Slovakia,5.0
+CV,Cabo Verde,AT,Austria,6.0
+CV,Cabo Verde,BG,Bulgaria,2.0
+CV,Cabo Verde,CZ,Czechia,2.0
+CV,Cabo Verde,DK,Denmark,2.0
+CV,Cabo Verde,FI,Finland,1.0
+CV,Cabo Verde,IS,Iceland,2.0
+CV,Cabo Verde,IT,Italy,86.0
+CV,Cabo Verde,LU,Luxembourg,659.0
+CV,Cabo Verde,NL,Netherlands,175.0
+CV,Cabo Verde,NO,Norway,5.0
+CV,Cabo Verde,RO,Romania,37.0
+CV,Cabo Verde,SI,Slovenia,1.0
+CW,Curaçao,LU,Luxembourg,1.0
+CW,Curaçao,NL,Netherlands,3164.0
+CY,Cyprus,AT,Austria,42.0
+CY,Cyprus,BG,Bulgaria,94.0
+CY,Cyprus,CZ,Czechia,11.0
+CY,Cyprus,DK,Denmark,49.0
+CY,Cyprus,FI,Finland,22.0
+CY,Cyprus,FR,France,172.0
+CY,Cyprus,HR,Croatia,4.0
+CY,Cyprus,IS,Iceland,3.0
+CY,Cyprus,IT,Italy,47.0
+CY,Cyprus,LT,Lithuania,4.0
+CY,Cyprus,LU,Luxembourg,17.0
+CY,Cyprus,LV,Latvia,1.0
+CY,Cyprus,MK,North Macedonia,1.0
+CY,Cyprus,NL,Netherlands,468.0
+CY,Cyprus,NO,Norway,28.0
+CY,Cyprus,RO,Romania,55.0
+CY,Cyprus,SI,Slovenia,3.0
+CY,Cyprus,SK,Slovakia,11.0
+CZ,Czechia,AT,Austria,1097.0
+CZ,Czechia,BG,Bulgaria,133.0
+CZ,Czechia,CZ,Czechia,5107.0
+CZ,Czechia,DK,Denmark,371.0
+CZ,Czechia,FI,Finland,30.0
+CZ,Czechia,FR,France,284.0
+CZ,Czechia,HR,Croatia,169.0
+CZ,Czechia,IS,Iceland,145.0
+CZ,Czechia,IT,Italy,80.0
+CZ,Czechia,LT,Lithuania,11.0
+CZ,Czechia,LU,Luxembourg,71.0
+CZ,Czechia,LV,Latvia,8.0
+CZ,Czechia,MK,North Macedonia,3.0
+CZ,Czechia,NL,Netherlands,780.0
+CZ,Czechia,NO,Norway,228.0
+CZ,Czechia,RO,Romania,155.0
+CZ,Czechia,SI,Slovenia,50.0
+CZ,Czechia,SK,Slovakia,1304.0
+CZ_SK,Czechoslovakia,CZ,Czechia,1.0
+CZ_SK,Czechoslovakia,DK,Denmark,2.0
+CZ_SK,Czechoslovakia,FI,Finland,27.0
+CZ_SK,Czechoslovakia,IT,Italy,433.0
+DE,Germany,AT,Austria,16940.0
+DE,Germany,BG,Bulgaria,1631.0
+DE,Germany,CZ,Czechia,714.0
+DE,Germany,DK,Denmark,3339.0
+DE,Germany,ES,Spain,11593.0
+DE,Germany,FI,Finland,555.0
+DE,Germany,FR,France,6403.0
+DE,Germany,HR,Croatia,1751.0
+DE,Germany,IS,Iceland,273.0
+DE,Germany,IT,Italy,4406.0
+DE,Germany,LI,Liechtenstein,80.0
+DE,Germany,LT,Lithuania,278.0
+DE,Germany,LU,Luxembourg,910.0
+DE,Germany,LV,Latvia,157.0
+DE,Germany,MK,North Macedonia,21.0
+DE,Germany,NL,Netherlands,8502.0
+DE,Germany,NO,Norway,1710.0
+DE,Germany,RO,Romania,1471.0
+DE,Germany,SI,Slovenia,432.0
+DE,Germany,SK,Slovakia,403.0
+DJ,Djibouti,AT,Austria,1.0
+DJ,Djibouti,CZ,Czechia,1.0
+DJ,Djibouti,DK,Denmark,1.0
+DJ,Djibouti,IS,Iceland,1.0
+DJ,Djibouti,IT,Italy,5.0
+DJ,Djibouti,LU,Luxembourg,1.0
+DJ,Djibouti,NL,Netherlands,8.0
+DJ,Djibouti,NO,Norway,4.0
+DK,Denmark,AT,Austria,105.0
+DK,Denmark,BG,Bulgaria,54.0
+DK,Denmark,CZ,Czechia,30.0
+DK,Denmark,DK,Denmark,11868.0
+DK,Denmark,ES,Spain,825.0
+DK,Denmark,FI,Finland,75.0
+DK,Denmark,FR,France,402.0
+DK,Denmark,HR,Croatia,14.0
+DK,Denmark,IS,Iceland,176.0
+DK,Denmark,IT,Italy,183.0
+DK,Denmark,LT,Lithuania,71.0
+DK,Denmark,LU,Luxembourg,58.0
+DK,Denmark,LV,Latvia,21.0
+DK,Denmark,MK,North Macedonia,4.0
+DK,Denmark,NL,Netherlands,424.0
+DK,Denmark,NO,Norway,1198.0
+DK,Denmark,RO,Romania,48.0
+DK,Denmark,SI,Slovenia,10.0
+DK,Denmark,SK,Slovakia,10.0
+DM,Dominica,AT,Austria,3.0
+DM,Dominica,BG,Bulgaria,2.0
+DM,Dominica,IT,Italy,7.0
+DM,Dominica,NL,Netherlands,8.0
+DM,Dominica,NO,Norway,1.0
+DM,Dominica,RO,Romania,3.0
+DO,Dominican Republic,AT,Austria,96.0
+DO,Dominican Republic,BG,Bulgaria,1.0
+DO,Dominican Republic,CZ,Czechia,8.0
+DO,Dominican Republic,DK,Denmark,11.0
+DO,Dominican Republic,ES,Spain,8241.0
+DO,Dominican Republic,FI,Finland,15.0
+DO,Dominican Republic,HR,Croatia,6.0
+DO,Dominican Republic,IS,Iceland,6.0
+DO,Dominican Republic,IT,Italy,1864.0
+DO,Dominican Republic,LI,Liechtenstein,5.0
+DO,Dominican Republic,LT,Lithuania,1.0
+DO,Dominican Republic,LU,Luxembourg,39.0
+DO,Dominican Republic,NL,Netherlands,501.0
+DO,Dominican Republic,NO,Norway,33.0
+DO,Dominican Republic,RO,Romania,175.0
+DO,Dominican Republic,SI,Slovenia,10.0
+DO,Dominican Republic,SK,Slovakia,3.0
+DZ,Algeria,AT,Austria,116.0
+DZ,Algeria,BG,Bulgaria,20.0
+DZ,Algeria,CZ,Czechia,46.0
+DZ,Algeria,DK,Denmark,39.0
+DZ,Algeria,ES,Spain,6050.0
+DZ,Algeria,FI,Finland,70.0
+DZ,Algeria,HR,Croatia,5.0
+DZ,Algeria,IS,Iceland,2.0
+DZ,Algeria,IT,Italy,737.0
+DZ,Algeria,LI,Liechtenstein,2.0
+DZ,Algeria,LT,Lithuania,6.0
+DZ,Algeria,LU,Luxembourg,128.0
+DZ,Algeria,LV,Latvia,2.0
+DZ,Algeria,MK,North Macedonia,1.0
+DZ,Algeria,NL,Netherlands,170.0
+DZ,Algeria,NO,Norway,56.0
+DZ,Algeria,RO,Romania,366.0
+DZ,Algeria,SI,Slovenia,8.0
+DZ,Algeria,SK,Slovakia,1.0
+EC,Ecuador,AT,Austria,85.0
+EC,Ecuador,BG,Bulgaria,6.0
+EC,Ecuador,CZ,Czechia,30.0
+EC,Ecuador,DK,Denmark,52.0
+EC,Ecuador,ES,Spain,11310.0
+EC,Ecuador,FI,Finland,26.0
+EC,Ecuador,HR,Croatia,10.0
+EC,Ecuador,IS,Iceland,7.0
+EC,Ecuador,IT,Italy,1079.0
+EC,Ecuador,LT,Lithuania,6.0
+EC,Ecuador,LU,Luxembourg,26.0
+EC,Ecuador,LV,Latvia,1.0
+EC,Ecuador,NL,Netherlands,308.0
+EC,Ecuador,NO,Norway,53.0
+EC,Ecuador,RO,Romania,162.0
+EC,Ecuador,SI,Slovenia,1.0
+EC,Ecuador,SK,Slovakia,1.0
+EE,Estonia,AT,Austria,53.0
+EE,Estonia,BG,Bulgaria,26.0
+EE,Estonia,CZ,Czechia,31.0
+EE,Estonia,DK,Denmark,91.0
+EE,Estonia,FI,Finland,1993.0
+EE,Estonia,FR,France,138.0
+EE,Estonia,HR,Croatia,5.0
+EE,Estonia,IS,Iceland,50.0
+EE,Estonia,IT,Italy,23.0
+EE,Estonia,LI,Liechtenstein,1.0
+EE,Estonia,LT,Lithuania,50.0
+EE,Estonia,LU,Luxembourg,23.0
+EE,Estonia,LV,Latvia,61.0
+EE,Estonia,NL,Netherlands,304.0
+EE,Estonia,NO,Norway,277.0
+EE,Estonia,RO,Romania,37.0
+EE,Estonia,SI,Slovenia,3.0
+EE,Estonia,SK,Slovakia,7.0
+EFTA_FOR,European Free Trade Association except reporting country,AT,Austria,791.0
+EFTA_FOR,European Free Trade Association except reporting country,BE,Belgium,540.0
+EFTA_FOR,European Free Trade Association except reporting country,BG,Bulgaria,57.0
+EFTA_FOR,European Free Trade Association except reporting country,CH,Switzerland,341.0
+EFTA_FOR,European Free Trade Association except reporting country,CY,Cyprus,20.0
+EFTA_FOR,European Free Trade Association except reporting country,CZ,Czechia,69.0
+EFTA_FOR,European Free Trade Association except reporting country,DE,Germany,4497.0
+EFTA_FOR,European Free Trade Association except reporting country,DK,Denmark,2250.0
+EFTA_FOR,European Free Trade Association except reporting country,EE,Estonia,98.0
+EFTA_FOR,European Free Trade Association except reporting country,EL,Greece,144.0
+EFTA_FOR,European Free Trade Association except reporting country,ES,Spain,3661.0
+EFTA_FOR,European Free Trade Association except reporting country,FI,Finland,230.0
+EFTA_FOR,European Free Trade Association except reporting country,FR,France,5266.0
+EFTA_FOR,European Free Trade Association except reporting country,HR,Croatia,192.0
+EFTA_FOR,European Free Trade Association except reporting country,HU,Hungary,357.0
+EFTA_FOR,European Free Trade Association except reporting country,IE,Ireland,251.0
+EFTA_FOR,European Free Trade Association except reporting country,IS,Iceland,129.0
+EFTA_FOR,European Free Trade Association except reporting country,IT,Italy,1766.0
+EFTA_FOR,European Free Trade Association except reporting country,LI,Liechtenstein,204.0
+EFTA_FOR,European Free Trade Association except reporting country,LT,Lithuania,313.0
+EFTA_FOR,European Free Trade Association except reporting country,LU,Luxembourg,124.0
+EFTA_FOR,European Free Trade Association except reporting country,LV,Latvia,52.0
+EFTA_FOR,European Free Trade Association except reporting country,MK,North Macedonia,11.0
+EFTA_FOR,European Free Trade Association except reporting country,MT,Malta,106.0
+EFTA_FOR,European Free Trade Association except reporting country,NL,Netherlands,1260.0
+EFTA_FOR,European Free Trade Association except reporting country,NO,Norway,358.0
+EFTA_FOR,European Free Trade Association except reporting country,PL,Poland,1086.0
+EFTA_FOR,European Free Trade Association except reporting country,RO,Romania,247.0
+EFTA_FOR,European Free Trade Association except reporting country,SE,Sweden,2103.0
+EFTA_FOR,European Free Trade Association except reporting country,SI,Slovenia,93.0
+EFTA_FOR,European Free Trade Association except reporting country,SK,Slovakia,172.0
+EG,Egypt,AT,Austria,579.0
+EG,Egypt,BG,Bulgaria,44.0
+EG,Egypt,CZ,Czechia,144.0
+EG,Egypt,DK,Denmark,131.0
+EG,Egypt,FI,Finland,149.0
+EG,Egypt,HR,Croatia,47.0
+EG,Egypt,IS,Iceland,8.0
+EG,Egypt,IT,Italy,8255.0
+EG,Egypt,LT,Lithuania,46.0
+EG,Egypt,LU,Luxembourg,84.0
+EG,Egypt,LV,Latvia,18.0
+EG,Egypt,MK,North Macedonia,3.0
+EG,Egypt,NL,Netherlands,1207.0
+EG,Egypt,NO,Norway,105.0
+EG,Egypt,RO,Romania,555.0
+EG,Egypt,SI,Slovenia,16.0
+EG,Egypt,SK,Slovakia,7.0
+EH,Western Sahara,AT,Austria,1.0
+EH,Western Sahara,NO,Norway,2.0
+EL,Greece,AT,Austria,699.0
+EL,Greece,BG,Bulgaria,910.0
+EL,Greece,CZ,Czechia,125.0
+EL,Greece,DK,Denmark,537.0
+EL,Greece,FI,Finland,142.0
+EL,Greece,FR,France,751.0
+EL,Greece,HR,Croatia,70.0
+EL,Greece,IS,Iceland,87.0
+EL,Greece,IT,Italy,696.0
+EL,Greece,LT,Lithuania,24.0
+EL,Greece,LU,Luxembourg,376.0
+EL,Greece,LV,Latvia,6.0
+EL,Greece,MK,North Macedonia,18.0
+EL,Greece,NL,Netherlands,3800.0
+EL,Greece,NO,Norway,371.0
+EL,Greece,RO,Romania,587.0
+EL,Greece,SI,Slovenia,42.0
+EL,Greece,SK,Slovakia,15.0
+ER,Eritrea,AT,Austria,33.0
+ER,Eritrea,BG,Bulgaria,1.0
+ER,Eritrea,DK,Denmark,128.0
+ER,Eritrea,FI,Finland,107.0
+ER,Eritrea,HR,Croatia,5.0
+ER,Eritrea,IS,Iceland,1.0
+ER,Eritrea,IT,Italy,275.0
+ER,Eritrea,LT,Lithuania,27.0
+ER,Eritrea,LU,Luxembourg,233.0
+ER,Eritrea,NL,Netherlands,1372.0
+ER,Eritrea,NO,Norway,991.0
+ER,Eritrea,RO,Romania,20.0
+ER,Eritrea,SI,Slovenia,6.0
+ER,Eritrea,SK,Slovakia,1.0
+ES,Spain,AT,Austria,1012.0
+ES,Spain,BG,Bulgaria,402.0
+ES,Spain,CZ,Czechia,180.0
+ES,Spain,DK,Denmark,1493.0
+ES,Spain,ES,Spain,32382.0
+ES,Spain,FI,Finland,306.0
+ES,Spain,FR,France,10207.0
+ES,Spain,HR,Croatia,173.0
+ES,Spain,IS,Iceland,226.0
+ES,Spain,IT,Italy,2110.0
+ES,Spain,LI,Liechtenstein,5.0
+ES,Spain,LT,Lithuania,70.0
+ES,Spain,LU,Luxembourg,848.0
+ES,Spain,LV,Latvia,30.0
+ES,Spain,MK,North Macedonia,7.0
+ES,Spain,NL,Netherlands,5309.0
+ES,Spain,NO,Norway,1118.0
+ES,Spain,RO,Romania,3391.0
+ES,Spain,SI,Slovenia,61.0
+ES,Spain,SK,Slovakia,69.0
+ET,Ethiopia,AT,Austria,65.0
+ET,Ethiopia,BG,Bulgaria,3.0
+ET,Ethiopia,CZ,Czechia,39.0
+ET,Ethiopia,DK,Denmark,54.0
+ET,Ethiopia,FI,Finland,85.0
+ET,Ethiopia,HR,Croatia,2.0
+ET,Ethiopia,IS,Iceland,11.0
+ET,Ethiopia,IT,Italy,467.0
+ET,Ethiopia,LT,Lithuania,6.0
+ET,Ethiopia,LU,Luxembourg,45.0
+ET,Ethiopia,NL,Netherlands,812.0
+ET,Ethiopia,NO,Norway,381.0
+ET,Ethiopia,RO,Romania,70.0
+ET,Ethiopia,SK,Slovakia,3.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,AT,Austria,58879.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,BE,Belgium,54097.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,BG,Bulgaria,6160.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,CH,Switzerland,72472.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,CY,Cyprus,7482.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,CZ,Czechia,11226.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,DE,Germany,271047.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,DK,Denmark,26865.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,EE,Estonia,3942.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,EL,Greece,5068.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,ES,Spain,86981.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,FI,Finland,6917.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,FR,France,58324.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,HR,Croatia,5272.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,HU,Hungary,16583.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,IE,Ireland,16036.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,IS,Iceland,4936.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,IT,Italy,44984.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,LI,Liechtenstein,235.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,LT,Lithuania,1528.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,LU,Luxembourg,12748.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,LV,Latvia,917.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,MK,North Macedonia,187.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,MT,Malta,6168.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,NL,Netherlands,81779.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,NO,Norway,24960.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,PL,Poland,51486.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,PT,Portugal,6352.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,RO,Romania,13554.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,SE,Sweden,21530.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,SI,Slovenia,2864.0
+EU27_2020_FOR,EU27 countries (from 2020) except reporting country,SK,Slovakia,3192.0
+EUR,Europe,AT,Austria,87161.0
+EUR,Europe,CZ,Czechia,57415.0
+EUR,Europe,DK,Denmark,46650.0
+EUR,Europe,FI,Finland,20780.0
+EUR,Europe,HR,Croatia,30258.0
+EUR,Europe,IS,Iceland,7045.0
+EUR,Europe,IT,Italy,152174.0
+EUR,Europe,LI,Liechtenstein,533.0
+EUR,Europe,LT,Lithuania,41045.0
+EUR,Europe,LU,Luxembourg,16259.0
+EUR,Europe,LV,Latvia,10639.0
+EUR,Europe,MK,North Macedonia,1423.0
+EUR,Europe,NL,Netherlands,126340.0
+EUR,Europe,NO,Norway,34833.0
+EUR,Europe,SI,Slovenia,22580.0
+EUR,Europe,SK,Slovakia,5378.0
+EX_SU,Soviet Union,CZ,Czechia,49.0
+EX_SU,Soviet Union,DK,Denmark,7.0
+EX_SU,Soviet Union,FI,Finland,2404.0
+EX_SU,Soviet Union,IS,Iceland,4.0
+EX_SU,Soviet Union,IT,Italy,15532.0
+EX_SU,Soviet Union,LU,Luxembourg,1.0
+EX_YU,Yugoslavia,DK,Denmark,25.0
+EX_YU,Yugoslavia,FI,Finland,545.0
+EX_YU,Yugoslavia,IS,Iceland,1.0
+EX_YU,Yugoslavia,IT,Italy,3522.0
+EX_YU,Yugoslavia,LU,Luxembourg,10.0
+FI,Finland,AT,Austria,136.0
+FI,Finland,BG,Bulgaria,52.0
+FI,Finland,CZ,Czechia,26.0
+FI,Finland,DK,Denmark,269.0
+FI,Finland,ES,Spain,837.0
+FI,Finland,FI,Finland,6568.0
+FI,Finland,FR,France,266.0
+FI,Finland,HR,Croatia,7.0
+FI,Finland,IS,Iceland,27.0
+FI,Finland,IT,Italy,167.0
+FI,Finland,LI,Liechtenstein,1.0
+FI,Finland,LT,Lithuania,25.0
+FI,Finland,LU,Luxembourg,67.0
+FI,Finland,LV,Latvia,62.0
+FI,Finland,MK,North Macedonia,3.0
+FI,Finland,NL,Netherlands,599.0
+FI,Finland,NO,Norway,378.0
+FI,Finland,RO,Romania,80.0
+FI,Finland,SI,Slovenia,10.0
+FI,Finland,SK,Slovakia,7.0
+FJ,Fiji,BG,Bulgaria,1.0
+FJ,Fiji,CZ,Czechia,3.0
+FJ,Fiji,DK,Denmark,3.0
+FJ,Fiji,LI,Liechtenstein,1.0
+FJ,Fiji,NL,Netherlands,9.0
+FJ,Fiji,NO,Norway,2.0
+FJ,Fiji,RO,Romania,2.0
+FJ,Fiji,SI,Slovenia,1.0
+FM,Federated States of Micronesia,NL,Netherlands,1.0
+FO,Faroes,DK,Denmark,535.0
+FO,Faroes,IS,Iceland,16.0
+FO,Faroes,LU,Luxembourg,1.0
+FO,Faroes,NL,Netherlands,4.0
+FO,Faroes,NO,Norway,27.0
+FOR,Foreign country,AT,Austria,107975.0
+FOR,Foreign country,BE,Belgium,124895.0
+FOR,Foreign country,BG,Bulgaria,20481.0
+FOR,Foreign country,CH,Switzerland,129035.0
+FOR,Foreign country,CY,Cyprus,20613.0
+FOR,Foreign country,CZ,Czechia,64253.0
+FOR,Foreign country,DE,Germany,756054.0
+FOR,Foreign country,DK,Denmark,51605.0
+FOR,Foreign country,EE,Estonia,13077.0
+FOR,Foreign country,EL,Greece,29806.0
+FOR,Foreign country,ES,Spain,496474.0
+FOR,Foreign country,FI,Finland,28149.0
+FOR,Foreign country,FR,France,267276.0
+FOR,Foreign country,HR,Croatia,29945.0
+FOR,Foreign country,HU,Hungary,57564.0
+FOR,Foreign country,IE,Ireland,47012.0
+FOR,Foreign country,IS,Iceland,7302.0
+FOR,Foreign country,IT,Italy,266839.0
+FOR,Foreign country,LI,Liechtenstein,622.0
+FOR,Foreign country,LT,Lithuania,24311.0
+FOR,Foreign country,LU,Luxembourg,23970.0
+FOR,Foreign country,LV,Latvia,7008.0
+FOR,Foreign country,MK,North Macedonia,1338.0
+FOR,Foreign country,MT,Malta,16005.0
+FOR,Foreign country,NL,Netherlands,190515.0
+FOR,Foreign country,NO,Norway,49048.0
+FOR,Foreign country,PL,Poland,162384.0
+FOR,Foreign country,PT,Portugal,31549.0
+FOR,Foreign country,RO,Romania,92563.0
+FOR,Foreign country,SE,Sweden,79967.0
+FOR,Foreign country,SI,Slovenia,20760.0
+FOR,Foreign country,SK,Slovakia,4814.0
+FR,France,AT,Austria,835.0
+FR,France,BG,Bulgaria,446.0
+FR,France,CZ,Czechia,323.0
+FR,France,DK,Denmark,1027.0
+FR,France,ES,Spain,12708.0
+FR,France,FI,Finland,362.0
+FR,France,HR,Croatia,323.0
+FR,France,IS,Iceland,161.0
+FR,France,IT,Italy,2828.0
+FR,France,LI,Liechtenstein,1.0
+FR,France,LT,Lithuania,77.0
+FR,France,LU,Luxembourg,3264.0
+FR,France,LV,Latvia,43.0
+FR,France,MK,North Macedonia,18.0
+FR,France,NL,Netherlands,4086.0
+FR,France,NO,Norway,831.0
+FR,France,RO,Romania,1696.0
+FR,France,SI,Slovenia,73.0
+FR,France,SK,Slovakia,60.0
+GA,Gabon,AT,Austria,7.0
+GA,Gabon,FI,Finland,1.0
+GA,Gabon,IS,Iceland,1.0
+GA,Gabon,IT,Italy,70.0
+GA,Gabon,LU,Luxembourg,13.0
+GA,Gabon,NL,Netherlands,10.0
+GA,Gabon,NO,Norway,1.0
+GA,Gabon,RO,Romania,11.0
+GA,Gabon,SI,Slovenia,2.0
+GD,Grenada,AT,Austria,3.0
+GD,Grenada,CZ,Czechia,1.0
+GD,Grenada,IT,Italy,1.0
+GD,Grenada,NL,Netherlands,2.0
+GD,Grenada,RO,Romania,2.0
+GE,Georgia,AT,Austria,218.0
+GE,Georgia,BG,Bulgaria,39.0
+GE,Georgia,CZ,Czechia,145.0
+GE,Georgia,DK,Denmark,20.0
+GE,Georgia,FI,Finland,23.0
+GE,Georgia,HR,Croatia,26.0
+GE,Georgia,IS,Iceland,13.0
+GE,Georgia,IT,Italy,549.0
+GE,Georgia,LT,Lithuania,195.0
+GE,Georgia,LU,Luxembourg,27.0
+GE,Georgia,LV,Latvia,78.0
+GE,Georgia,MK,North Macedonia,6.0
+GE,Georgia,NL,Netherlands,293.0
+GE,Georgia,NO,Norway,28.0
+GE,Georgia,RO,Romania,152.0
+GE,Georgia,SI,Slovenia,4.0
+GE,Georgia,SK,Slovakia,7.0
+GG,Guernsey,LV,Latvia,1.0
+GH,Ghana,AT,Austria,107.0
+GH,Ghana,BG,Bulgaria,7.0
+GH,Ghana,CZ,Czechia,119.0
+GH,Ghana,DK,Denmark,167.0
+GH,Ghana,ES,Spain,1895.0
+GH,Ghana,FI,Finland,125.0
+GH,Ghana,HR,Croatia,1.0
+GH,Ghana,IS,Iceland,33.0
+GH,Ghana,IT,Italy,1844.0
+GH,Ghana,LI,Liechtenstein,2.0
+GH,Ghana,LT,Lithuania,7.0
+GH,Ghana,LU,Luxembourg,15.0
+GH,Ghana,LV,Latvia,2.0
+GH,Ghana,MK,North Macedonia,2.0
+GH,Ghana,NL,Netherlands,674.0
+GH,Ghana,NO,Norway,175.0
+GH,Ghana,RO,Romania,157.0
+GH,Ghana,SI,Slovenia,1.0
+GI,Gibraltar,AT,Austria,2.0
+GI,Gibraltar,BG,Bulgaria,1.0
+GI,Gibraltar,LT,Lithuania,1.0
+GI,Gibraltar,NO,Norway,2.0
+GI,Gibraltar,RO,Romania,1.0
+GL,Greenland,DK,Denmark,653.0
+GL,Greenland,IS,Iceland,6.0
+GL,Greenland,NL,Netherlands,3.0
+GL,Greenland,NO,Norway,16.0
+GM,"Gambia, The",AT,Austria,60.0
+GM,"Gambia, The",CZ,Czechia,2.0
+GM,"Gambia, The",DK,Denmark,19.0
+GM,"Gambia, The",ES,Spain,2362.0
+GM,"Gambia, The",FI,Finland,73.0
+GM,"Gambia, The",HR,Croatia,1.0
+GM,"Gambia, The",IS,Iceland,2.0
+GM,"Gambia, The",IT,Italy,1661.0
+GM,"Gambia, The",LU,Luxembourg,14.0
+GM,"Gambia, The",LV,Latvia,1.0
+GM,"Gambia, The",NL,Netherlands,286.0
+GM,"Gambia, The",NO,Norway,23.0
+GM,"Gambia, The",RO,Romania,134.0
+GM,"Gambia, The",SI,Slovenia,4.0
+GN,Guinea,AT,Austria,17.0
+GN,Guinea,CZ,Czechia,3.0
+GN,Guinea,DK,Denmark,1.0
+GN,Guinea,ES,Spain,1024.0
+GN,Guinea,FI,Finland,8.0
+GN,Guinea,IS,Iceland,2.0
+GN,Guinea,IT,Italy,1001.0
+GN,Guinea,LT,Lithuania,2.0
+GN,Guinea,LU,Luxembourg,200.0
+GN,Guinea,LV,Latvia,5.0
+GN,Guinea,MK,North Macedonia,1.0
+GN,Guinea,NL,Netherlands,141.0
+GN,Guinea,NO,Norway,12.0
+GN,Guinea,RO,Romania,354.0
+GN,Guinea,SI,Slovenia,1.0
+GQ,Equatorial Guinea,ES,Spain,1254.0
+GQ,Equatorial Guinea,FI,Finland,1.0
+GQ,Equatorial Guinea,IS,Iceland,5.0
+GQ,Equatorial Guinea,IT,Italy,21.0
+GQ,Equatorial Guinea,LU,Luxembourg,4.0
+GQ,Equatorial Guinea,LV,Latvia,2.0
+GQ,Equatorial Guinea,NL,Netherlands,10.0
+GQ,Equatorial Guinea,NO,Norway,1.0
+GQ,Equatorial Guinea,RO,Romania,243.0
+GT,Guatemala,AT,Austria,31.0
+GT,Guatemala,CZ,Czechia,12.0
+GT,Guatemala,DK,Denmark,12.0
+GT,Guatemala,FI,Finland,5.0
+GT,Guatemala,HR,Croatia,4.0
+GT,Guatemala,IS,Iceland,6.0
+GT,Guatemala,IT,Italy,107.0
+GT,Guatemala,LI,Liechtenstein,1.0
+GT,Guatemala,LT,Lithuania,1.0
+GT,Guatemala,LU,Luxembourg,5.0
+GT,Guatemala,LV,Latvia,1.0
+GT,Guatemala,MK,North Macedonia,2.0
+GT,Guatemala,NL,Netherlands,66.0
+GT,Guatemala,NO,Norway,13.0
+GT,Guatemala,RO,Romania,66.0
+GT,Guatemala,SI,Slovenia,3.0
+GW,Guinea-Bissau,AT,Austria,6.0
+GW,Guinea-Bissau,BG,Bulgaria,2.0
+GW,Guinea-Bissau,DK,Denmark,16.0
+GW,Guinea-Bissau,FI,Finland,5.0
+GW,Guinea-Bissau,IT,Italy,242.0
+GW,Guinea-Bissau,LU,Luxembourg,340.0
+GW,Guinea-Bissau,NL,Netherlands,23.0
+GW,Guinea-Bissau,NO,Norway,14.0
+GW,Guinea-Bissau,RO,Romania,64.0
+GW,Guinea-Bissau,SI,Slovenia,5.0
+GY,Guyana,AT,Austria,2.0
+GY,Guyana,DK,Denmark,2.0
+GY,Guyana,IT,Italy,5.0
+GY,Guyana,LT,Lithuania,1.0
+GY,Guyana,NL,Netherlands,44.0
+GY,Guyana,NO,Norway,1.0
+GY,Guyana,RO,Romania,1.0
+HN,Honduras,AT,Austria,11.0
+HN,Honduras,CZ,Czechia,8.0
+HN,Honduras,DK,Denmark,11.0
+HN,Honduras,ES,Spain,10511.0
+HN,Honduras,FI,Finland,13.0
+HN,Honduras,HR,Croatia,1.0
+HN,Honduras,IS,Iceland,4.0
+HN,Honduras,IT,Italy,462.0
+HN,Honduras,LT,Lithuania,1.0
+HN,Honduras,LU,Luxembourg,10.0
+HN,Honduras,LV,Latvia,1.0
+HN,Honduras,NL,Netherlands,59.0
+HN,Honduras,NO,Norway,12.0
+HN,Honduras,RO,Romania,97.0
+HN,Honduras,SK,Slovakia,1.0
+HR,Croatia,AT,Austria,4439.0
+HR,Croatia,BG,Bulgaria,24.0
+HR,Croatia,CZ,Czechia,85.0
+HR,Croatia,DK,Denmark,446.0
+HR,Croatia,FI,Finland,18.0
+HR,Croatia,FR,France,339.0
+HR,Croatia,HR,Croatia,5967.0
+HR,Croatia,IS,Iceland,114.0
+HR,Croatia,IT,Italy,119.0
+HR,Croatia,LI,Liechtenstein,4.0
+HR,Croatia,LT,Lithuania,6.0
+HR,Croatia,LU,Luxembourg,102.0
+HR,Croatia,LV,Latvia,3.0
+HR,Croatia,MK,North Macedonia,26.0
+HR,Croatia,NL,Netherlands,1031.0
+HR,Croatia,NO,Norway,330.0
+HR,Croatia,RO,Romania,105.0
+HR,Croatia,SI,Slovenia,893.0
+HR,Croatia,SK,Slovakia,22.0
+HT,Haiti,AT,Austria,7.0
+HT,Haiti,CZ,Czechia,1.0
+HT,Haiti,DK,Denmark,5.0
+HT,Haiti,FI,Finland,2.0
+HT,Haiti,HR,Croatia,1.0
+HT,Haiti,IS,Iceland,4.0
+HT,Haiti,IT,Italy,61.0
+HT,Haiti,LU,Luxembourg,5.0
+HT,Haiti,NL,Netherlands,40.0
+HT,Haiti,NO,Norway,4.0
+HT,Haiti,RO,Romania,15.0
+HU,Hungary,AT,Austria,6345.0
+HU,Hungary,BG,Bulgaria,49.0
+HU,Hungary,CZ,Czechia,144.0
+HU,Hungary,DK,Denmark,686.0
+HU,Hungary,FI,Finland,174.0
+HU,Hungary,FR,France,460.0
+HU,Hungary,HR,Croatia,97.0
+HU,Hungary,IS,Iceland,94.0
+HU,Hungary,IT,Italy,580.0
+HU,Hungary,LI,Liechtenstein,3.0
+HU,Hungary,LT,Lithuania,22.0
+HU,Hungary,LU,Luxembourg,99.0
+HU,Hungary,LV,Latvia,7.0
+HU,Hungary,MK,North Macedonia,1.0
+HU,Hungary,NL,Netherlands,2364.0
+HU,Hungary,NO,Norway,244.0
+HU,Hungary,RO,Romania,653.0
+HU,Hungary,SI,Slovenia,43.0
+HU,Hungary,SK,Slovakia,352.0
+ID,Indonesia,AT,Austria,144.0
+ID,Indonesia,BG,Bulgaria,12.0
+ID,Indonesia,CZ,Czechia,47.0
+ID,Indonesia,DK,Denmark,77.0
+ID,Indonesia,FI,Finland,66.0
+ID,Indonesia,HR,Croatia,9.0
+ID,Indonesia,IS,Iceland,7.0
+ID,Indonesia,IT,Italy,290.0
+ID,Indonesia,LI,Liechtenstein,1.0
+ID,Indonesia,LT,Lithuania,2.0
+ID,Indonesia,LU,Luxembourg,20.0
+ID,Indonesia,MK,North Macedonia,3.0
+ID,Indonesia,NL,Netherlands,1798.0
+ID,Indonesia,NO,Norway,118.0
+ID,Indonesia,RO,Romania,113.0
+ID,Indonesia,SI,Slovenia,7.0
+IE,Ireland,AT,Austria,187.0
+IE,Ireland,BG,Bulgaria,112.0
+IE,Ireland,CZ,Czechia,42.0
+IE,Ireland,DK,Denmark,270.0
+IE,Ireland,ES,Spain,2784.0
+IE,Ireland,FI,Finland,70.0
+IE,Ireland,FR,France,984.0
+IE,Ireland,HR,Croatia,34.0
+IE,Ireland,IS,Iceland,23.0
+IE,Ireland,IT,Italy,325.0
+IE,Ireland,LT,Lithuania,196.0
+IE,Ireland,LU,Luxembourg,143.0
+IE,Ireland,LV,Latvia,71.0
+IE,Ireland,NL,Netherlands,1308.0
+IE,Ireland,NO,Norway,101.0
+IE,Ireland,RO,Romania,159.0
+IE,Ireland,SI,Slovenia,8.0
+IE,Ireland,SK,Slovakia,91.0
+IL,Israel,AT,Austria,185.0
+IL,Israel,BG,Bulgaria,136.0
+IL,Israel,CZ,Czechia,133.0
+IL,Israel,DK,Denmark,116.0
+IL,Israel,FI,Finland,34.0
+IL,Israel,HR,Croatia,44.0
+IL,Israel,IS,Iceland,5.0
+IL,Israel,IT,Italy,313.0
+IL,Israel,LI,Liechtenstein,3.0
+IL,Israel,LT,Lithuania,103.0
+IL,Israel,LU,Luxembourg,22.0
+IL,Israel,LV,Latvia,14.0
+IL,Israel,MK,North Macedonia,2.0
+IL,Israel,NL,Netherlands,569.0
+IL,Israel,NO,Norway,50.0
+IL,Israel,RO,Romania,507.0
+IL,Israel,SI,Slovenia,4.0
+IL,Israel,SK,Slovakia,11.0
+IM,Isle of Man,BG,Bulgaria,2.0
+IM,Isle of Man,FI,Finland,1.0
+IM,Isle of Man,NL,Netherlands,2.0
+IN,India,AT,Austria,1394.0
+IN,India,BG,Bulgaria,127.0
+IN,India,CZ,Czechia,1208.0
+IN,India,DK,Denmark,1844.0
+IN,India,ES,Spain,3555.0
+IN,India,FI,Finland,1377.0
+IN,India,HR,Croatia,805.0
+IN,India,IS,Iceland,112.0
+IN,India,IT,Italy,11910.0
+IN,India,LI,Liechtenstein,8.0
+IN,India,LT,Lithuania,308.0
+IN,India,LU,Luxembourg,987.0
+IN,India,LV,Latvia,516.0
+IN,India,MK,North Macedonia,6.0
+IN,India,NL,Netherlands,9054.0
+IN,India,NO,Norway,1373.0
+IN,India,RO,Romania,2054.0
+IN,India,SI,Slovenia,55.0
+IN,India,SK,Slovakia,4.0
+IQ,Iraq,AT,Austria,433.0
+IQ,Iraq,BG,Bulgaria,74.0
+IQ,Iraq,CZ,Czechia,45.0
+IQ,Iraq,DK,Denmark,276.0
+IQ,Iraq,FI,Finland,1054.0
+IQ,Iraq,HR,Croatia,11.0
+IQ,Iraq,IS,Iceland,29.0
+IQ,Iraq,IT,Italy,975.0
+IQ,Iraq,LT,Lithuania,22.0
+IQ,Iraq,LU,Luxembourg,53.0
+IQ,Iraq,LV,Latvia,10.0
+IQ,Iraq,MK,North Macedonia,3.0
+IQ,Iraq,NL,Netherlands,1361.0
+IQ,Iraq,NO,Norway,402.0
+IQ,Iraq,RO,Romania,450.0
+IQ,Iraq,SI,Slovenia,1.0
+IQ,Iraq,SK,Slovakia,1.0
+IR,Iran,AT,Austria,1194.0
+IR,Iran,BG,Bulgaria,102.0
+IR,Iran,CZ,Czechia,194.0
+IR,Iran,DK,Denmark,799.0
+IR,Iran,FI,Finland,725.0
+IR,Iran,HR,Croatia,28.0
+IR,Iran,IS,Iceland,36.0
+IR,Iran,IT,Italy,1999.0
+IR,Iran,LI,Liechtenstein,3.0
+IR,Iran,LT,Lithuania,64.0
+IR,Iran,LU,Luxembourg,117.0
+IR,Iran,LV,Latvia,25.0
+IR,Iran,MK,North Macedonia,1.0
+IR,Iran,NL,Netherlands,2417.0
+IR,Iran,NO,Norway,852.0
+IR,Iran,RO,Romania,393.0
+IR,Iran,SI,Slovenia,40.0
+IR,Iran,SK,Slovakia,9.0
+IS,Iceland,AT,Austria,15.0
+IS,Iceland,CZ,Czechia,7.0
+IS,Iceland,DK,Denmark,563.0
+IS,Iceland,FI,Finland,16.0
+IS,Iceland,HR,Croatia,1.0
+IS,Iceland,IS,Iceland,1504.0
+IS,Iceland,IT,Italy,19.0
+IS,Iceland,LT,Lithuania,25.0
+IS,Iceland,LU,Luxembourg,26.0
+IS,Iceland,LV,Latvia,3.0
+IS,Iceland,MK,North Macedonia,1.0
+IS,Iceland,NL,Netherlands,67.0
+IS,Iceland,NO,Norway,210.0
+IS,Iceland,RO,Romania,11.0
+IS,Iceland,SI,Slovenia,2.0
+IS,Iceland,SK,Slovakia,5.0
+IT,Italy,AT,Austria,2711.0
+IT,Italy,BG,Bulgaria,708.0
+IT,Italy,CZ,Czechia,373.0
+IT,Italy,DK,Denmark,1522.0
+IT,Italy,ES,Spain,12708.0
+IT,Italy,FI,Finland,298.0
+IT,Italy,FR,France,8969.0
+IT,Italy,HR,Croatia,438.0
+IT,Italy,IS,Iceland,158.0
+IT,Italy,IT,Italy,51527.0
+IT,Italy,LI,Liechtenstein,18.0
+IT,Italy,LT,Lithuania,92.0
+IT,Italy,LU,Luxembourg,1545.0
+IT,Italy,LV,Latvia,108.0
+IT,Italy,MK,North Macedonia,14.0
+IT,Italy,NL,Netherlands,5602.0
+IT,Italy,NO,Norway,685.0
+IT,Italy,RO,Romania,2579.0
+IT,Italy,SI,Slovenia,564.0
+IT,Italy,SK,Slovakia,99.0
+JE,Jersey,LU,Luxembourg,3.0
+JE,Jersey,LV,Latvia,1.0
+JE,Jersey,NO,Norway,6.0
+JM,Jamaica,AT,Austria,9.0
+JM,Jamaica,BG,Bulgaria,3.0
+JM,Jamaica,CZ,Czechia,1.0
+JM,Jamaica,DK,Denmark,7.0
+JM,Jamaica,FI,Finland,3.0
+JM,Jamaica,HR,Croatia,2.0
+JM,Jamaica,IS,Iceland,1.0
+JM,Jamaica,IT,Italy,14.0
+JM,Jamaica,LU,Luxembourg,4.0
+JM,Jamaica,NL,Netherlands,65.0
+JM,Jamaica,NO,Norway,7.0
+JM,Jamaica,RO,Romania,4.0
+JM,Jamaica,SI,Slovenia,1.0
+JO,Jordan,AT,Austria,88.0
+JO,Jordan,BG,Bulgaria,24.0
+JO,Jordan,CZ,Czechia,33.0
+JO,Jordan,DK,Denmark,42.0
+JO,Jordan,FI,Finland,23.0
+JO,Jordan,HR,Croatia,12.0
+JO,Jordan,IS,Iceland,15.0
+JO,Jordan,IT,Italy,125.0
+JO,Jordan,LI,Liechtenstein,1.0
+JO,Jordan,LT,Lithuania,5.0
+JO,Jordan,LU,Luxembourg,10.0
+JO,Jordan,MK,North Macedonia,3.0
+JO,Jordan,NL,Netherlands,242.0
+JO,Jordan,NO,Norway,55.0
+JO,Jordan,RO,Romania,270.0
+JO,Jordan,SI,Slovenia,3.0
+JO,Jordan,SK,Slovakia,5.0
+JP,Japan,AT,Austria,271.0
+JP,Japan,BG,Bulgaria,30.0
+JP,Japan,CZ,Czechia,239.0
+JP,Japan,DK,Denmark,180.0
+JP,Japan,FI,Finland,105.0
+JP,Japan,HR,Croatia,21.0
+JP,Japan,IS,Iceland,7.0
+JP,Japan,IT,Italy,426.0
+JP,Japan,LI,Liechtenstein,1.0
+JP,Japan,LT,Lithuania,13.0
+JP,Japan,LU,Luxembourg,85.0
+JP,Japan,LV,Latvia,8.0
+JP,Japan,MK,North Macedonia,2.0
+JP,Japan,NL,Netherlands,1190.0
+JP,Japan,NO,Norway,132.0
+JP,Japan,RO,Romania,116.0
+JP,Japan,SI,Slovenia,5.0
+JP,Japan,SK,Slovakia,1.0
+KE,Kenya,AT,Austria,98.0
+KE,Kenya,BG,Bulgaria,2.0
+KE,Kenya,CZ,Czechia,25.0
+KE,Kenya,DK,Denmark,87.0
+KE,Kenya,FI,Finland,216.0
+KE,Kenya,HR,Croatia,9.0
+KE,Kenya,IS,Iceland,6.0
+KE,Kenya,IT,Italy,211.0
+KE,Kenya,LT,Lithuania,5.0
+KE,Kenya,LU,Luxembourg,28.0
+KE,Kenya,LV,Latvia,2.0
+KE,Kenya,NL,Netherlands,302.0
+KE,Kenya,NO,Norway,160.0
+KE,Kenya,RO,Romania,41.0
+KE,Kenya,SI,Slovenia,6.0
+KE,Kenya,SK,Slovakia,1.0
+KG,Kyrgyzstan,AT,Austria,89.0
+KG,Kyrgyzstan,BG,Bulgaria,58.0
+KG,Kyrgyzstan,CZ,Czechia,151.0
+KG,Kyrgyzstan,DK,Denmark,24.0
+KG,Kyrgyzstan,FI,Finland,9.0
+KG,Kyrgyzstan,HR,Croatia,48.0
+KG,Kyrgyzstan,IS,Iceland,1.0
+KG,Kyrgyzstan,IT,Italy,93.0
+KG,Kyrgyzstan,LI,Liechtenstein,1.0
+KG,Kyrgyzstan,LT,Lithuania,388.0
+KG,Kyrgyzstan,LU,Luxembourg,6.0
+KG,Kyrgyzstan,LV,Latvia,21.0
+KG,Kyrgyzstan,NL,Netherlands,63.0
+KG,Kyrgyzstan,NO,Norway,15.0
+KG,Kyrgyzstan,RO,Romania,10.0
+KG,Kyrgyzstan,SI,Slovenia,7.0
+KG,Kyrgyzstan,SK,Slovakia,7.0
+KH,Cambodia,AT,Austria,18.0
+KH,Cambodia,CZ,Czechia,19.0
+KH,Cambodia,DK,Denmark,9.0
+KH,Cambodia,FI,Finland,11.0
+KH,Cambodia,HR,Croatia,1.0
+KH,Cambodia,IT,Italy,21.0
+KH,Cambodia,LT,Lithuania,3.0
+KH,Cambodia,LU,Luxembourg,8.0
+KH,Cambodia,NL,Netherlands,43.0
+KH,Cambodia,NO,Norway,17.0
+KH,Cambodia,RO,Romania,2.0
+KI,Kiribati,IT,Italy,1.0
+KI,Kiribati,NL,Netherlands,2.0
+KM,Comoros,IT,Italy,2.0
+KM,Comoros,LU,Luxembourg,1.0
+KM,Comoros,NL,Netherlands,1.0
+KN,Saint Kitts and Nevis,AT,Austria,1.0
+KN,Saint Kitts and Nevis,NL,Netherlands,2.0
+KN,Saint Kitts and Nevis,RO,Romania,2.0
+KP,North Korea,AT,Austria,8.0
+KP,North Korea,DK,Denmark,8.0
+KP,North Korea,IT,Italy,1.0
+KP,North Korea,RO,Romania,3.0
+KR,South Korea,AT,Austria,234.0
+KR,South Korea,BG,Bulgaria,35.0
+KR,South Korea,CZ,Czechia,361.0
+KR,South Korea,DK,Denmark,119.0
+KR,South Korea,FI,Finland,44.0
+KR,South Korea,HR,Croatia,14.0
+KR,South Korea,IS,Iceland,6.0
+KR,South Korea,IT,Italy,293.0
+KR,South Korea,LT,Lithuania,17.0
+KR,South Korea,LU,Luxembourg,40.0
+KR,South Korea,LV,Latvia,13.0
+KR,South Korea,MK,North Macedonia,6.0
+KR,South Korea,NL,Netherlands,854.0
+KR,South Korea,NO,Norway,122.0
+KR,South Korea,RO,Romania,110.0
+KR,South Korea,SI,Slovenia,14.0
+KR,South Korea,SK,Slovakia,7.0
+KW,Kuwait,AT,Austria,30.0
+KW,Kuwait,BG,Bulgaria,23.0
+KW,Kuwait,CZ,Czechia,16.0
+KW,Kuwait,DK,Denmark,28.0
+KW,Kuwait,FI,Finland,12.0
+KW,Kuwait,HR,Croatia,4.0
+KW,Kuwait,IT,Italy,53.0
+KW,Kuwait,LT,Lithuania,3.0
+KW,Kuwait,LU,Luxembourg,15.0
+KW,Kuwait,LV,Latvia,2.0
+KW,Kuwait,NL,Netherlands,128.0
+KW,Kuwait,NO,Norway,27.0
+KW,Kuwait,RO,Romania,58.0
+KW,Kuwait,SI,Slovenia,1.0
+KY,Cayman Islands,AT,Austria,3.0
+KY,Cayman Islands,NL,Netherlands,3.0
+KY,Cayman Islands,RO,Romania,3.0
+KZ,Kazakhstan,AT,Austria,292.0
+KZ,Kazakhstan,BG,Bulgaria,314.0
+KZ,Kazakhstan,CZ,Czechia,1219.0
+KZ,Kazakhstan,DK,Denmark,33.0
+KZ,Kazakhstan,FI,Finland,61.0
+KZ,Kazakhstan,HR,Croatia,35.0
+KZ,Kazakhstan,IS,Iceland,5.0
+KZ,Kazakhstan,IT,Italy,129.0
+KZ,Kazakhstan,LI,Liechtenstein,1.0
+KZ,Kazakhstan,LT,Lithuania,497.0
+KZ,Kazakhstan,LU,Luxembourg,38.0
+KZ,Kazakhstan,LV,Latvia,104.0
+KZ,Kazakhstan,MK,North Macedonia,1.0
+KZ,Kazakhstan,NL,Netherlands,388.0
+KZ,Kazakhstan,NO,Norway,58.0
+KZ,Kazakhstan,RO,Romania,140.0
+KZ,Kazakhstan,SI,Slovenia,39.0
+KZ,Kazakhstan,SK,Slovakia,4.0
+LA,Laos,AT,Austria,1.0
+LA,Laos,BG,Bulgaria,2.0
+LA,Laos,CZ,Czechia,1.0
+LA,Laos,DK,Denmark,3.0
+LA,Laos,FI,Finland,1.0
+LA,Laos,IT,Italy,4.0
+LA,Laos,LU,Luxembourg,1.0
+LA,Laos,NL,Netherlands,5.0
+LA,Laos,NO,Norway,3.0
+LA,Laos,RO,Romania,2.0
+LB,Lebanon,AT,Austria,139.0
+LB,Lebanon,BG,Bulgaria,112.0
+LB,Lebanon,CZ,Czechia,32.0
+LB,Lebanon,DK,Denmark,273.0
+LB,Lebanon,FI,Finland,139.0
+LB,Lebanon,HR,Croatia,13.0
+LB,Lebanon,IS,Iceland,11.0
+LB,Lebanon,IT,Italy,697.0
+LB,Lebanon,LI,Liechtenstein,1.0
+LB,Lebanon,LT,Lithuania,61.0
+LB,Lebanon,LU,Luxembourg,173.0
+LB,Lebanon,LV,Latvia,6.0
+LB,Lebanon,MK,North Macedonia,2.0
+LB,Lebanon,NL,Netherlands,644.0
+LB,Lebanon,NO,Norway,352.0
+LB,Lebanon,RO,Romania,400.0
+LB,Lebanon,SI,Slovenia,3.0
+LB,Lebanon,SK,Slovakia,4.0
+LC,Saint Lucia,AT,Austria,2.0
+LC,Saint Lucia,IS,Iceland,1.0
+LC,Saint Lucia,NL,Netherlands,9.0
+LC,Saint Lucia,NO,Norway,1.0
+LC,Saint Lucia,RO,Romania,2.0
+LI,Liechtenstein,AT,Austria,7.0
+LI,Liechtenstein,BG,Bulgaria,1.0
+LI,Liechtenstein,DK,Denmark,1.0
+LI,Liechtenstein,IT,Italy,2.0
+LI,Liechtenstein,LI,Liechtenstein,47.0
+LI,Liechtenstein,NL,Netherlands,1.0
+LI,Liechtenstein,NO,Norway,1.0
+LI,Liechtenstein,RO,Romania,1.0
+LK,Sri Lanka,AT,Austria,38.0
+LK,Sri Lanka,BG,Bulgaria,5.0
+LK,Sri Lanka,CZ,Czechia,7.0
+LK,Sri Lanka,DK,Denmark,109.0
+LK,Sri Lanka,FI,Finland,142.0
+LK,Sri Lanka,HR,Croatia,6.0
+LK,Sri Lanka,IS,Iceland,4.0
+LK,Sri Lanka,IT,Italy,1906.0
+LK,Sri Lanka,LI,Liechtenstein,1.0
+LK,Sri Lanka,LT,Lithuania,16.0
+LK,Sri Lanka,LU,Luxembourg,5.0
+LK,Sri Lanka,LV,Latvia,63.0
+LK,Sri Lanka,NL,Netherlands,235.0
+LK,Sri Lanka,NO,Norway,142.0
+LK,Sri Lanka,RO,Romania,1621.0
+LK,Sri Lanka,SI,Slovenia,1.0
+LR,Liberia,DK,Denmark,6.0
+LR,Liberia,FI,Finland,2.0
+LR,Liberia,HR,Croatia,1.0
+LR,Liberia,IT,Italy,62.0
+LR,Liberia,LT,Lithuania,3.0
+LR,Liberia,LU,Luxembourg,3.0
+LR,Liberia,NL,Netherlands,55.0
+LR,Liberia,NO,Norway,9.0
+LR,Liberia,RO,Romania,8.0
+LS,Lesotho,AT,Austria,4.0
+LS,Lesotho,CZ,Czechia,1.0
+LS,Lesotho,DK,Denmark,1.0
+LS,Lesotho,FI,Finland,1.0
+LS,Lesotho,NL,Netherlands,3.0
+LS,Lesotho,NO,Norway,1.0
+LS,Lesotho,RO,Romania,1.0
+LT,Lithuania,AT,Austria,115.0
+LT,Lithuania,BG,Bulgaria,54.0
+LT,Lithuania,CZ,Czechia,43.0
+LT,Lithuania,DK,Denmark,1422.0
+LT,Lithuania,ES,Spain,892.0
+LT,Lithuania,FI,Finland,137.0
+LT,Lithuania,FR,France,194.0
+LT,Lithuania,HR,Croatia,22.0
+LT,Lithuania,IS,Iceland,357.0
+LT,Lithuania,IT,Italy,94.0
+LT,Lithuania,LT,Lithuania,20547.0
+LT,Lithuania,LU,Luxembourg,82.0
+LT,Lithuania,LV,Latvia,160.0
+LT,Lithuania,NL,Netherlands,1446.0
+LT,Lithuania,NO,Norway,3026.0
+LT,Lithuania,RO,Romania,142.0
+LT,Lithuania,SI,Slovenia,8.0
+LT,Lithuania,SK,Slovakia,14.0
+LU,Luxembourg,AT,Austria,173.0
+LU,Luxembourg,BG,Bulgaria,5.0
+LU,Luxembourg,CZ,Czechia,7.0
+LU,Luxembourg,DK,Denmark,53.0
+LU,Luxembourg,FI,Finland,13.0
+LU,Luxembourg,FR,France,2445.0
+LU,Luxembourg,HR,Croatia,3.0
+LU,Luxembourg,IS,Iceland,5.0
+LU,Luxembourg,IT,Italy,61.0
+LU,Luxembourg,LT,Lithuania,5.0
+LU,Luxembourg,LU,Luxembourg,1266.0
+LU,Luxembourg,NL,Netherlands,328.0
+LU,Luxembourg,NO,Norway,12.0
+LU,Luxembourg,RO,Romania,13.0
+LU,Luxembourg,SI,Slovenia,5.0
+LU,Luxembourg,SK,Slovakia,7.0
+LV,Latvia,AT,Austria,165.0
+LV,Latvia,BG,Bulgaria,50.0
+LV,Latvia,CZ,Czechia,85.0
+LV,Latvia,DK,Denmark,613.0
+LV,Latvia,FI,Finland,423.0
+LV,Latvia,FR,France,178.0
+LV,Latvia,HR,Croatia,25.0
+LV,Latvia,IS,Iceland,328.0
+LV,Latvia,IT,Italy,64.0
+LV,Latvia,LI,Liechtenstein,1.0
+LV,Latvia,LT,Lithuania,269.0
+LV,Latvia,LU,Luxembourg,55.0
+LV,Latvia,LV,Latvia,5620.0
+LV,Latvia,MK,North Macedonia,1.0
+LV,Latvia,NL,Netherlands,1442.0
+LV,Latvia,NO,Norway,1124.0
+LV,Latvia,RO,Romania,86.0
+LV,Latvia,SI,Slovenia,8.0
+LV,Latvia,SK,Slovakia,18.0
+LY,Libya,AT,Austria,56.0
+LY,Libya,BG,Bulgaria,7.0
+LY,Libya,CZ,Czechia,14.0
+LY,Libya,DK,Denmark,13.0
+LY,Libya,FI,Finland,18.0
+LY,Libya,HR,Croatia,6.0
+LY,Libya,IS,Iceland,6.0
+LY,Libya,IT,Italy,454.0
+LY,Libya,LT,Lithuania,2.0
+LY,Libya,LU,Luxembourg,10.0
+LY,Libya,LV,Latvia,1.0
+LY,Libya,NL,Netherlands,131.0
+LY,Libya,NO,Norway,63.0
+LY,Libya,RO,Romania,67.0
+LY,Libya,SI,Slovenia,5.0
+MA,Morocco,AT,Austria,207.0
+MA,Morocco,BG,Bulgaria,28.0
+MA,Morocco,CZ,Czechia,45.0
+MA,Morocco,DK,Denmark,154.0
+MA,Morocco,ES,Spain,60566.0
+MA,Morocco,FI,Finland,195.0
+MA,Morocco,HR,Croatia,15.0
+MA,Morocco,IS,Iceland,17.0
+MA,Morocco,IT,Italy,16122.0
+MA,Morocco,LT,Lithuania,17.0
+MA,Morocco,LU,Luxembourg,370.0
+MA,Morocco,LV,Latvia,4.0
+MA,Morocco,MK,North Macedonia,1.0
+MA,Morocco,NL,Netherlands,2799.0
+MA,Morocco,NO,Norway,205.0
+MA,Morocco,RO,Romania,1347.0
+MA,Morocco,SI,Slovenia,4.0
+MA,Morocco,SK,Slovakia,1.0
+MC,Monaco,AT,Austria,1.0
+MC,Monaco,BG,Bulgaria,3.0
+MC,Monaco,DK,Denmark,2.0
+MC,Monaco,FI,Finland,2.0
+MC,Monaco,IT,Italy,40.0
+MC,Monaco,LU,Luxembourg,5.0
+MC,Monaco,NL,Netherlands,13.0
+MC,Monaco,NO,Norway,3.0
+MC,Monaco,RO,Romania,2.0
+MC,Monaco,SK,Slovakia,1.0
+MD,Moldova,AT,Austria,429.0
+MD,Moldova,BG,Bulgaria,599.0
+MD,Moldova,CZ,Czechia,1409.0
+MD,Moldova,DK,Denmark,393.0
+MD,Moldova,ES,Spain,1393.0
+MD,Moldova,FI,Finland,158.0
+MD,Moldova,HR,Croatia,28.0
+MD,Moldova,IS,Iceland,132.0
+MD,Moldova,IT,Italy,3366.0
+MD,Moldova,LI,Liechtenstein,1.0
+MD,Moldova,LT,Lithuania,268.0
+MD,Moldova,LU,Luxembourg,127.0
+MD,Moldova,LV,Latvia,106.0
+MD,Moldova,MK,North Macedonia,2.0
+MD,Moldova,NL,Netherlands,1070.0
+MD,Moldova,NO,Norway,231.0
+MD,Moldova,RO,Romania,38684.0
+MD,Moldova,SI,Slovenia,21.0
+MD,Moldova,SK,Slovakia,9.0
+ME,Montenegro,AT,Austria,108.0
+ME,Montenegro,BG,Bulgaria,9.0
+ME,Montenegro,CZ,Czechia,27.0
+ME,Montenegro,DK,Denmark,21.0
+ME,Montenegro,FI,Finland,2.0
+ME,Montenegro,HR,Croatia,280.0
+ME,Montenegro,IT,Italy,6.0
+ME,Montenegro,LT,Lithuania,2.0
+ME,Montenegro,LU,Luxembourg,167.0
+ME,Montenegro,MK,North Macedonia,9.0
+ME,Montenegro,NL,Netherlands,33.0
+ME,Montenegro,NO,Norway,27.0
+ME,Montenegro,RO,Romania,6.0
+ME,Montenegro,SI,Slovenia,150.0
+ME,Montenegro,SK,Slovakia,1.0
+MEL,Melanesia,AT,Austria,7.0
+MEL,Melanesia,CZ,Czechia,3.0
+MEL,Melanesia,DK,Denmark,4.0
+MEL,Melanesia,IS,Iceland,1.0
+MEL,Melanesia,IT,Italy,5.0
+MEL,Melanesia,LI,Liechtenstein,1.0
+MEL,Melanesia,NL,Netherlands,22.0
+MEL,Melanesia,NO,Norway,3.0
+MEL,Melanesia,SI,Slovenia,4.0
+MG,Madagascar,AT,Austria,9.0
+MG,Madagascar,DK,Denmark,6.0
+MG,Madagascar,FI,Finland,4.0
+MG,Madagascar,IT,Italy,103.0
+MG,Madagascar,LT,Lithuania,2.0
+MG,Madagascar,LU,Luxembourg,35.0
+MG,Madagascar,NL,Netherlands,14.0
+MG,Madagascar,NO,Norway,11.0
+MG,Madagascar,RO,Romania,9.0
+MG,Madagascar,SI,Slovenia,2.0
+MIC,Micronesia,IT,Italy,1.0
+MIC,Micronesia,NL,Netherlands,3.0
+MK,North Macedonia,AT,Austria,1393.0
+MK,North Macedonia,BG,Bulgaria,949.0
+MK,North Macedonia,CZ,Czechia,217.0
+MK,North Macedonia,DK,Denmark,126.0
+MK,North Macedonia,FI,Finland,17.0
+MK,North Macedonia,HR,Croatia,1160.0
+MK,North Macedonia,IS,Iceland,6.0
+MK,North Macedonia,IT,Italy,1096.0
+MK,North Macedonia,LI,Liechtenstein,2.0
+MK,North Macedonia,LT,Lithuania,12.0
+MK,North Macedonia,LU,Luxembourg,45.0
+MK,North Macedonia,LV,Latvia,4.0
+MK,North Macedonia,MK,North Macedonia,232.0
+MK,North Macedonia,NL,Netherlands,316.0
+MK,North Macedonia,NO,Norway,105.0
+MK,North Macedonia,RO,Romania,64.0
+MK,North Macedonia,SI,Slovenia,1388.0
+MK,North Macedonia,SK,Slovakia,13.0
+ML,Mali,AT,Austria,11.0
+ML,Mali,BG,Bulgaria,2.0
+ML,Mali,ES,Spain,3946.0
+ML,Mali,FI,Finland,1.0
+ML,Mali,IT,Italy,2272.0
+ML,Mali,LU,Luxembourg,18.0
+ML,Mali,LV,Latvia,1.0
+ML,Mali,NL,Netherlands,27.0
+ML,Mali,NO,Norway,4.0
+ML,Mali,RO,Romania,364.0
+MM,Myanmar/Burma,AT,Austria,13.0
+MM,Myanmar/Burma,BG,Bulgaria,1.0
+MM,Myanmar/Burma,CZ,Czechia,5.0
+MM,Myanmar/Burma,DK,Denmark,9.0
+MM,Myanmar/Burma,FI,Finland,13.0
+MM,Myanmar/Burma,IT,Italy,41.0
+MM,Myanmar/Burma,LU,Luxembourg,1.0
+MM,Myanmar/Burma,NL,Netherlands,68.0
+MM,Myanmar/Burma,NO,Norway,44.0
+MM,Myanmar/Burma,RO,Romania,3.0
+MN,Mongolia,AT,Austria,54.0
+MN,Mongolia,BG,Bulgaria,17.0
+MN,Mongolia,CZ,Czechia,717.0
+MN,Mongolia,DK,Denmark,4.0
+MN,Mongolia,FI,Finland,9.0
+MN,Mongolia,HR,Croatia,2.0
+MN,Mongolia,IT,Italy,47.0
+MN,Mongolia,LT,Lithuania,4.0
+MN,Mongolia,LU,Luxembourg,1.0
+MN,Mongolia,LV,Latvia,2.0
+MN,Mongolia,NL,Netherlands,32.0
+MN,Mongolia,NO,Norway,11.0
+MN,Mongolia,RO,Romania,19.0
+MR,Mauritania,ES,Spain,1256.0
+MR,Mauritania,IT,Italy,36.0
+MR,Mauritania,LU,Luxembourg,1.0
+MR,Mauritania,NL,Netherlands,9.0
+MR,Mauritania,NO,Norway,3.0
+MR,Mauritania,RO,Romania,72.0
+MT,Malta,AT,Austria,13.0
+MT,Malta,BG,Bulgaria,24.0
+MT,Malta,CZ,Czechia,8.0
+MT,Malta,DK,Denmark,13.0
+MT,Malta,FI,Finland,21.0
+MT,Malta,FR,France,26.0
+MT,Malta,HR,Croatia,6.0
+MT,Malta,IS,Iceland,5.0
+MT,Malta,IT,Italy,111.0
+MT,Malta,LT,Lithuania,2.0
+MT,Malta,LU,Luxembourg,19.0
+MT,Malta,LV,Latvia,3.0
+MT,Malta,MK,North Macedonia,3.0
+MT,Malta,NL,Netherlands,87.0
+MT,Malta,NO,Norway,7.0
+MT,Malta,RO,Romania,24.0
+MT,Malta,SI,Slovenia,2.0
+MT,Malta,SK,Slovakia,2.0
+MU,Mauritius,AT,Austria,13.0
+MU,Mauritius,CZ,Czechia,4.0
+MU,Mauritius,DK,Denmark,6.0
+MU,Mauritius,FI,Finland,2.0
+MU,Mauritius,HR,Croatia,1.0
+MU,Mauritius,IS,Iceland,1.0
+MU,Mauritius,IT,Italy,131.0
+MU,Mauritius,LT,Lithuania,2.0
+MU,Mauritius,LU,Luxembourg,89.0
+MU,Mauritius,LV,Latvia,2.0
+MU,Mauritius,MK,North Macedonia,2.0
+MU,Mauritius,NL,Netherlands,42.0
+MU,Mauritius,NO,Norway,4.0
+MU,Mauritius,RO,Romania,14.0
+MU,Mauritius,SI,Slovenia,3.0
+MV,Maldives,CZ,Czechia,5.0
+MV,Maldives,FI,Finland,1.0
+MV,Maldives,IT,Italy,1.0
+MV,Maldives,LT,Lithuania,2.0
+MV,Maldives,LU,Luxembourg,1.0
+MV,Maldives,NL,Netherlands,6.0
+MV,Maldives,RO,Romania,1.0
+MV,Maldives,SI,Slovenia,1.0
+MW,Malawi,AT,Austria,7.0
+MW,Malawi,CZ,Czechia,1.0
+MW,Malawi,DK,Denmark,2.0
+MW,Malawi,FI,Finland,9.0
+MW,Malawi,IT,Italy,9.0
+MW,Malawi,LU,Luxembourg,1.0
+MW,Malawi,NL,Netherlands,21.0
+MW,Malawi,NO,Norway,17.0
+MW,Malawi,RO,Romania,2.0
+MX,Mexico,AT,Austria,281.0
+MX,Mexico,BG,Bulgaria,22.0
+MX,Mexico,CZ,Czechia,150.0
+MX,Mexico,DK,Denmark,213.0
+MX,Mexico,ES,Spain,7909.0
+MX,Mexico,FI,Finland,133.0
+MX,Mexico,HR,Croatia,15.0
+MX,Mexico,IS,Iceland,27.0
+MX,Mexico,IT,Italy,779.0
+MX,Mexico,LI,Liechtenstein,5.0
+MX,Mexico,LT,Lithuania,28.0
+MX,Mexico,LU,Luxembourg,114.0
+MX,Mexico,LV,Latvia,8.0
+MX,Mexico,MK,North Macedonia,1.0
+MX,Mexico,NL,Netherlands,973.0
+MX,Mexico,NO,Norway,168.0
+MX,Mexico,RO,Romania,290.0
+MX,Mexico,SI,Slovenia,16.0
+MX,Mexico,SK,Slovakia,9.0
+MY,Malaysia,AT,Austria,38.0
+MY,Malaysia,BG,Bulgaria,6.0
+MY,Malaysia,CZ,Czechia,22.0
+MY,Malaysia,DK,Denmark,50.0
+MY,Malaysia,FI,Finland,37.0
+MY,Malaysia,HR,Croatia,1.0
+MY,Malaysia,IS,Iceland,4.0
+MY,Malaysia,IT,Italy,79.0
+MY,Malaysia,LI,Liechtenstein,3.0
+MY,Malaysia,LT,Lithuania,3.0
+MY,Malaysia,LU,Luxembourg,10.0
+MY,Malaysia,NL,Netherlands,292.0
+MY,Malaysia,NO,Norway,59.0
+MY,Malaysia,RO,Romania,21.0
+MY,Malaysia,SI,Slovenia,2.0
+MY,Malaysia,SK,Slovakia,2.0
+MZ,Mozambique,AT,Austria,5.0
+MZ,Mozambique,BG,Bulgaria,1.0
+MZ,Mozambique,CZ,Czechia,1.0
+MZ,Mozambique,DK,Denmark,17.0
+MZ,Mozambique,FI,Finland,1.0
+MZ,Mozambique,IS,Iceland,4.0
+MZ,Mozambique,IT,Italy,41.0
+MZ,Mozambique,LU,Luxembourg,21.0
+MZ,Mozambique,NL,Netherlands,62.0
+MZ,Mozambique,NO,Norway,6.0
+MZ,Mozambique,RO,Romania,10.0
+MZ,Mozambique,SI,Slovenia,1.0
+NAT,Reporting country,AT,Austria,7536.0
+NAT,Reporting country,BE,Belgium,14032.0
+NAT,Reporting country,BG,Bulgaria,18979.0
+NAT,Reporting country,CH,Switzerland,15118.0
+NAT,Reporting country,CY,Cyprus,3388.0
+NAT,Reporting country,CZ,Czechia,5107.0
+NAT,Reporting country,DE,Germany,114062.0
+NAT,Reporting country,DK,Denmark,11868.0
+NAT,Reporting country,EE,Estonia,6297.0
+NAT,Reporting country,EL,Greece,27314.0
+NAT,Reporting country,ES,Spain,32382.0
+NAT,Reporting country,FI,Finland,6568.0
+NAT,Reporting country,FR,France,69122.0
+NAT,Reporting country,HR,Croatia,5967.0
+NAT,Reporting country,HU,Hungary,22907.0
+NAT,Reporting country,IE,Ireland,32763.0
+NAT,Reporting country,IS,Iceland,1504.0
+NAT,Reporting country,IT,Italy,51527.0
+NAT,Reporting country,LI,Liechtenstein,47.0
+NAT,Reporting country,LT,Lithuania,20547.0
+NAT,Reporting country,LU,Luxembourg,1266.0
+NAT,Reporting country,LV,Latvia,5620.0
+NAT,Reporting country,MK,North Macedonia,232.0
+NAT,Reporting country,MT,Malta,2143.0
+NAT,Reporting country,NL,Netherlands,23590.0
+NAT,Reporting country,NO,Norway,4899.0
+NAT,Reporting country,PL,Poland,76549.0
+NAT,Reporting country,PT,Portugal,19172.0
+NAT,Reporting country,RO,Romania,102079.0
+NAT,Reporting country,SE,Sweden,10480.0
+NAT,Reporting country,SI,Slovenia,2864.0
+NAT,Reporting country,SK,Slovakia,919.0
+NC,New Caledonia,NL,Netherlands,7.0
+NC,New Caledonia,RO,Romania,1.0
+NE,Niger,AT,Austria,1.0
+NE,Niger,CZ,Czechia,1.0
+NE,Niger,FI,Finland,6.0
+NE,Niger,IT,Italy,107.0
+NE,Niger,LU,Luxembourg,8.0
+NE,Niger,LV,Latvia,1.0
+NE,Niger,NL,Netherlands,15.0
+NE,Niger,RO,Romania,10.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,AT,Austria,49096.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,BE,Belgium,70798.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,BG,Bulgaria,14321.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,CH,Switzerland,56563.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,CY,Cyprus,13131.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,CZ,Czechia,53027.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,DE,Germany,485007.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,DK,Denmark,24740.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,EE,Estonia,9135.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,EL,Greece,24738.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,ES,Spain,409493.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,FI,Finland,21232.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,FR,France,208952.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,HR,Croatia,24673.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,HU,Hungary,40981.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,IE,Ireland,30976.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,IS,Iceland,2366.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,IT,Italy,221855.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,LI,Liechtenstein,387.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,LT,Lithuania,22783.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,LU,Luxembourg,11222.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,LV,Latvia,6091.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,MK,North Macedonia,1151.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,MT,Malta,9837.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,NL,Netherlands,108736.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,NO,Norway,24088.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,PL,Poland,110898.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,PT,Portugal,25197.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,RO,Romania,79009.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,SE,Sweden,58437.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,SI,Slovenia,17896.0
+NEU27_2020_FOR,Non-EU27 countries (from 2020) nor reporting country,SK,Slovakia,1622.0
+NG,Nigeria,AT,Austria,378.0
+NG,Nigeria,BG,Bulgaria,37.0
+NG,Nigeria,CZ,Czechia,91.0
+NG,Nigeria,DK,Denmark,114.0
+NG,Nigeria,ES,Spain,1505.0
+NG,Nigeria,FI,Finland,443.0
+NG,Nigeria,HR,Croatia,15.0
+NG,Nigeria,IS,Iceland,42.0
+NG,Nigeria,IT,Italy,7017.0
+NG,Nigeria,LT,Lithuania,149.0
+NG,Nigeria,LU,Luxembourg,95.0
+NG,Nigeria,LV,Latvia,12.0
+NG,Nigeria,MK,North Macedonia,1.0
+NG,Nigeria,NL,Netherlands,1217.0
+NG,Nigeria,NO,Norway,221.0
+NG,Nigeria,RO,Romania,399.0
+NG,Nigeria,SI,Slovenia,4.0
+NG,Nigeria,SK,Slovakia,1.0
+NI,Nicaragua,AT,Austria,14.0
+NI,Nicaragua,BG,Bulgaria,3.0
+NI,Nicaragua,CZ,Czechia,1.0
+NI,Nicaragua,DK,Denmark,11.0
+NI,Nicaragua,ES,Spain,3804.0
+NI,Nicaragua,FI,Finland,20.0
+NI,Nicaragua,HR,Croatia,1.0
+NI,Nicaragua,IT,Italy,75.0
+NI,Nicaragua,LU,Luxembourg,2.0
+NI,Nicaragua,LV,Latvia,1.0
+NI,Nicaragua,NL,Netherlands,51.0
+NI,Nicaragua,NO,Norway,16.0
+NI,Nicaragua,RO,Romania,61.0
+NI,Nicaragua,SI,Slovenia,1.0
+NL,Netherlands,AT,Austria,767.0
+NL,Netherlands,BG,Bulgaria,269.0
+NL,Netherlands,CZ,Czechia,119.0
+NL,Netherlands,DK,Denmark,681.0
+NL,Netherlands,ES,Spain,5396.0
+NL,Netherlands,FI,Finland,161.0
+NL,Netherlands,FR,France,2152.0
+NL,Netherlands,HR,Croatia,96.0
+NL,Netherlands,IS,Iceland,40.0
+NL,Netherlands,IT,Italy,762.0
+NL,Netherlands,LI,Liechtenstein,1.0
+NL,Netherlands,LT,Lithuania,46.0
+NL,Netherlands,LU,Luxembourg,152.0
+NL,Netherlands,LV,Latvia,37.0
+NL,Netherlands,MK,North Macedonia,4.0
+NL,Netherlands,NL,Netherlands,23590.0
+NL,Netherlands,NO,Norway,538.0
+NL,Netherlands,RO,Romania,305.0
+NL,Netherlands,SI,Slovenia,46.0
+NL,Netherlands,SK,Slovakia,34.0
+NO,Norway,AT,Austria,74.0
+NO,Norway,BG,Bulgaria,22.0
+NO,Norway,CZ,Czechia,11.0
+NO,Norway,DK,Denmark,1448.0
+NO,Norway,ES,Spain,1373.0
+NO,Norway,FI,Finland,131.0
+NO,Norway,HR,Croatia,36.0
+NO,Norway,IS,Iceland,95.0
+NO,Norway,IT,Italy,109.0
+NO,Norway,LT,Lithuania,277.0
+NO,Norway,LU,Luxembourg,18.0
+NO,Norway,LV,Latvia,44.0
+NO,Norway,MK,North Macedonia,1.0
+NO,Norway,NL,Netherlands,374.0
+NO,Norway,NO,Norway,4899.0
+NO,Norway,RO,Romania,87.0
+NO,Norway,SI,Slovenia,5.0
+NO,Norway,SK,Slovakia,52.0
+NP,Nepal,AT,Austria,50.0
+NP,Nepal,BG,Bulgaria,8.0
+NP,Nepal,CZ,Czechia,52.0
+NP,Nepal,DK,Denmark,973.0
+NP,Nepal,FI,Finland,347.0
+NP,Nepal,HR,Croatia,1766.0
+NP,Nepal,IS,Iceland,2.0
+NP,Nepal,IT,Italy,123.0
+NP,Nepal,LT,Lithuania,9.0
+NP,Nepal,LU,Luxembourg,30.0
+NP,Nepal,LV,Latvia,7.0
+NP,Nepal,NL,Netherlands,150.0
+NP,Nepal,NO,Norway,375.0
+NP,Nepal,RO,Romania,2468.0
+NP,Nepal,SI,Slovenia,4.0
+NZ,New Zealand,AT,Austria,46.0
+NZ,New Zealand,BG,Bulgaria,5.0
+NZ,New Zealand,CZ,Czechia,31.0
+NZ,New Zealand,DK,Denmark,42.0
+NZ,New Zealand,FI,Finland,29.0
+NZ,New Zealand,HR,Croatia,12.0
+NZ,New Zealand,IS,Iceland,5.0
+NZ,New Zealand,IT,Italy,56.0
+NZ,New Zealand,LT,Lithuania,6.0
+NZ,New Zealand,LU,Luxembourg,12.0
+NZ,New Zealand,LV,Latvia,1.0
+NZ,New Zealand,NL,Netherlands,203.0
+NZ,New Zealand,NO,Norway,37.0
+NZ,New Zealand,RO,Romania,35.0
+NZ,New Zealand,SI,Slovenia,4.0
+NZ,New Zealand,SK,Slovakia,3.0
+OCE,Oceania,AT,Austria,232.0
+OCE,Oceania,CZ,Czechia,151.0
+OCE,Oceania,DK,Denmark,231.0
+OCE,Oceania,ES,Spain,777.0
+OCE,Oceania,FI,Finland,149.0
+OCE,Oceania,HR,Croatia,109.0
+OCE,Oceania,IS,Iceland,23.0
+OCE,Oceania,IT,Italy,66.0
+OCE,Oceania,LI,Liechtenstein,1.0
+OCE,Oceania,LT,Lithuania,27.0
+OCE,Oceania,LU,Luxembourg,54.0
+OCE,Oceania,LV,Latvia,12.0
+OCE,Oceania,MK,North Macedonia,8.0
+OCE,Oceania,NL,Netherlands,856.0
+OCE,Oceania,NO,Norway,232.0
+OCE,Oceania,SI,Slovenia,22.0
+OCE,Oceania,SK,Slovakia,16.0
+OM,Oman,AT,Austria,5.0
+OM,Oman,CZ,Czechia,4.0
+OM,Oman,DK,Denmark,5.0
+OM,Oman,FI,Finland,3.0
+OM,Oman,IT,Italy,11.0
+OM,Oman,LT,Lithuania,7.0
+OM,Oman,LU,Luxembourg,5.0
+OM,Oman,LV,Latvia,1.0
+OM,Oman,NL,Netherlands,83.0
+OM,Oman,NO,Norway,3.0
+OM,Oman,RO,Romania,3.0
+PA,Panama,AT,Austria,5.0
+PA,Panama,BG,Bulgaria,3.0
+PA,Panama,CZ,Czechia,3.0
+PA,Panama,DK,Denmark,20.0
+PA,Panama,FI,Finland,2.0
+PA,Panama,HR,Croatia,4.0
+PA,Panama,IS,Iceland,2.0
+PA,Panama,IT,Italy,66.0
+PA,Panama,LU,Luxembourg,4.0
+PA,Panama,NL,Netherlands,59.0
+PA,Panama,NO,Norway,6.0
+PA,Panama,RO,Romania,44.0
+PA,Panama,SI,Slovenia,2.0
+PA,Panama,SK,Slovakia,1.0
+PE,Peru,AT,Austria,147.0
+PE,Peru,BG,Bulgaria,7.0
+PE,Peru,CZ,Czechia,32.0
+PE,Peru,DK,Denmark,59.0
+PE,Peru,ES,Spain,18301.0
+PE,Peru,FI,Finland,43.0
+PE,Peru,HR,Croatia,34.0
+PE,Peru,IS,Iceland,10.0
+PE,Peru,IT,Italy,5305.0
+PE,Peru,LI,Liechtenstein,3.0
+PE,Peru,LT,Lithuania,9.0
+PE,Peru,LU,Luxembourg,44.0
+PE,Peru,LV,Latvia,3.0
+PE,Peru,NL,Netherlands,543.0
+PE,Peru,NO,Norway,57.0
+PE,Peru,RO,Romania,142.0
+PE,Peru,SI,Slovenia,9.0
+PE,Peru,SK,Slovakia,3.0
+PF,French Polynesia,AT,Austria,1.0
+PF,French Polynesia,LU,Luxembourg,1.0
+PF,French Polynesia,NL,Netherlands,9.0
+PF,French Polynesia,NO,Norway,1.0
+PF,French Polynesia,RO,Romania,1.0
+PG,Papua New Guinea,AT,Austria,1.0
+PG,Papua New Guinea,IS,Iceland,1.0
+PG,Papua New Guinea,IT,Italy,4.0
+PG,Papua New Guinea,NL,Netherlands,5.0
+PG,Papua New Guinea,NO,Norway,1.0
+PH,Philippines,AT,Austria,360.0
+PH,Philippines,BG,Bulgaria,33.0
+PH,Philippines,CZ,Czechia,676.0
+PH,Philippines,DK,Denmark,903.0
+PH,Philippines,ES,Spain,2229.0
+PH,Philippines,FI,Finland,752.0
+PH,Philippines,HR,Croatia,799.0
+PH,Philippines,IS,Iceland,131.0
+PH,Philippines,IT,Italy,1919.0
+PH,Philippines,LI,Liechtenstein,6.0
+PH,Philippines,LT,Lithuania,28.0
+PH,Philippines,LU,Luxembourg,104.0
+PH,Philippines,LV,Latvia,6.0
+PH,Philippines,MK,North Macedonia,6.0
+PH,Philippines,NL,Netherlands,1224.0
+PH,Philippines,NO,Norway,788.0
+PH,Philippines,RO,Romania,422.0
+PH,Philippines,SI,Slovenia,22.0
+PH,Philippines,SK,Slovakia,5.0
+PK,Pakistan,AT,Austria,345.0
+PK,Pakistan,BG,Bulgaria,69.0
+PK,Pakistan,CZ,Czechia,110.0
+PK,Pakistan,DK,Denmark,494.0
+PK,Pakistan,ES,Spain,10227.0
+PK,Pakistan,FI,Finland,339.0
+PK,Pakistan,HR,Croatia,24.0
+PK,Pakistan,IS,Iceland,18.0
+PK,Pakistan,IT,Italy,14863.0
+PK,Pakistan,LI,Liechtenstein,1.0
+PK,Pakistan,LT,Lithuania,50.0
+PK,Pakistan,LU,Luxembourg,77.0
+PK,Pakistan,LV,Latvia,49.0
+PK,Pakistan,NL,Netherlands,1315.0
+PK,Pakistan,NO,Norway,978.0
+PK,Pakistan,RO,Romania,866.0
+PK,Pakistan,SI,Slovenia,9.0
+PK,Pakistan,SK,Slovakia,3.0
+PL,Poland,AT,Austria,3253.0
+PL,Poland,BG,Bulgaria,260.0
+PL,Poland,CZ,Czechia,832.0
+PL,Poland,DK,Denmark,4187.0
+PL,Poland,ES,Spain,3249.0
+PL,Poland,FI,Finland,390.0
+PL,Poland,FR,France,2000.0
+PL,Poland,HR,Croatia,309.0
+PL,Poland,IS,Iceland,1623.0
+PL,Poland,IT,Italy,1838.0
+PL,Poland,LI,Liechtenstein,7.0
+PL,Poland,LT,Lithuania,100.0
+PL,Poland,LU,Luxembourg,387.0
+PL,Poland,LV,Latvia,40.0
+PL,Poland,MK,North Macedonia,10.0
+PL,Poland,NL,Netherlands,19352.0
+PL,Poland,NO,Norway,8001.0
+PL,Poland,RO,Romania,352.0
+PL,Poland,SI,Slovenia,46.0
+PL,Poland,SK,Slovakia,115.0
+PN,Pitcairn Islands,AT,Austria,3.0
+POL,Polynesia,AT,Austria,5.0
+POL,Polynesia,CZ,Czechia,1.0
+POL,Polynesia,FI,Finland,1.0
+POL,Polynesia,IT,Italy,4.0
+POL,Polynesia,LU,Luxembourg,1.0
+POL,Polynesia,NL,Netherlands,11.0
+POL,Polynesia,NO,Norway,1.0
+PS,Palestine*,AT,Austria,52.0
+PS,Palestine*,BG,Bulgaria,12.0
+PS,Palestine*,CZ,Czechia,4.0
+PS,Palestine*,FI,Finland,12.0
+PS,Palestine*,HR,Croatia,3.0
+PS,Palestine*,IS,Iceland,56.0
+PS,Palestine*,IT,Italy,19.0
+PS,Palestine*,LT,Lithuania,2.0
+PS,Palestine*,LU,Luxembourg,11.0
+PS,Palestine*,NL,Netherlands,94.0
+PS,Palestine*,NO,Norway,87.0
+PS,Palestine*,RO,Romania,129.0
+PS,Palestine*,SI,Slovenia,16.0
+PS,Palestine*,SK,Slovakia,1.0
+PT,Portugal,AT,Austria,349.0
+PT,Portugal,BG,Bulgaria,81.0
+PT,Portugal,CZ,Czechia,72.0
+PT,Portugal,DK,Denmark,626.0
+PT,Portugal,ES,Spain,4597.0
+PT,Portugal,FI,Finland,50.0
+PT,Portugal,FR,France,6564.0
+PT,Portugal,HR,Croatia,64.0
+PT,Portugal,IS,Iceland,150.0
+PT,Portugal,IT,Italy,409.0
+PT,Portugal,LI,Liechtenstein,13.0
+PT,Portugal,LT,Lithuania,28.0
+PT,Portugal,LU,Luxembourg,2432.0
+PT,Portugal,LV,Latvia,10.0
+PT,Portugal,MK,North Macedonia,2.0
+PT,Portugal,NL,Netherlands,2713.0
+PT,Portugal,NO,Norway,382.0
+PT,Portugal,RO,Romania,338.0
+PT,Portugal,SI,Slovenia,23.0
+PT,Portugal,SK,Slovakia,19.0
+PW,Palau,RO,Romania,1.0
+PY,Paraguay,AT,Austria,13.0
+PY,Paraguay,CZ,Czechia,5.0
+PY,Paraguay,DK,Denmark,7.0
+PY,Paraguay,ES,Spain,4614.0
+PY,Paraguay,FI,Finland,3.0
+PY,Paraguay,HR,Croatia,5.0
+PY,Paraguay,IS,Iceland,1.0
+PY,Paraguay,IT,Italy,182.0
+PY,Paraguay,LU,Luxembourg,6.0
+PY,Paraguay,NL,Netherlands,35.0
+PY,Paraguay,NO,Norway,5.0
+PY,Paraguay,RO,Romania,112.0
+PY,Paraguay,SI,Slovenia,1.0
+QA,Qatar,AT,Austria,5.0
+QA,Qatar,BG,Bulgaria,4.0
+QA,Qatar,CZ,Czechia,6.0
+QA,Qatar,DK,Denmark,13.0
+QA,Qatar,FI,Finland,12.0
+QA,Qatar,HR,Croatia,1.0
+QA,Qatar,IT,Italy,15.0
+QA,Qatar,LI,Liechtenstein,1.0
+QA,Qatar,LT,Lithuania,1.0
+QA,Qatar,LU,Luxembourg,6.0
+QA,Qatar,NL,Netherlands,69.0
+QA,Qatar,NO,Norway,8.0
+QA,Qatar,RO,Romania,14.0
+QA,Qatar,SI,Slovenia,2.0
+QA,Qatar,SK,Slovakia,5.0
+RO,Romania,AT,Austria,12088.0
+RO,Romania,BG,Bulgaria,215.0
+RO,Romania,CZ,Czechia,699.0
+RO,Romania,DK,Denmark,5229.0
+RO,Romania,ES,Spain,15920.0
+RO,Romania,FI,Finland,445.0
+RO,Romania,FR,France,6001.0
+RO,Romania,HR,Croatia,92.0
+RO,Romania,IS,Iceland,516.0
+RO,Romania,IT,Italy,25863.0
+RO,Romania,LI,Liechtenstein,6.0
+RO,Romania,LT,Lithuania,30.0
+RO,Romania,LU,Luxembourg,661.0
+RO,Romania,LV,Latvia,14.0
+RO,Romania,MK,North Macedonia,4.0
+RO,Romania,NL,Netherlands,8104.0
+RO,Romania,NO,Norway,1354.0
+RO,Romania,RO,Romania,102079.0
+RO,Romania,SI,Slovenia,47.0
+RO,Romania,SK,Slovakia,89.0
+RS,Serbia,AT,Austria,4385.0
+RS,Serbia,BG,Bulgaria,547.0
+RS,Serbia,CZ,Czechia,879.0
+RS,Serbia,DK,Denmark,125.0
+RS,Serbia,FI,Finland,27.0
+RS,Serbia,HR,Croatia,3369.0
+RS,Serbia,IS,Iceland,31.0
+RS,Serbia,IT,Italy,111.0
+RS,Serbia,LI,Liechtenstein,1.0
+RS,Serbia,LT,Lithuania,30.0
+RS,Serbia,LU,Luxembourg,142.0
+RS,Serbia,LV,Latvia,3.0
+RS,Serbia,MK,North Macedonia,131.0
+RS,Serbia,NL,Netherlands,487.0
+RS,Serbia,NO,Norway,444.0
+RS,Serbia,RO,Romania,678.0
+RS,Serbia,SI,Slovenia,2214.0
+RS,Serbia,SK,Slovakia,53.0
+RS_ME,Serbia and Montenegro,DK,Denmark,3.0
+RS_ME,Serbia and Montenegro,FI,Finland,266.0
+RS_ME,Serbia and Montenegro,IT,Italy,170.0
+RS_ME,Serbia and Montenegro,LI,Liechtenstein,1.0
+RS_ME,Serbia and Montenegro,LU,Luxembourg,3.0
+RU,Russia,AT,Austria,1920.0
+RU,Russia,BG,Bulgaria,2253.0
+RU,Russia,CZ,Czechia,4131.0
+RU,Russia,DK,Denmark,330.0
+RU,Russia,ES,Spain,8679.0
+RU,Russia,FI,Finland,1460.0
+RU,Russia,HR,Croatia,201.0
+RU,Russia,IS,Iceland,34.0
+RU,Russia,IT,Italy,1093.0
+RU,Russia,LI,Liechtenstein,2.0
+RU,Russia,LT,Lithuania,2521.0
+RU,Russia,LU,Luxembourg,366.0
+RU,Russia,LV,Latvia,1252.0
+RU,Russia,MK,North Macedonia,18.0
+RU,Russia,NL,Netherlands,2650.0
+RU,Russia,NO,Norway,534.0
+RU,Russia,RO,Romania,1036.0
+RU,Russia,SI,Slovenia,443.0
+RU,Russia,SK,Slovakia,58.0
+RW,Rwanda,AT,Austria,22.0
+RW,Rwanda,CZ,Czechia,5.0
+RW,Rwanda,DK,Denmark,38.0
+RW,Rwanda,FI,Finland,29.0
+RW,Rwanda,IT,Italy,69.0
+RW,Rwanda,LU,Luxembourg,17.0
+RW,Rwanda,LV,Latvia,1.0
+RW,Rwanda,MK,North Macedonia,1.0
+RW,Rwanda,NL,Netherlands,57.0
+RW,Rwanda,NO,Norway,226.0
+RW,Rwanda,RO,Romania,7.0
+SA,Saudi Arabia,AT,Austria,111.0
+SA,Saudi Arabia,BG,Bulgaria,13.0
+SA,Saudi Arabia,CZ,Czechia,26.0
+SA,Saudi Arabia,DK,Denmark,31.0
+SA,Saudi Arabia,FI,Finland,60.0
+SA,Saudi Arabia,HR,Croatia,3.0
+SA,Saudi Arabia,IS,Iceland,1.0
+SA,Saudi Arabia,IT,Italy,102.0
+SA,Saudi Arabia,LT,Lithuania,13.0
+SA,Saudi Arabia,LU,Luxembourg,25.0
+SA,Saudi Arabia,LV,Latvia,5.0
+SA,Saudi Arabia,NL,Netherlands,754.0
+SA,Saudi Arabia,NO,Norway,55.0
+SA,Saudi Arabia,RO,Romania,74.0
+SA,Saudi Arabia,SI,Slovenia,5.0
+SA,Saudi Arabia,SK,Slovakia,1.0
+SB,Solomon Islands,AT,Austria,6.0
+SB,Solomon Islands,DK,Denmark,1.0
+SB,Solomon Islands,IT,Italy,1.0
+SC,Seychelles,AT,Austria,1.0
+SC,Seychelles,CZ,Czechia,6.0
+SC,Seychelles,DK,Denmark,1.0
+SC,Seychelles,FI,Finland,2.0
+SC,Seychelles,IT,Italy,6.0
+SC,Seychelles,LU,Luxembourg,1.0
+SC,Seychelles,NL,Netherlands,11.0
+SD,Sudan,AT,Austria,39.0
+SD,Sudan,BG,Bulgaria,2.0
+SD,Sudan,DK,Denmark,17.0
+SD,Sudan,FI,Finland,34.0
+SD,Sudan,HR,Croatia,2.0
+SD,Sudan,IS,Iceland,1.0
+SD,Sudan,IT,Italy,256.0
+SD,Sudan,LT,Lithuania,1.0
+SD,Sudan,LU,Luxembourg,22.0
+SD,Sudan,NL,Netherlands,275.0
+SD,Sudan,NO,Norway,223.0
+SD,Sudan,RO,Romania,21.0
+SD,Sudan,SI,Slovenia,2.0
+SE,Sweden,AT,Austria,245.0
+SE,Sweden,BG,Bulgaria,85.0
+SE,Sweden,CZ,Czechia,38.0
+SE,Sweden,DK,Denmark,1399.0
+SE,Sweden,ES,Spain,2500.0
+SE,Sweden,FI,Finland,835.0
+SE,Sweden,FR,France,543.0
+SE,Sweden,HR,Croatia,58.0
+SE,Sweden,IS,Iceland,164.0
+SE,Sweden,IT,Italy,293.0
+SE,Sweden,LT,Lithuania,55.0
+SE,Sweden,LU,Luxembourg,104.0
+SE,Sweden,LV,Latvia,40.0
+SE,Sweden,MK,North Macedonia,5.0
+SE,Sweden,NL,Netherlands,701.0
+SE,Sweden,NO,Norway,1891.0
+SE,Sweden,RO,Romania,157.0
+SE,Sweden,SI,Slovenia,23.0
+SE,Sweden,SK,Slovakia,11.0
+SG,Singapore,AT,Austria,44.0
+SG,Singapore,BG,Bulgaria,1.0
+SG,Singapore,CZ,Czechia,9.0
+SG,Singapore,DK,Denmark,93.0
+SG,Singapore,FI,Finland,33.0
+SG,Singapore,HR,Croatia,5.0
+SG,Singapore,IS,Iceland,4.0
+SG,Singapore,IT,Italy,55.0
+SG,Singapore,LI,Liechtenstein,6.0
+SG,Singapore,LT,Lithuania,4.0
+SG,Singapore,LU,Luxembourg,20.0
+SG,Singapore,LV,Latvia,3.0
+SG,Singapore,MK,North Macedonia,1.0
+SG,Singapore,NL,Netherlands,335.0
+SG,Singapore,NO,Norway,53.0
+SG,Singapore,RO,Romania,20.0
+SG,Singapore,SI,Slovenia,3.0
+SG,Singapore,SK,Slovakia,3.0
+SI,Slovenia,AT,Austria,1057.0
+SI,Slovenia,BG,Bulgaria,14.0
+SI,Slovenia,CZ,Czechia,37.0
+SI,Slovenia,DK,Denmark,58.0
+SI,Slovenia,FI,Finland,15.0
+SI,Slovenia,FR,France,52.0
+SI,Slovenia,HR,Croatia,894.0
+SI,Slovenia,IS,Iceland,16.0
+SI,Slovenia,IT,Italy,82.0
+SI,Slovenia,LI,Liechtenstein,3.0
+SI,Slovenia,LT,Lithuania,4.0
+SI,Slovenia,LU,Luxembourg,41.0
+SI,Slovenia,LV,Latvia,2.0
+SI,Slovenia,MK,North Macedonia,2.0
+SI,Slovenia,NL,Netherlands,257.0
+SI,Slovenia,NO,Norway,39.0
+SI,Slovenia,RO,Romania,52.0
+SI,Slovenia,SI,Slovenia,2864.0
+SI,Slovenia,SK,Slovakia,17.0
+SK,Slovakia,AT,Austria,2969.0
+SK,Slovakia,BG,Bulgaria,46.0
+SK,Slovakia,CZ,Czechia,6168.0
+SK,Slovakia,DK,Denmark,549.0
+SK,Slovakia,FI,Finland,58.0
+SK,Slovakia,FR,France,130.0
+SK,Slovakia,HR,Croatia,168.0
+SK,Slovakia,IS,Iceland,90.0
+SK,Slovakia,IT,Italy,60.0
+SK,Slovakia,LI,Liechtenstein,4.0
+SK,Slovakia,LT,Lithuania,12.0
+SK,Slovakia,LU,Luxembourg,69.0
+SK,Slovakia,LV,Latvia,4.0
+SK,Slovakia,MK,North Macedonia,3.0
+SK,Slovakia,NL,Netherlands,1356.0
+SK,Slovakia,NO,Norway,330.0
+SK,Slovakia,RO,Romania,132.0
+SK,Slovakia,SI,Slovenia,53.0
+SK,Slovakia,SK,Slovakia,919.0
+SL,Sierra Leone,AT,Austria,7.0
+SL,Sierra Leone,BG,Bulgaria,1.0
+SL,Sierra Leone,CZ,Czechia,1.0
+SL,Sierra Leone,DK,Denmark,11.0
+SL,Sierra Leone,FI,Finland,8.0
+SL,Sierra Leone,IS,Iceland,3.0
+SL,Sierra Leone,IT,Italy,148.0
+SL,Sierra Leone,LT,Lithuania,1.0
+SL,Sierra Leone,LU,Luxembourg,7.0
+SL,Sierra Leone,LV,Latvia,2.0
+SL,Sierra Leone,NL,Netherlands,146.0
+SL,Sierra Leone,NO,Norway,8.0
+SL,Sierra Leone,RO,Romania,13.0
+SL,Sierra Leone,SI,Slovenia,23.0
+SM,San Marino,IT,Italy,59.0
+SM,San Marino,LU,Luxembourg,2.0
+SM,San Marino,NL,Netherlands,3.0
+SM,San Marino,RO,Romania,2.0
+SN,Senegal,AT,Austria,16.0
+SN,Senegal,CZ,Czechia,3.0
+SN,Senegal,DK,Denmark,14.0
+SN,Senegal,ES,Spain,7467.0
+SN,Senegal,FI,Finland,10.0
+SN,Senegal,HR,Croatia,2.0
+SN,Senegal,IS,Iceland,10.0
+SN,Senegal,IT,Italy,5967.0
+SN,Senegal,LU,Luxembourg,163.0
+SN,Senegal,LV,Latvia,1.0
+SN,Senegal,NL,Netherlands,97.0
+SN,Senegal,NO,Norway,22.0
+SN,Senegal,RO,Romania,235.0
+SN,Senegal,SI,Slovenia,3.0
+SO,Somalia,AT,Austria,982.0
+SO,Somalia,BG,Bulgaria,1.0
+SO,Somalia,CZ,Czechia,3.0
+SO,Somalia,DK,Denmark,102.0
+SO,Somalia,FI,Finland,501.0
+SO,Somalia,IS,Iceland,31.0
+SO,Somalia,IT,Italy,1458.0
+SO,Somalia,LT,Lithuania,3.0
+SO,Somalia,LU,Luxembourg,11.0
+SO,Somalia,LV,Latvia,2.0
+SO,Somalia,NL,Netherlands,689.0
+SO,Somalia,NO,Norway,323.0
+SO,Somalia,RO,Romania,45.0
+SR,Suriname,AT,Austria,1.0
+SR,Suriname,BG,Bulgaria,3.0
+SR,Suriname,CZ,Czechia,2.0
+SR,Suriname,DK,Denmark,3.0
+SR,Suriname,FI,Finland,1.0
+SR,Suriname,MK,North Macedonia,1.0
+SR,Suriname,NL,Netherlands,2120.0
+SR,Suriname,NO,Norway,1.0
+SR,Suriname,RO,Romania,8.0
+SS,South Sudan,NL,Netherlands,3.0
+SS,South Sudan,NO,Norway,153.0
+SS,South Sudan,RO,Romania,1.0
+ST,São Tomé and Príncipe,BG,Bulgaria,1.0
+ST,São Tomé and Príncipe,CZ,Czechia,1.0
+ST,São Tomé and Príncipe,IT,Italy,1.0
+ST,São Tomé and Príncipe,LU,Luxembourg,43.0
+ST,São Tomé and Príncipe,NL,Netherlands,7.0
+ST,São Tomé and Príncipe,NO,Norway,2.0
+ST,São Tomé and Príncipe,RO,Romania,12.0
+SV,El Salvador,AT,Austria,8.0
+SV,El Salvador,CZ,Czechia,4.0
+SV,El Salvador,DK,Denmark,6.0
+SV,El Salvador,FI,Finland,9.0
+SV,El Salvador,HR,Croatia,1.0
+SV,El Salvador,IS,Iceland,3.0
+SV,El Salvador,IT,Italy,2020.0
+SV,El Salvador,LT,Lithuania,1.0
+SV,El Salvador,LU,Luxembourg,6.0
+SV,El Salvador,MK,North Macedonia,4.0
+SV,El Salvador,NL,Netherlands,79.0
+SV,El Salvador,NO,Norway,6.0
+SV,El Salvador,RO,Romania,81.0
+SV,El Salvador,SI,Slovenia,2.0
+SX,Sint Maarten,NL,Netherlands,319.0
+SY,Syria,AT,Austria,10882.0
+SY,Syria,BG,Bulgaria,1653.0
+SY,Syria,CZ,Czechia,71.0
+SY,Syria,DK,Denmark,496.0
+SY,Syria,FI,Finland,454.0
+SY,Syria,HR,Croatia,21.0
+SY,Syria,IS,Iceland,77.0
+SY,Syria,IT,Italy,389.0
+SY,Syria,LI,Liechtenstein,2.0
+SY,Syria,LT,Lithuania,64.0
+SY,Syria,LU,Luxembourg,374.0
+SY,Syria,LV,Latvia,7.0
+SY,Syria,MK,North Macedonia,1.0
+SY,Syria,NL,Netherlands,11550.0
+SY,Syria,NO,Norway,1870.0
+SY,Syria,RO,Romania,1366.0
+SY,Syria,SI,Slovenia,16.0
+SY,Syria,SK,Slovakia,4.0
+SZ,Eswatini,AT,Austria,1.0
+SZ,Eswatini,CZ,Czechia,2.0
+SZ,Eswatini,DK,Denmark,5.0
+SZ,Eswatini,IT,Italy,1.0
+SZ,Eswatini,LU,Luxembourg,3.0
+SZ,Eswatini,LV,Latvia,1.0
+SZ,Eswatini,NL,Netherlands,9.0
+SZ,Eswatini,NO,Norway,2.0
+TC,Turks and Caicos Islands,NL,Netherlands,1.0
+TD,Chad,FI,Finland,6.0
+TD,Chad,IS,Iceland,2.0
+TD,Chad,IT,Italy,45.0
+TD,Chad,LU,Luxembourg,2.0
+TD,Chad,NL,Netherlands,9.0
+TD,Chad,RO,Romania,7.0
+TG,Togo,AT,Austria,8.0
+TG,Togo,CZ,Czechia,3.0
+TG,Togo,DK,Denmark,1.0
+TG,Togo,FI,Finland,3.0
+TG,Togo,IT,Italy,269.0
+TG,Togo,LU,Luxembourg,65.0
+TG,Togo,NL,Netherlands,22.0
+TG,Togo,NO,Norway,2.0
+TG,Togo,RO,Romania,14.0
+TH,Thailand,AT,Austria,269.0
+TH,Thailand,BG,Bulgaria,29.0
+TH,Thailand,CZ,Czechia,105.0
+TH,Thailand,DK,Denmark,481.0
+TH,Thailand,FI,Finland,373.0
+TH,Thailand,HR,Croatia,37.0
+TH,Thailand,IS,Iceland,38.0
+TH,Thailand,IT,Italy,427.0
+TH,Thailand,LI,Liechtenstein,4.0
+TH,Thailand,LT,Lithuania,20.0
+TH,Thailand,LU,Luxembourg,50.0
+TH,Thailand,LV,Latvia,3.0
+TH,Thailand,MK,North Macedonia,2.0
+TH,Thailand,NL,Netherlands,837.0
+TH,Thailand,NO,Norway,608.0
+TH,Thailand,RO,Romania,75.0
+TH,Thailand,SI,Slovenia,36.0
+TH,Thailand,SK,Slovakia,7.0
+TJ,Tajikistan,AT,Austria,33.0
+TJ,Tajikistan,BG,Bulgaria,16.0
+TJ,Tajikistan,CZ,Czechia,27.0
+TJ,Tajikistan,DK,Denmark,1.0
+TJ,Tajikistan,FI,Finland,13.0
+TJ,Tajikistan,HR,Croatia,47.0
+TJ,Tajikistan,IS,Iceland,2.0
+TJ,Tajikistan,IT,Italy,9.0
+TJ,Tajikistan,LT,Lithuania,122.0
+TJ,Tajikistan,LU,Luxembourg,5.0
+TJ,Tajikistan,LV,Latvia,65.0
+TJ,Tajikistan,NL,Netherlands,22.0
+TJ,Tajikistan,NO,Norway,5.0
+TJ,Tajikistan,RO,Romania,90.0
+TJ,Tajikistan,SI,Slovenia,3.0
+TJ,Tajikistan,SK,Slovakia,1.0
+TL,Timor-Leste,AT,Austria,2.0
+TL,Timor-Leste,NL,Netherlands,1.0
+TM,Turkmenistan,AT,Austria,14.0
+TM,Turkmenistan,BG,Bulgaria,8.0
+TM,Turkmenistan,CZ,Czechia,23.0
+TM,Turkmenistan,DK,Denmark,1.0
+TM,Turkmenistan,FI,Finland,4.0
+TM,Turkmenistan,HR,Croatia,1.0
+TM,Turkmenistan,IT,Italy,5.0
+TM,Turkmenistan,LT,Lithuania,22.0
+TM,Turkmenistan,LU,Luxembourg,4.0
+TM,Turkmenistan,LV,Latvia,14.0
+TM,Turkmenistan,MK,North Macedonia,3.0
+TM,Turkmenistan,NL,Netherlands,24.0
+TM,Turkmenistan,NO,Norway,11.0
+TM,Turkmenistan,RO,Romania,98.0
+TM,Turkmenistan,SI,Slovenia,1.0
+TM,Turkmenistan,SK,Slovakia,1.0
+TN,Tunisia,AT,Austria,187.0
+TN,Tunisia,BG,Bulgaria,48.0
+TN,Tunisia,CZ,Czechia,55.0
+TN,Tunisia,DK,Denmark,52.0
+TN,Tunisia,FI,Finland,69.0
+TN,Tunisia,HR,Croatia,14.0
+TN,Tunisia,IS,Iceland,4.0
+TN,Tunisia,IT,Italy,5153.0
+TN,Tunisia,LI,Liechtenstein,2.0
+TN,Tunisia,LT,Lithuania,5.0
+TN,Tunisia,LU,Luxembourg,213.0
+TN,Tunisia,LV,Latvia,5.0
+TN,Tunisia,MK,North Macedonia,1.0
+TN,Tunisia,NL,Netherlands,282.0
+TN,Tunisia,NO,Norway,55.0
+TN,Tunisia,RO,Romania,374.0
+TN,Tunisia,SI,Slovenia,13.0
+TN,Tunisia,SK,Slovakia,5.0
+TO,Tonga,CZ,Czechia,1.0
+TO,Tonga,IT,Italy,1.0
+TO,Tonga,NL,Netherlands,2.0
+TO,Tonga,RO,Romania,2.0
+TOTAL,Total,AT,Austria,118511.0
+TOTAL,Total,BE,Belgium,139743.0
+TOTAL,Total,BG,Bulgaria,39461.0
+TOTAL,Total,CH,Switzerland,144907.0
+TOTAL,Total,CY,Cyprus,24001.0
+TOTAL,Total,CZ,Czechia,69360.0
+TOTAL,Total,DE,Germany,874367.0
+TOTAL,Total,DK,Denmark,63489.0
+TOTAL,Total,EE,Estonia,19524.0
+TOTAL,Total,EL,Greece,57120.0
+TOTAL,Total,ES,Spain,528856.0
+TOTAL,Total,FI,Finland,36364.0
+TOTAL,Total,FR,France,336398.0
+TOTAL,Total,HR,Croatia,35912.0
+TOTAL,Total,HU,Hungary,80471.0
+TOTAL,Total,IE,Ireland,80732.0
+TOTAL,Total,IS,Iceland,8996.0
+TOTAL,Total,IT,Italy,318366.0
+TOTAL,Total,LI,Liechtenstein,669.0
+TOTAL,Total,LT,Lithuania,44858.0
+TOTAL,Total,LU,Luxembourg,25335.0
+TOTAL,Total,LV,Latvia,12689.0
+TOTAL,Total,MK,North Macedonia,1570.0
+TOTAL,Total,MT,Malta,18148.0
+TOTAL,Total,NL,Netherlands,214105.0
+TOTAL,Total,NO,Norway,53947.0
+TOTAL,Total,PL,Poland,241116.0
+TOTAL,Total,PT,Portugal,50721.0
+TOTAL,Total,RO,Romania,194642.0
+TOTAL,Total,SE,Sweden,90631.0
+TOTAL,Total,SI,Slovenia,23624.0
+TOTAL,Total,SK,Slovakia,5733.0
+TR,Türkiye,AT,Austria,2696.0
+TR,Türkiye,BG,Bulgaria,2663.0
+TR,Türkiye,CZ,Czechia,662.0
+TR,Türkiye,DK,Denmark,757.0
+TR,Türkiye,FI,Finland,588.0
+TR,Türkiye,HR,Croatia,611.0
+TR,Türkiye,IS,Iceland,8.0
+TR,Türkiye,IT,Italy,1367.0
+TR,Türkiye,LI,Liechtenstein,8.0
+TR,Türkiye,LT,Lithuania,182.0
+TR,Türkiye,LU,Luxembourg,267.0
+TR,Türkiye,LV,Latvia,85.0
+TR,Türkiye,MK,North Macedonia,436.0
+TR,Türkiye,NL,Netherlands,8814.0
+TR,Türkiye,NO,Norway,726.0
+TR,Türkiye,RO,Romania,3979.0
+TR,Türkiye,SI,Slovenia,109.0
+TR,Türkiye,SK,Slovakia,19.0
+TT,Trinidad and Tobago,AT,Austria,4.0
+TT,Trinidad and Tobago,BG,Bulgaria,1.0
+TT,Trinidad and Tobago,CZ,Czechia,1.0
+TT,Trinidad and Tobago,DK,Denmark,4.0
+TT,Trinidad and Tobago,FI,Finland,3.0
+TT,Trinidad and Tobago,IS,Iceland,1.0
+TT,Trinidad and Tobago,IT,Italy,5.0
+TT,Trinidad and Tobago,LU,Luxembourg,3.0
+TT,Trinidad and Tobago,LV,Latvia,2.0
+TT,Trinidad and Tobago,MK,North Macedonia,1.0
+TT,Trinidad and Tobago,NL,Netherlands,43.0
+TT,Trinidad and Tobago,NO,Norway,9.0
+TT,Trinidad and Tobago,RO,Romania,4.0
+TW,Taiwan,AT,Austria,71.0
+TW,Taiwan,BG,Bulgaria,5.0
+TW,Taiwan,DK,Denmark,55.0
+TW,Taiwan,HR,Croatia,8.0
+TW,Taiwan,IS,Iceland,1.0
+TW,Taiwan,IT,Italy,86.0
+TW,Taiwan,LT,Lithuania,2.0
+TW,Taiwan,LU,Luxembourg,27.0
+TW,Taiwan,LV,Latvia,4.0
+TW,Taiwan,NL,Netherlands,597.0
+TW,Taiwan,NO,Norway,35.0
+TW,Taiwan,RO,Romania,32.0
+TW,Taiwan,SI,Slovenia,2.0
+TW,Taiwan,SK,Slovakia,2.0
+TZ,Tanzania,AT,Austria,32.0
+TZ,Tanzania,BG,Bulgaria,1.0
+TZ,Tanzania,CZ,Czechia,5.0
+TZ,Tanzania,DK,Denmark,34.0
+TZ,Tanzania,FI,Finland,17.0
+TZ,Tanzania,HR,Croatia,11.0
+TZ,Tanzania,IS,Iceland,2.0
+TZ,Tanzania,IT,Italy,107.0
+TZ,Tanzania,LI,Liechtenstein,1.0
+TZ,Tanzania,LT,Lithuania,2.0
+TZ,Tanzania,LU,Luxembourg,2.0
+TZ,Tanzania,LV,Latvia,1.0
+TZ,Tanzania,MK,North Macedonia,1.0
+TZ,Tanzania,NL,Netherlands,89.0
+TZ,Tanzania,NO,Norway,30.0
+TZ,Tanzania,RO,Romania,20.0
+UA,Ukraine,AT,Austria,1753.0
+UA,Ukraine,BG,Bulgaria,1983.0
+UA,Ukraine,CZ,Czechia,31465.0
+UA,Ukraine,DK,Denmark,1844.0
+UA,Ukraine,ES,Spain,5450.0
+UA,Ukraine,FI,Finland,847.0
+UA,Ukraine,HR,Croatia,739.0
+UA,Ukraine,IS,Iceland,56.0
+UA,Ukraine,IT,Italy,2498.0
+UA,Ukraine,LI,Liechtenstein,8.0
+UA,Ukraine,LT,Lithuania,6233.0
+UA,Ukraine,LU,Luxembourg,186.0
+UA,Ukraine,LV,Latvia,1565.0
+UA,Ukraine,MK,North Macedonia,33.0
+UA,Ukraine,NL,Netherlands,1548.0
+UA,Ukraine,NO,Norway,504.0
+UA,Ukraine,RO,Romania,6374.0
+UA,Ukraine,SI,Slovenia,241.0
+UA,Ukraine,SK,Slovakia,309.0
+UG,Uganda,AT,Austria,41.0
+UG,Uganda,BG,Bulgaria,2.0
+UG,Uganda,CZ,Czechia,9.0
+UG,Uganda,DK,Denmark,96.0
+UG,Uganda,FI,Finland,30.0
+UG,Uganda,HR,Croatia,4.0
+UG,Uganda,IS,Iceland,5.0
+UG,Uganda,IT,Italy,82.0
+UG,Uganda,LT,Lithuania,1.0
+UG,Uganda,LU,Luxembourg,9.0
+UG,Uganda,NL,Netherlands,228.0
+UG,Uganda,NO,Norway,212.0
+UG,Uganda,RO,Romania,7.0
+UG,Uganda,SI,Slovenia,4.0
+UK,United Kingdom,AT,Austria,875.0
+UK,United Kingdom,BG,Bulgaria,496.0
+UK,United Kingdom,CZ,Czechia,703.0
+UK,United Kingdom,DK,Denmark,1176.0
+UK,United Kingdom,ES,Spain,25570.0
+UK,United Kingdom,FI,Finland,447.0
+UK,United Kingdom,HR,Croatia,206.0
+UK,United Kingdom,IS,Iceland,94.0
+UK,United Kingdom,IT,Italy,2254.0
+UK,United Kingdom,LI,Liechtenstein,3.0
+UK,United Kingdom,LT,Lithuania,1411.0
+UK,United Kingdom,LU,Luxembourg,349.0
+UK,United Kingdom,LV,Latvia,372.0
+UK,United Kingdom,MK,North Macedonia,8.0
+UK,United Kingdom,NL,Netherlands,3501.0
+UK,United Kingdom,NO,Norway,1207.0
+UK,United Kingdom,RO,Romania,1494.0
+UK,United Kingdom,SI,Slovenia,119.0
+UK,United Kingdom,SK,Slovakia,592.0
+UNK,Unknown,AT,Austria,3000.0
+UNK,Unknown,BE,Belgium,816.0
+UNK,Unknown,BG,Bulgaria,1.0
+UNK,Unknown,CH,Switzerland,754.0
+UNK,Unknown,DE,Germany,4251.0
+UNK,Unknown,DK,Denmark,16.0
+UNK,Unknown,EE,Estonia,150.0
+UNK,Unknown,FI,Finland,1647.0
+UNK,Unknown,IE,Ireland,957.0
+UNK,Unknown,IS,Iceland,190.0
+UNK,Unknown,LU,Luxembourg,99.0
+UNK,Unknown,LV,Latvia,61.0
+UNK,Unknown,PL,Poland,2183.0
+UNK,Unknown,SE,Sweden,184.0
+US,United States,AT,Austria,1297.0
+US,United States,BG,Bulgaria,299.0
+US,United States,CZ,Czechia,1089.0
+US,United States,DK,Denmark,1446.0
+US,United States,ES,Spain,9310.0
+US,United States,FI,Finland,658.0
+US,United States,HR,Croatia,288.0
+US,United States,IS,Iceland,296.0
+US,United States,IT,Italy,2710.0
+US,United States,LI,Liechtenstein,15.0
+US,United States,LT,Lithuania,171.0
+US,United States,LU,Luxembourg,451.0
+US,United States,LV,Latvia,61.0
+US,United States,MK,North Macedonia,33.0
+US,United States,NL,Netherlands,4536.0
+US,United States,NO,Norway,1331.0
+US,United States,RO,Romania,754.0
+US,United States,SI,Slovenia,125.0
+US,United States,SK,Slovakia,98.0
+UY,Uruguay,AT,Austria,16.0
+UY,Uruguay,CZ,Czechia,7.0
+UY,Uruguay,DK,Denmark,37.0
+UY,Uruguay,ES,Spain,3201.0
+UY,Uruguay,FI,Finland,10.0
+UY,Uruguay,HR,Croatia,4.0
+UY,Uruguay,IS,Iceland,4.0
+UY,Uruguay,IT,Italy,185.0
+UY,Uruguay,LT,Lithuania,2.0
+UY,Uruguay,LU,Luxembourg,15.0
+UY,Uruguay,LV,Latvia,1.0
+UY,Uruguay,NL,Netherlands,105.0
+UY,Uruguay,NO,Norway,18.0
+UY,Uruguay,RO,Romania,147.0
+UY,Uruguay,SI,Slovenia,1.0
+UZ,Uzbekistan,AT,Austria,68.0
+UZ,Uzbekistan,BG,Bulgaria,93.0
+UZ,Uzbekistan,CZ,Czechia,1150.0
+UZ,Uzbekistan,DK,Denmark,21.0
+UZ,Uzbekistan,FI,Finland,128.0
+UZ,Uzbekistan,HR,Croatia,178.0
+UZ,Uzbekistan,IS,Iceland,2.0
+UZ,Uzbekistan,IT,Italy,75.0
+UZ,Uzbekistan,LT,Lithuania,449.0
+UZ,Uzbekistan,LU,Luxembourg,10.0
+UZ,Uzbekistan,LV,Latvia,431.0
+UZ,Uzbekistan,MK,North Macedonia,2.0
+UZ,Uzbekistan,NL,Netherlands,120.0
+UZ,Uzbekistan,NO,Norway,37.0
+UZ,Uzbekistan,RO,Romania,26.0
+UZ,Uzbekistan,SI,Slovenia,6.0
+UZ,Uzbekistan,SK,Slovakia,12.0
+VC,Saint Vincent and the Grenadines,AT,Austria,1.0
+VC,Saint Vincent and the Grenadines,NL,Netherlands,4.0
+VE,Venezuela,AT,Austria,156.0
+VE,Venezuela,BG,Bulgaria,8.0
+VE,Venezuela,CZ,Czechia,38.0
+VE,Venezuela,DK,Denmark,101.0
+VE,Venezuela,ES,Spain,33970.0
+VE,Venezuela,FI,Finland,36.0
+VE,Venezuela,HR,Croatia,21.0
+VE,Venezuela,IS,Iceland,170.0
+VE,Venezuela,IT,Italy,3121.0
+VE,Venezuela,LI,Liechtenstein,2.0
+VE,Venezuela,LT,Lithuania,34.0
+VE,Venezuela,LU,Luxembourg,114.0
+VE,Venezuela,LV,Latvia,3.0
+VE,Venezuela,MK,North Macedonia,1.0
+VE,Venezuela,NL,Netherlands,791.0
+VE,Venezuela,NO,Norway,115.0
+VE,Venezuela,RO,Romania,418.0
+VE,Venezuela,SI,Slovenia,39.0
+VE,Venezuela,SK,Slovakia,1.0
+VG,British Virgin Islands,NL,Netherlands,3.0
+VG,British Virgin Islands,NO,Norway,1.0
+VN,Viet Nam,AT,Austria,154.0
+VN,Viet Nam,BG,Bulgaria,62.0
+VN,Viet Nam,CZ,Czechia,1099.0
+VN,Viet Nam,DK,Denmark,236.0
+VN,Viet Nam,FI,Finland,810.0
+VN,Viet Nam,HR,Croatia,11.0
+VN,Viet Nam,IS,Iceland,99.0
+VN,Viet Nam,IT,Italy,282.0
+VN,Viet Nam,LT,Lithuania,22.0
+VN,Viet Nam,LU,Luxembourg,44.0
+VN,Viet Nam,LV,Latvia,37.0
+VN,Viet Nam,NL,Netherlands,759.0
+VN,Viet Nam,NO,Norway,228.0
+VN,Viet Nam,RO,Romania,890.0
+VN,Viet Nam,SI,Slovenia,9.0
+VN,Viet Nam,SK,Slovakia,15.0
+VU,Vanuatu,NL,Netherlands,1.0
+VU,Vanuatu,SI,Slovenia,3.0
+WF,Wallis and Futuna,IT,Italy,2.0
+WS,Samoa,AT,Austria,1.0
+WS,Samoa,FI,Finland,1.0
+WS,Samoa,IT,Italy,1.0
+XK,Kosovo*,AT,Austria,966.0
+XK,Kosovo*,BG,Bulgaria,82.0
+XK,Kosovo*,CZ,Czechia,28.0
+XK,Kosovo*,DK,Denmark,43.0
+XK,Kosovo*,HR,Croatia,1928.0
+XK,Kosovo*,IS,Iceland,5.0
+XK,Kosovo*,IT,Italy,281.0
+XK,Kosovo*,LI,Liechtenstein,10.0
+XK,Kosovo*,LT,Lithuania,3.0
+XK,Kosovo*,LU,Luxembourg,78.0
+XK,Kosovo*,MK,North Macedonia,180.0
+XK,Kosovo*,NL,Netherlands,116.0
+XK,Kosovo*,NO,Norway,188.0
+XK,Kosovo*,SI,Slovenia,3524.0
+YE,Yemen,AT,Austria,134.0
+YE,Yemen,BG,Bulgaria,11.0
+YE,Yemen,CZ,Czechia,7.0
+YE,Yemen,DK,Denmark,14.0
+YE,Yemen,FI,Finland,34.0
+YE,Yemen,HR,Croatia,2.0
+YE,Yemen,IS,Iceland,7.0
+YE,Yemen,IT,Italy,34.0
+YE,Yemen,LU,Luxembourg,13.0
+YE,Yemen,LV,Latvia,1.0
+YE,Yemen,NL,Netherlands,908.0
+YE,Yemen,NO,Norway,53.0
+YE,Yemen,RO,Romania,109.0
+YE,Yemen,SI,Slovenia,1.0
+ZA,South Africa,AT,Austria,276.0
+ZA,South Africa,BG,Bulgaria,36.0
+ZA,South Africa,CZ,Czechia,58.0
+ZA,South Africa,DK,Denmark,179.0
+ZA,South Africa,FI,Finland,89.0
+ZA,South Africa,HR,Croatia,74.0
+ZA,South Africa,IS,Iceland,13.0
+ZA,South Africa,IT,Italy,366.0
+ZA,South Africa,LI,Liechtenstein,1.0
+ZA,South Africa,LT,Lithuania,7.0
+ZA,South Africa,LU,Luxembourg,125.0
+ZA,South Africa,LV,Latvia,2.0
+ZA,South Africa,MK,North Macedonia,4.0
+ZA,South Africa,NL,Netherlands,3348.0
+ZA,South Africa,NO,Norway,151.0
+ZA,South Africa,RO,Romania,92.0
+ZA,South Africa,SI,Slovenia,20.0
+ZA,South Africa,SK,Slovakia,6.0
+ZM,Zambia,AT,Austria,7.0
+ZM,Zambia,CZ,Czechia,12.0
+ZM,Zambia,DK,Denmark,19.0
+ZM,Zambia,FI,Finland,17.0
+ZM,Zambia,HR,Croatia,5.0
+ZM,Zambia,IT,Italy,36.0
+ZM,Zambia,LU,Luxembourg,1.0
+ZM,Zambia,NL,Netherlands,65.0
+ZM,Zambia,NO,Norway,8.0
+ZM,Zambia,RO,Romania,3.0
+ZM,Zambia,SI,Slovenia,1.0
+ZW,Zimbabwe,AT,Austria,36.0
+ZW,Zimbabwe,BG,Bulgaria,5.0
+ZW,Zimbabwe,CZ,Czechia,12.0
+ZW,Zimbabwe,DK,Denmark,19.0
+ZW,Zimbabwe,FI,Finland,13.0
+ZW,Zimbabwe,HR,Croatia,5.0
+ZW,Zimbabwe,IS,Iceland,1.0
+ZW,Zimbabwe,IT,Italy,46.0
+ZW,Zimbabwe,LT,Lithuania,5.0
+ZW,Zimbabwe,LU,Luxembourg,12.0
+ZW,Zimbabwe,MK,North Macedonia,1.0
+ZW,Zimbabwe,NL,Netherlands,173.0
+ZW,Zimbabwe,NO,Norway,30.0
+ZW,Zimbabwe,RO,Romania,18.0
+ZW,Zimbabwe,SI,Slovenia,3.0

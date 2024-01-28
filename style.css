@@ -28,6 +28,16 @@ header {
   max-width: 3600px; /* You can adjust the maximum width as needed */
 }
 
+#sort-select{
+  font-size: 30px; /* You can adjust the size as needed */
+  color: #004c6d; /* Text color */
+}
+
+#country-select{
+  font-size: 30px; /* You can adjust the size as needed */
+  color: #004c6d; /* Text color */
+}
+
 #page-selection label,
 #page-selection select {
   font-size: 30px; /* You can adjust the size as needed */
@@ -79,6 +89,26 @@ body {
   text-align: center;
   padding: 20px;
   background-color: white; /* Container background color */
+  border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
+}
+
+.button {
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #ffeb8a; 
+  border-radius: 12px;
+  border: 2px solid #ffeb8a;
+  transition-duration: 0.4s;
+  border: 2px solid #000000;
+}
+.button:hover {
+  background-color: #ffeb8a;
 }
 
 .split3 {
