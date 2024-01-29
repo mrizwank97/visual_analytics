@@ -9,7 +9,11 @@
 <body>
 
     <header>
-        <h1>POTENTIAL DESTINATION COUNTRIES FOR INTERNATIONAL STUDENTS IN EU</h1>
+        <h1>POTENTIAL DESTINATION COUNTRIES FOR 
+            <br>
+            <span class="international">International Students</span> 
+            <br>
+            IN THE EUROPEAN UNION</h1>
     </header>
 
     <div class="center-image">
@@ -20,6 +24,9 @@
     <div id="page-selection" class="page-selection">
         <!-- Add selection box for pages -->
         <label for="pageSelector">What Do You Want to Explore?</label>
+        <div class="imagel">
+            <img src="lupao.png">
+        </div>
         <select id="pageSelector" onchange="navigateToPage()">
             <option value="employment">Employment</option>
             <option value="social">Social</option>
@@ -67,7 +74,7 @@
                     </select>
                 </div>
                 <p>The <span class="top-five">TOP 5</span> countries with the highest amount of employed immigrants are highlighted in red. </p>
-                <p>
+                <p class="data-source">
                     Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/product/page/lfsa_egaisedm__custom_8864009">Eurostat</a>
                 </p>
             </div>
@@ -125,13 +132,13 @@
                     function initializeMap() {
                         var map = eurostatmap
                             .map("chbi")
-                            .title("Unemployment and population density in 2022")
+                            //.title("Unemployment and population density in 2022")
                             .height(600)
                             .width(675)
                             .nutsLvl(2)
                             .nutsYear(2016)
                             .stat("v1", { eurostatDatasetCode: "demo_r_d3dens", unitText: "inh./km²" })
-                            .stat("v2", { eurostatDatasetCode: "lfst_r_lfu3rt", filters: { age: "Y_GE15", sex: "T", unit: "PC", time: 2022 }, unitText: "%" })
+                            .stat("v2", { eurostatDatasetCode: "lfst_r_lfu3rt", filters: { age: "Y_GE15", sex: "T", unit: "PC", time: 2022 }, unitText: "%", label: "Unemployment" })
                             .clnb(4)
                             .scale("60M")
                             .legend({ boxFill: "none", squareSize: 80, label1: "Unemployment", label2: "Population", x: 10, y: 140 })
@@ -150,10 +157,13 @@
                 <h2>Unemployment and Population Density in Europe</h2>
                 <div class="description">
                     <p> The map on the right shows the unemployment and population density in EU countries. You can select the countries of intereset by clicking the checkboxes above
-                        and pressing the button. You can also hover over different regions of a country to see which areas have least unemployment rates. This chart shows the unemployment rates for year <b><u>2022</u></b>.</p>
-                        <p>
+                        and pressing the button. You can also hover over different regions of a country to see which areas have least unemployment rates. </p>
+                        
+                        <p>This chart shows the unemployment rates for year <b><u>2022</u></b>.</p>
+                        
                 </div>
-                
+                <p class="data-source">
+                   
                         Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/LFST_R_LFU3RT/default/table?lang=en">Eurostat</a>
                     </p>
             </div>
@@ -174,7 +184,7 @@
                 
                 <button type="button" class= "button" onclick=" updateParallelForSelected()">Display Selected Countries</button>
                 <p id="parallel-text"> . </p>
-                <p>
+                <p class="data-source">
                     Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/lfso_21obst04/default/table?lang=en&category=labour.employ.lfso.lfso_21.lfso_21obst">Eurostat</a>
                 </p>
             </div>
@@ -225,7 +235,7 @@
     
 </div>
                 
-<p>   Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/migr_imm3ctb/default/table?lang=en">Eurostat</a>
+<p class="data-source">  Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/migr_imm3ctb/default/table?lang=en">Eurostat</a>
                 </p>
             </div>
         </div>
@@ -258,7 +268,9 @@
                 <option value="avg_salary_D">Sort in Descending Order by Average Salary</option>
                 <option value="cost_of_living_D">Sort in Descending Order by Cost of Living</option>
               </select>
-              <p>
+              <br>
+              <p class="data-source">
+             
                 Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/tps00155/default/table?lang=en">Eurostat</a>
             </p>
         </div>
@@ -267,7 +279,9 @@
         </div>
     </div>
     </div>
-
+    <p class="data-source">
+        Image Source: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kindpng.com%2Ffree%2Flandmark%2F&psig=AOvVaw3F1Bq42UpcNdEOwxPIqcEc&ust=1706608903061000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjyxOCrgoQDFQAAAAAdAAAAABAU">kindpng</a>
+    </p>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     
     <script src="./script_bubble.js"></script>

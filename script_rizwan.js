@@ -238,7 +238,6 @@ function getSelectedCheckboxes() {
     var map = document.getElementById("map");
     var map = eurostatmap
       .map("chbi")
-      .title("Unemployment and population density in 2022")
       .height(600)
       .width(670)
       .nutsLvl(2)

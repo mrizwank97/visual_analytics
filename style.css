@@ -6,13 +6,21 @@
 }
 
 header {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+  font-family:"century gothic","avant garde",'apple gothic',sans-serif;
   text-align: center;
   font-size: 18px;
   padding: 20px;
   background-color: #004c6d;
   border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
   color: white; /* Text color */
+}
+
+.international{
+  font-size: 35px;
+  font-weight: bold;
+  color: #fdba03;
+  font-style: italic;
+  
 }
 
 .tooltip {
@@ -30,8 +38,9 @@ header {
 
 
 .description{
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial', Calibri, source-sans-pro, sans-serif;
+  font-family: "century gothic","avant garde",'apple gothic',sans-serif;
   text-align: justify;
+  flex: 1;
 }
 
 
@@ -43,12 +52,12 @@ header {
   text-align: center;
   margin: auto;
   background-color: #aecdc2;
-  height: 100px;
+  height: 200px;
   max-width: 3600px; /* You can adjust the maximum width as needed */
 }
 
 #sort-select{
-  font-size: 30px; /* You can adjust the size as needed */
+  font-size: 24px; /* You can adjust the size as needed */
   color: #004c6d; /* Text color */
 }
 
@@ -103,6 +112,15 @@ header {
   color: white; /* Text color */
 }
 
+.imagel {
+  text-align: center;
+}
+
+
+.imagel img{
+  max-height: 100px; /* Adjust the height as needed */
+  max-width: auto; /* Maintain aspect ratio */
+}
 .center-image {
   text-align: center;
 }
@@ -113,7 +131,7 @@ header {
 }
 
 body {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+  font-family: "century gothic","avant garde",'apple gothic',sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -132,6 +150,11 @@ body {
   padding: 20px;
   background-color: white; /* Container background color */
   border-bottom: 2px solid #827d7d; /* Add a border to the bottom of the header */
+}
+
+.data-source {
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial', Calibri, source-sans-pro, sans-serif;
+  margin-top: auto; /* Pushes the Data Source to the bottom */
 }
 
 .button {

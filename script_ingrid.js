@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 .style("opacity", .9);
 
             // Set tooltip content and position
-            tooltip.html(d.mgstatus + "<br>" + d.parent.key + "<br>" + d3.format(".1f")(parseFloat(d.OBS_VALUE)) + "k people")
+            tooltip.html("<strong>Status:</strong> "+d.mgstatus + "<br>" + "<strong>Country:</strong> "+d.parent.key + "<br>" + "<strong>Employed:</strong> "+d3.format(".1f")(parseFloat(d.OBS_VALUE)) + "k people")
                 .style("left", (event.pageX) + "px")
                 .style("top", (event.pageY - 28) + "px");
         })
