@@ -15,6 +15,25 @@ header {
   color: white; /* Text color */
 }
 
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font: 16px sans-serif;
+  background: white; /* Set the background color to white */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Set border-radius for rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a little shadow */
+  pointer-events: none;
+}
+
+
+
+.description{
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial', Calibri, source-sans-pro, sans-serif;
+  text-align: justify;
+}
+
 
 #page-selection {
   display: flex;
@@ -32,6 +51,28 @@ header {
   font-size: 30px; /* You can adjust the size as needed */
   color: #004c6d; /* Text color */
 }
+
+#sexSelector{
+  font-size: 24px; /* You can adjust the size as needed */
+  color: #004c6d; /* Text color */
+}
+
+#isco08Dropdown{
+  font-size: 24px; /* You can adjust the size as needed */
+  color: #004c6d; /* Text color */
+}
+
+#isced11Dropdown{
+  font-size: 24px; /* You can adjust the size as needed */
+  color: #004c6d; /* Text color */
+}
+
+.top-five {
+        color: red;
+        font-weight: bold; /* Optionally, make the text bold */
+    }
+
+
 
 #country-select{
   font-size: 30px; /* You can adjust the size as needed */
@@ -83,6 +124,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .container_c1 {

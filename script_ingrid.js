@@ -253,14 +253,15 @@ document.addEventListener("DOMContentLoaded", async function () {
             .attr("transform", function (d) { return "translate(" + x(d.offset / filteredSum) + ")"; });
 
                 // Add a rect for each market in the filtered data
-                // Add a rect for each market in the filtered data
+   // Create a tooltip div
+        var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
         var filteredMarkets = filteredSegmentsGroup.selectAll(".market")
         .data(function (d) { return d.values; })
         .enter().append("a")
         .attr("class", "market")
-        .attr("xlink:title", function (d) {
-            return d.mgstatus + "\n" + d.parent.key + "\n" + d3.format(".1f")(parseFloat(d.OBS_VALUE));
-        })
         .append("rect")
         .attr("y", function (d) { return y(d.offset / d.parent.sum); })
         .attr("height", function (d) { return y(parseFloat(d.OBS_VALUE) / d.parent.sum); })
@@ -268,7 +269,25 @@ document.addEventListener("DOMContentLoaded", async function () {
         .style("fill", function (d) {
             // Set color based on mgstatus (immigrant or native)
             return d.mgstatus === "First Generation Immigrant" ? "#73ae80" : "#6c83b5";
+        })
+        .on("mouseover", function (event, d) {
+            // Show tooltip on mouseover
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", .9);
+
+            // Set tooltip content and position
+            tooltip.html(d.mgstatus + "<br>" + d.parent.key + "<br>" + d3.format(".1f")(parseFloat(d.OBS_VALUE)) + "k people")
+                .style("left", (event.pageX) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        })
+        .on("mouseout", function (d) {
+            // Hide tooltip on mouseout
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
         });
+
 
         // Add text label for each market in the filtered data with OBS_VALUE
         filteredMarkets.append("text")
@@ -325,9 +344,10 @@ document.addEventListener("DOMContentLoaded", async function () {
         .attr("text-anchor", "middle")
         .attr("dy", ".35em")
         .attr("transform", "rotate(-90)")
-        .style("font-weight", "bold") // Set the text to be bold
-        .style("fill", "#white") // Set the text color to orange
+        .style("font-weight", "bold")
+        .style("fill", "red")  // Set the text color to red
         .text(function (d) { return d.key; });
+
 
         }
     });

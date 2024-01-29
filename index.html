@@ -39,16 +39,21 @@
     
     
                 <h2>Compare the Employment Levels between Immigrants and Natives </h2>
-                <p>This interactive chart displays the employment percentages for native and immigrant populations across EU countries, broken down by occupation, gender, and education level. The bars extending left represent the native workforce, while those to the right show immigrant employment. Colors indicate the relative representation within each category, allowing for an at-a-glance comparison across nations. Select your criteria to uncover insights into Europe's diverse labor market.</p>
-    
+                <div class="description">
+                    <p>The interactive mosaic chart on the right  provide insights into the distribution of employment across different segments. Within each country segment, rectangles are used to represent different categories of employment, with colors distinguishing between immigrants and natives. The width of each rectangle corresponds to the total employment in the respective category, and the height represents the proportion of immigrants and natives within that category.</p>
+
+                </div>
+                
                 <div>
                     <label for="sexSelector">What is your sex?</label>
+                    <br>
                     <select id="sexSelector">
                         <!-- Add options for each sex -->
                     </select>
                 </div>
                 <div>
                     <label for="isced11Dropdown">What is your education level?</label>
+                    <br>
                     <select id="isced11Dropdown">
                         <!-- Add options for each education level -->
                     </select>
@@ -56,10 +61,15 @@
     
                 <div>
                     <label for="isco08Dropdown">What is your occupation?</label>
+                    <br>
                     <select id="isco08Dropdown">
                         <!-- Add options for each occupation -->
                     </select>
                 </div>
+                <p>The <span class="top-five">TOP 5</span> countries with the highest amount of employed immigrants are highlighted in red. </p>
+                <p>
+                    Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/product/page/lfsa_egaisedm__custom_8864009">Eurostat</a>
+                </p>
             </div>
     
             <div class="split right">
@@ -138,9 +148,12 @@
             
             <div class="split left content">
                 <h2>Unemployment and Population Density in Europe</h2>
-                <p> The map on the right shows the unemployment and population density in EU countries. You can select the countries of intereset by clicking the checkboxes above
-                    and pressing the button. You can also hover over different regions of a country to see which areas have least unemployment rates. This chart shows the unemployment rates for year <b><u>2022</u></b>.</p>
-                    <p>
+                <div class="description">
+                    <p> The map on the right shows the unemployment and population density in EU countries. You can select the countries of intereset by clicking the checkboxes above
+                        and pressing the button. You can also hover over different regions of a country to see which areas have least unemployment rates. This chart shows the unemployment rates for year <b><u>2022</u></b>.</p>
+                        <p>
+                </div>
+                
                         Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/LFST_R_LFU3RT/default/table?lang=en">Eurostat</a>
                     </p>
             </div>
@@ -148,14 +161,17 @@
     
         <div class="container">
             <div class="split left content">
-                <h2>What if you move to another country today?</h2>
-                <p> The graph on the left shows the time it take to find the job in EU country. Lets say you move to a new country today,
-                    the graph gives you an idea how quickly you can find the job in that country.The two top countries are <b>Netherlands</b> and <b>Malta</b>. In both countries 
-                    about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
-
-                <p>
-                    You can hover over different countries to get the idea. Or click on the button below to show the to reveal the stats for selected countries.                    
-                </p>
+                <h2>What if You Move to Another Country Today?</h2>
+                <div class="description">
+                    <p> The graph on the left shows the time it take to find the job in EU country. Lets say you move to a new country today,
+                        the graph gives you an idea how quickly you can find the job in that country.The two top countries are <b>Netherlands</b> and <b>Malta</b>. In both countries 
+                        about 75% of foreign people find job within 3 months. This chart shows the facts for year <b>2021</b>.</p>
+    
+                    <p>
+                        You can hover over different countries to get the idea. Or click on the button below to show the to reveal the stats for selected countries.                    
+                    </p>
+                </div>
+                
                 <button type="button" class= "button" onclick=" updateParallelForSelected()">Display Selected Countries</button>
                 <p id="parallel-text"> . </p>
                 <p>
@@ -178,7 +194,7 @@
             <div id="bubble" class="split left">
             </div>            
             <div class="split right content">
-                <h2>Which country has most migrants from your country?</h2>
+                <h2>Which Country Has Most Immigrants From Your Country?</h2>
                 <label for="countries">Select a Country or a Region: </label>
                 <select id="country-select" name="countries"></select>
 
@@ -201,12 +217,15 @@
                         })
                         .catch(error => console.error('Error reading the file:', error));
                 </script>
-
-                <p> The bubble chart on the left shows the number of migrants from your country to different EU countries. You can select your country from the dropdown menu above.
-                    The size of the bubble represents the number of migrants. This chart shows the facts for year <b><u>2021</u></b>.</p>
-                <p>Data for <b><u> France</u></b> and <b><u>Germany</u></b> is not available country wise. <b><u>Fun Fact</u></b>: You can drag the bubbles around in the chart. Hover over bubbles to reveal numbers.</p>
-                <p>
-                    Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/migr_imm3ctb/default/table?lang=en">Eurostat</a>
+<div class="description">
+    <p> The bubble chart on the left shows the number of migrants from your country to different EU countries. You can select your country from the dropdown menu above.
+        The size of the bubble represents the number of migrants. This chart shows the facts for year <b><u>2021</u></b>.</p>
+    <p>Data for <b><u> France</u></b> and <b><u>Germany</u></b> is not available country wise. </p>
+    <p><b><u>Fun Fact</u></b>: You can drag the bubbles around in the chart. Hover over bubbles to reveal numbers.</p>
+    
+</div>
+                
+<p>   Data Source: <a href="https://ec.europa.eu/eurostat/databrowser/view/migr_imm3ctb/default/table?lang=en">Eurostat</a>
                 </p>
             </div>
         </div>
@@ -221,11 +240,14 @@
         <div class="container">
         <div class="split left content">
             <h2>Gap between Monthly Cost of Living and Median Monthy Salary</h2>
-            <p>The other important things for graduating student is to find jobs which offer them opportunities to save 
-                money. The graph on the righ shows the gap between the average salary and cost of living in different EU countries.
-                The graph can be sorted by different criteria from the drop down menu below. By default it is sorted by the widest gap. In this setting, <b>Luxembourg</b>
-                has the widest gap between average salary and cost of living offering the best opportunity to save money. While <b>Greece</b> has the narrowest gap.
-                This chart shows the facts for year <b>2022</b>.
+            <div class="description">
+                <p>The other important things for graduating student is to find jobs which offer them opportunities to save 
+                    money. The graph on the righ shows the gap between the average salary and cost of living in different EU countries.
+                    The graph can be sorted by different criteria from the drop down menu below. By default it is sorted by the widest gap. In this setting, <b>Luxembourg</b>
+                    has the widest gap between average salary and cost of living offering the best opportunity to save money. While <b>Greece</b> has the narrowest gap.
+                    This chart shows the facts for year <b>2022</b>.
+            </div>
+            
             </p>
             <select id="sort-select">
                 <option value="widest_gap">Sort by Widest Gap</option>
